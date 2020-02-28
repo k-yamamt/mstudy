@@ -2,7 +2,7 @@ import os
 
 plotfiles = []
 
-for filename in os.listdir('./aws.amazon.com/'):
+for filename in os.listdir('./news.yahoo.co.jp/'):
     if filename[-4:] == '.pdf':
         plotfiles.append(filename)
 
@@ -36,7 +36,9 @@ with open('addtex.txt','w') as f:
             f.write('\\subfigure[20:00 - 21:00]{\n')
             f.write('\\includegraphics[width=.33\\columnwidth]{0}\n'.format('{'+filename+'}'))
             f.write('}\n')
-            f.write('\\caption{'+'{0}gatsu{1}nichi({2}) aws.amazon.com wotaisyo'.format(int(filename[-20:-18]),int(filename[-18:-16]),'dayid='+str(day%7))+'}\n')
+            f.write('\\caption{'+'{0}gatsu{1}nichi({2}) news.yahoo.co.jp wotaisyo'.format(int(filename[-20:-18]),int(filename[-18:-16]),'dayid='+str(day%7))+'}\n')
+            f.write('\\end{center}\n')
+            f.write('\\end{figure}\n')
             id = 0
             day += 1
 

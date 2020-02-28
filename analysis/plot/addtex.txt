@@ -1,10 +1,10 @@
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3:00 - 4:00]{
-\includegraphics[width=.33\columnwidth]{20200222_030001-plot.pdf}
+\includegraphics[width=.33\columnwidth]{20200222_030002-plot.pdf}
 }~
 \subfigure[7:00 - 8:00]{
-\includegraphics[width=.33\columnwidth]{20200222_070002-plot.pdf}
+\includegraphics[width=.33\columnwidth]{20200222_070001-plot.pdf}
 }~
 \subfigure[12:00 - 13:00]{
 \includegraphics[width=.33\columnwidth]{20200222_120001-plot.pdf}
@@ -15,14 +15,14 @@
 \subfigure[20:00 - 21:00]{
 \includegraphics[width=.33\columnwidth]{20200222_200001-plot.pdf}
 }
-\caption{2gatsu22nichi(dayid=0) aws.amazon.com wotaisyo}
+\caption{2gatsu22nichi(dayid=0) news.yahoo.co.jp wotaisyo}
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3:00 - 4:00]{
 \includegraphics[width=.33\columnwidth]{20200223_030001-plot.pdf}
 }~
 \subfigure[7:00 - 8:00]{
-\includegraphics[width=.33\columnwidth]{20200223_070001-plot.pdf}
+\includegraphics[width=.33\columnwidth]{20200223_070002-plot.pdf}
 }~
 \subfigure[12:00 - 13:00]{
 \includegraphics[width=.33\columnwidth]{20200223_120001-plot.pdf}
@@ -33,7 +33,7 @@
 \subfigure[20:00 - 21:00]{
 \includegraphics[width=.33\columnwidth]{20200223_200001-plot.pdf}
 }
-\caption{2gatsu23nichi(dayid=1) aws.amazon.com wotaisyo}
+\caption{2gatsu23nichi(dayid=1) news.yahoo.co.jp wotaisyo}
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3:00 - 4:00]{
@@ -51,11 +51,11 @@
 \subfigure[20:00 - 21:00]{
 \includegraphics[width=.33\columnwidth]{20200224_200001-plot.pdf}
 }
-\caption{2gatsu24nichi(dayid=2) aws.amazon.com wotaisyo}
+\caption{2gatsu24nichi(dayid=2) news.yahoo.co.jp wotaisyo}
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3:00 - 4:00]{
-\includegraphics[width=.33\columnwidth]{20200225_030001-plot.pdf}
+\includegraphics[width=.33\columnwidth]{20200225_030002-plot.pdf}
 }~
 \subfigure[7:00 - 8:00]{
 \includegraphics[width=.33\columnwidth]{20200225_070001-plot.pdf}
@@ -64,19 +64,19 @@
 \includegraphics[width=.33\columnwidth]{20200225_120001-plot.pdf}
 }\\
 \subfigure[17:00 - 18:00]{
-\includegraphics[width=.33\columnwidth]{20200225_170002-plot.pdf}
+\includegraphics[width=.33\columnwidth]{20200225_170001-plot.pdf}
 }~
 \subfigure[20:00 - 21:00]{
 \includegraphics[width=.33\columnwidth]{20200225_200001-plot.pdf}
 }
-\caption{2gatsu25nichi(dayid=3) aws.amazon.com wotaisyo}
+\caption{2gatsu25nichi(dayid=3) news.yahoo.co.jp wotaisyo}
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3:00 - 4:00]{
 \includegraphics[width=.33\columnwidth]{20200226_030001-plot.pdf}
 }~
 \subfigure[7:00 - 8:00]{
-\includegraphics[width=.33\columnwidth]{20200226_070001-plot.pdf}
+\includegraphics[width=.33\columnwidth]{20200226_070002-plot.pdf}
 }~
 \subfigure[12:00 - 13:00]{
 \includegraphics[width=.33\columnwidth]{20200226_120001-plot.pdf}
@@ -87,7 +87,7 @@
 \subfigure[20:00 - 21:00]{
 \includegraphics[width=.33\columnwidth]{20200226_200001-plot.pdf}
 }
-\caption{2gatsu26nichi(dayid=4) aws.amazon.com wotaisyo}
+\caption{2gatsu26nichi(dayid=4) news.yahoo.co.jp wotaisyo}
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3:00 - 4:00]{
@@ -99,3 +99,28 @@
 \subfigure[12:00 - 13:00]{
 \includegraphics[width=.33\columnwidth]{20200227_120001-plot.pdf}
 }\\
+\subfigure[17:00 - 18:00]{
+\includegraphics[width=.33\columnwidth]{20200227_170001-plot.pdf}
+}~
+\subfigure[20:00 - 21:00]{
+\includegraphics[width=.33\columnwidth]{20200227_200001-plot.pdf}
+}
+\caption{2gatsu27nichi(dayid=5) news.yahoo.co.jp wotaisyo}
+\begin{figure}[tb]
+\begin{center}
+\subfigure[3:00 - 4:00]{
+\includegraphics[width=.33\columnwidth]{20200228_030001-plot.pdf}
+}~
+\subfigure[7:00 - 8:00]{
+\includegraphics[width=.33\columnwidth]{20200228_070002-plot.pdf}
+}~
+\subfigure[12:00 - 13:00]{
+\includegraphics[width=.33\columnwidth]{20200228_120001-plot.pdf}
+}\\
+\subfigure[17:00 - 18:00]{
+\includegraphics[width=.33\columnwidth]{20200228_170001-plot.pdf}
+}~
+\subfigure[20:00 - 21:00]{
+\includegraphics[width=.33\columnwidth]{20200228_200001-plot.pdf}
+}
+\caption{2gatsu28nichi(dayid=6) news.yahoo.co.jp wotaisyo}

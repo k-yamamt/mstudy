@@ -1,0 +1,3710 @@
+datetime 2020/02/22 17:00:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.617 ms
+ 4  210.138.106.238 (210.138.106.238)  39.552 ms
+ 5  124.83.228.54 (124.83.228.54)  55.896 ms
+ 6  124.83.228.222 (124.83.228.222)  55.831 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  56.035 ms
+10  183.79.219.252 (183.79.219.252)  57.463 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.327/44.327/44.327/0.000 ms
+datetime 2020/02/22 17:00:32
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.374 ms
+ 4  210.138.106.238 (210.138.106.238)  47.258 ms
+ 5  183.79.224.146 (183.79.224.146)  45.690 ms
+ 6  183.79.250.123 (183.79.250.123)  45.609 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.730/39.730/39.730/0.000 ms
+datetime 2020/02/22 17:00:47
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  45.154 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  53.500 ms
+ 5  210.130.154.162 (210.130.154.162)  53.461 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  57.361 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.514/38.514/38.514/0.000 ms
+datetime 2020/02/22 17:01:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.071 ms
+ 4  210.138.106.238 (210.138.106.238)  46.828 ms
+ 5  183.79.224.146 (183.79.224.146)  46.789 ms
+ 6  183.79.250.123 (183.79.250.123)  46.434 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.119/40.119/40.119/0.000 ms
+datetime 2020/02/22 17:01:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.125 ms
+ 4  210.138.106.238 (210.138.106.238)  39.086 ms
+ 5  124.83.228.54 (124.83.228.54)  111.882 ms
+ 6  124.83.228.222 (124.83.228.222)  49.090 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  48.958 ms
+10  183.79.219.252 (183.79.219.252)  48.912 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.478/45.478/45.478/0.000 ms
+datetime 2020/02/22 17:01:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.132 ms
+ 4  210.138.106.238 (210.138.106.238)  39.092 ms
+ 5  183.79.224.150 (183.79.224.150)  48.082 ms
+ 6  183.79.217.124 (183.79.217.124)  50.241 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.159/39.159/39.159/0.000 ms
+datetime 2020/02/22 17:01:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.961 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  45.912 ms
+ 5  210.130.154.162 (210.130.154.162)  80.871 ms
+ 6  202.93.95.178 (202.93.95.178)  54.991 ms
+ 7  203.141.47.66 (203.141.47.66)  54.948 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  54.819 ms
+11  182.22.16.251 (182.22.16.251)  54.775 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.469/45.469/45.469/0.000 ms
+datetime 2020/02/22 17:02:02
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  53.501 ms
+ 4  210.138.106.238 (210.138.106.238)  58.344 ms
+ 5  183.79.224.150 (183.79.224.150)  58.299 ms
+ 6  183.79.217.124 (183.79.217.124)  58.248 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.344/47.344/47.344/0.000 ms
+datetime 2020/02/22 17:02:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.144 ms
+ 4  210.138.106.238 (210.138.106.238)  39.105 ms
+ 5  124.83.228.54 (124.83.228.54)  48.155 ms
+ 6  124.83.228.222 (124.83.228.222)  48.109 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  47.973 ms
+10  183.79.219.252 (183.79.219.252)  47.921 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.919/44.919/44.919/0.000 ms
+datetime 2020/02/22 17:02:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  77.022 ms
+ 4  210.138.106.238 (210.138.106.238)  63.965 ms
+ 5  183.79.224.150 (183.79.224.150)  63.935 ms
+ 6  183.79.217.124 (183.79.217.124)  63.884 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.422/46.422/46.422/0.000 ms
+datetime 2020/02/22 17:02:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.107 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.059 ms
+ 5  210.130.154.162 (210.130.154.162)  62.588 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  60.974 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.190/40.190/40.190/0.000 ms
+datetime 2020/02/22 17:03:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.973 ms
+ 4  210.138.106.238 (210.138.106.238)  46.668 ms
+ 5  183.79.224.202 (183.79.224.202)  50.853 ms
+ 6  183.79.250.251 (183.79.250.251)  46.575 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.983/36.983/36.983/0.000 ms
+datetime 2020/02/22 17:03:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  44.902 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.839 ms
+ 5  210.130.154.162 (210.130.154.162)  53.882 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  55.648 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.483/47.483/47.483/0.000 ms
+datetime 2020/02/22 17:03:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.093 ms
+ 4  210.138.106.238 (210.138.106.238)  36.514 ms
+ 5  183.79.224.150 (183.79.224.150)  36.475 ms
+ 6  183.79.217.124 (183.79.217.124)  36.426 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.006/38.006/38.006/0.000 ms
+datetime 2020/02/22 17:03:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.168 ms
+ 4  210.138.106.238 (210.138.106.238)  36.129 ms
+ 5  124.83.228.54 (124.83.228.54)  73.971 ms
+ 6  124.83.228.222 (124.83.228.222)  45.000 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  44.877 ms
+10  183.79.219.252 (183.79.219.252)  46.677 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.814/40.814/40.814/0.000 ms
+datetime 2020/02/22 17:04:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  30.990 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  39.206 ms
+ 5  210.130.154.162 (210.130.154.162)  39.139 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  41.235 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.503/47.503/47.503/0.000 ms
+datetime 2020/02/22 17:04:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.011 ms
+ 4  210.138.106.238 (210.138.106.238)  37.969 ms
+ 5  124.83.228.54 (124.83.228.54)  46.986 ms
+ 6  124.83.228.222 (124.83.228.222)  46.948 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  46.818 ms
+10  183.79.219.252 (183.79.219.252)  48.679 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.997/38.997/38.997/0.000 ms
+datetime 2020/02/22 17:04:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  44.885 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.807 ms
+ 5  210.130.154.162 (210.130.154.162)  54.017 ms
+ 6  202.93.74.46 (202.93.74.46)  55.772 ms
+ 7  182.22.25.252 (182.22.25.252)  53.868 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.105/57.105/57.105/0.000 ms
+datetime 2020/02/22 17:04:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  64.758 ms
+ 4  210.138.106.238 (210.138.106.238)  47.038 ms
+ 5  124.83.228.54 (124.83.228.54)  46.997 ms
+ 6  124.83.228.222 (124.83.228.222)  46.909 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  46.684 ms
+10  183.79.219.252 (183.79.219.252)  46.639 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.597/39.597/39.597/0.000 ms
+datetime 2020/02/22 17:05:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  42.958 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  42.881 ms
+ 5  210.130.154.162 (210.130.154.162)  54.907 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  52.743 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.219/45.219/45.219/0.000 ms
+datetime 2020/02/22 17:05:17
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  52.343 ms
+ 4  210.138.106.238 (210.138.106.238)  63.491 ms
+ 5  183.79.224.150 (183.79.224.150)  63.450 ms
+ 6  183.79.217.124 (183.79.217.124)  63.399 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.823/40.823/40.823/0.000 ms
+datetime 2020/02/22 17:05:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.043 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  67.703 ms
+ 5  210.130.154.162 (210.130.154.162)  54.231 ms
+ 6  202.93.74.46 (202.93.74.46)  65.092 ms
+ 7  182.22.25.252 (182.22.25.252)  65.040 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.732/36.732/36.732/0.000 ms
+datetime 2020/02/22 17:05:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  34.991 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  42.721 ms
+ 5  210.130.154.162 (210.130.154.162)  42.678 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  42.590 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.039/44.039/44.039/0.000 ms
+datetime 2020/02/22 17:06:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  46.030 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.983 ms
+ 5  210.130.154.162 (210.130.154.162)  56.071 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  55.985 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.274/55.274/55.274/0.000 ms
+datetime 2020/02/22 17:06:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.114 ms
+ 4  210.138.106.238 (210.138.106.238)  39.071 ms
+ 5  183.79.224.146 (183.79.224.146)  48.060 ms
+ 6  183.79.250.123 (183.79.250.123)  50.194 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.788/37.788/37.788/0.000 ms
+datetime 2020/02/22 17:06:32
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.533 ms
+ 4  210.138.106.238 (210.138.106.238)  35.808 ms
+ 5  183.79.224.202 (183.79.224.202)  37.577 ms
+ 6  183.79.250.251 (183.79.250.251)  35.730 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.051/41.051/41.051/0.000 ms
+datetime 2020/02/22 17:06:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  40.087 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  49.012 ms
+ 5  210.130.154.162 (210.130.154.162)  52.090 ms
+ 6  202.93.95.178 (202.93.95.178)  48.932 ms
+ 7  203.141.47.66 (203.141.47.66)  48.891 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  48.759 ms
+11  182.22.16.251 (182.22.16.251)  51.834 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.244/46.244/46.244/0.000 ms
+datetime 2020/02/22 17:07:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  38.072 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  62.574 ms
+ 5  210.130.154.162 (210.130.154.162)  62.533 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  62.450 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.272/45.272/45.272/0.000 ms
+datetime 2020/02/22 17:07:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.363 ms
+ 4  210.138.106.238 (210.138.106.238)  37.309 ms
+ 5  124.83.228.54 (124.83.228.54)  46.360 ms
+ 6  124.83.228.222 (124.83.228.222)  48.818 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  46.145 ms
+10  183.79.219.252 (183.79.219.252)  46.087 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 31.126/31.126/31.126/0.000 ms
+datetime 2020/02/22 17:07:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  45.233 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  45.189 ms
+ 5  210.130.154.162 (210.130.154.162)  54.460 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  54.380 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.114/46.114/46.114/0.000 ms
+datetime 2020/02/22 17:07:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.992 ms
+ 4  210.138.106.238 (210.138.106.238)  53.682 ms
+ 5  124.83.228.54 (124.83.228.54)  62.826 ms
+ 6  124.83.228.222 (124.83.228.222)  53.594 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  53.460 ms
+10  183.79.219.252 (183.79.219.252)  53.700 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.172/39.172/39.172/0.000 ms
+datetime 2020/02/22 17:08:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.285 ms
+ 4  210.138.106.238 (210.138.106.238)  36.242 ms
+ 5  183.79.224.146 (183.79.224.146)  45.961 ms
+ 6  183.79.250.123 (183.79.250.123)  45.574 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.072/46.072/46.072/0.000 ms
+datetime 2020/02/22 17:08:17
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.073 ms
+ 4  210.138.106.238 (210.138.106.238)  47.164 ms
+ 5  183.79.224.202 (183.79.224.202)  47.331 ms
+ 6  183.79.250.251 (183.79.250.251)  44.991 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.135/39.135/39.135/0.000 ms
+datetime 2020/02/22 17:08:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.351 ms
+ 4  210.138.106.238 (210.138.106.238)  43.344 ms
+ 5  124.83.228.54 (124.83.228.54)  43.304 ms
+ 6  124.83.228.222 (124.83.228.222)  43.256 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  43.125 ms
+10  183.79.219.252 (183.79.219.252)  43.092 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.080/47.080/47.080/0.000 ms
+datetime 2020/02/22 17:08:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  20.254 ms
+ 4  210.138.106.238 (210.138.106.238)  29.159 ms
+ 5  183.79.224.150 (183.79.224.150)  29.111 ms
+ 6  183.79.217.124 (183.79.217.124)  38.543 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.067/37.067/37.067/0.000 ms
+datetime 2020/02/22 17:09:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.001 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  41.057 ms
+ 5  210.130.154.162 (210.130.154.162)  41.019 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  43.705 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.045/45.045/45.045/0.000 ms
+datetime 2020/02/22 17:09:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  60.017 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  76.676 ms
+ 5  210.130.154.162 (210.130.154.162)  76.630 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  76.544 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.409/38.409/38.409/0.000 ms
+datetime 2020/02/22 17:09:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  35.086 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.631 ms
+ 5  210.130.154.162 (210.130.154.162)  47.094 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  47.008 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.534/46.534/46.534/0.000 ms
+datetime 2020/02/22 17:09:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.457 ms
+ 4  210.138.106.238 (210.138.106.238)  36.909 ms
+ 5  124.83.228.54 (124.83.228.54)  36.871 ms
+ 6  124.83.228.222 (124.83.228.222)  36.827 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  36.705 ms
+10  183.79.219.252 (183.79.219.252)  36.665 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.172/39.172/39.172/0.000 ms
+datetime 2020/02/22 17:10:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  31.396 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  40.546 ms
+ 5  210.130.154.162 (210.130.154.162)  40.511 ms
+ 6  202.93.74.46 (202.93.74.46)  43.016 ms
+ 7  182.22.25.252 (182.22.25.252)  40.426 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.174/39.174/39.174/0.000 ms
+datetime 2020/02/22 17:10:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  41.660 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  41.602 ms
+ 5  210.130.154.162 (210.130.154.162)  50.377 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  50.280 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.551/44.551/44.551/0.000 ms
+datetime 2020/02/22 17:10:32
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.949 ms
+ 4  210.138.106.238 (210.138.106.238)  46.436 ms
+ 5  183.79.224.146 (183.79.224.146)  46.353 ms
+ 6  183.79.250.123 (183.79.250.123)  46.307 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.395/38.395/38.395/0.000 ms
+datetime 2020/02/22 17:10:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  33.117 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.265 ms
+ 5  210.130.154.162 (210.130.154.162)  44.481 ms
+ 6  202.93.95.178 (202.93.95.178)  44.411 ms
+ 7  203.141.47.66 (203.141.47.66)  44.081 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  43.871 ms
+11  182.22.16.251 (182.22.16.251)  45.570 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.324/45.324/45.324/0.000 ms
+datetime 2020/02/22 17:11:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.154 ms
+ 4  210.138.106.238 (210.138.106.238)  37.075 ms
+ 5  124.83.228.54 (124.83.228.54)  48.037 ms
+ 6  124.83.228.222 (124.83.228.222)  47.998 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  45.725 ms
+10  183.79.219.252 (183.79.219.252)  47.712 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.265/41.265/41.265/0.000 ms
+datetime 2020/02/22 17:11:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  47.160 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  47.080 ms
+ 5  210.130.154.162 (210.130.154.162)  64.115 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  75.757 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.317/45.317/45.317/0.000 ms
+datetime 2020/02/22 17:11:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  58.171 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  53.151 ms
+ 5  210.130.154.162 (210.130.154.162)  53.052 ms
+ 6  202.93.74.46 (202.93.74.46)  57.975 ms
+ 7  182.22.25.252 (182.22.25.252)  52.937 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.325/49.325/49.325/0.000 ms
+datetime 2020/02/22 17:12:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  46.232 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  46.185 ms
+ 5  210.130.154.162 (210.130.154.162)  54.992 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  54.906 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.319/38.319/38.319/0.000 ms
+datetime 2020/02/22 17:12:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  39.104 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  39.943 ms
+ 5  210.130.154.162 (210.130.154.162)  39.899 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  42.735 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.393/39.393/39.393/0.000 ms
+datetime 2020/02/22 17:12:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  41.263 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  49.159 ms
+ 5  210.130.154.162 (210.130.154.162)  51.045 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  50.879 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.251/39.251/39.251/0.000 ms
+datetime 2020/02/22 17:12:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.079 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  44.079 ms
+ 5  210.130.154.162 (210.130.154.162)  44.035 ms
+ 6  202.93.95.178 (202.93.95.178)  49.430 ms
+ 7  203.141.47.66 (203.141.47.66)  47.237 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  43.819 ms
+11  182.22.16.251 (182.22.16.251)  47.066 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.536/46.536/46.536/0.000 ms
+datetime 2020/02/22 17:13:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.172 ms
+ 4  210.138.106.238 (210.138.106.238)  79.904 ms
+ 5  183.79.224.146 (183.79.224.146)  54.942 ms
+ 6  183.79.250.123 (183.79.250.123)  53.287 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.307/39.307/39.307/0.000 ms
+datetime 2020/02/22 17:13:17
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.636 ms
+ 4  210.138.106.238 (210.138.106.238)  29.322 ms
+ 5  183.79.224.150 (183.79.224.150)  39.614 ms
+ 6  183.79.217.124 (183.79.217.124)  29.146 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.139/37.139/37.139/0.000 ms
+datetime 2020/02/22 17:13:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.710 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.657 ms
+ 5  210.130.154.162 (210.130.154.162)  53.781 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  57.513 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.091/44.091/44.091/0.000 ms
+datetime 2020/02/22 17:13:47
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  24.118 ms
+ 4  210.138.106.238 (210.138.106.238)  36.681 ms
+ 5  183.79.224.202 (183.79.224.202)  36.641 ms
+ 6  183.79.250.251 (183.79.250.251)  36.251 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.132/40.132/40.132/0.000 ms
+datetime 2020/02/22 17:11:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.997 ms
+ 4  210.138.106.238 (210.138.106.238)  48.116 ms
+ 5  183.79.224.202 (183.79.224.202)  48.380 ms
+ 6  183.79.250.251 (183.79.250.251)  45.858 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.464/38.464/38.464/0.000 ms
+datetime 2020/02/22 17:14:02
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  45.458 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  45.398 ms
+ 5  210.130.154.162 (210.130.154.162)  54.539 ms
+ 6  202.93.95.178 (202.93.95.178)  54.807 ms
+ 7  203.141.47.66 (203.141.47.66)  54.713 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  54.448 ms
+11  182.22.16.251 (182.22.16.251)  54.027 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.490/46.490/46.490/0.000 ms
+datetime 2020/02/22 17:14:17
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  28.893 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  38.941 ms
+ 5  210.130.154.162 (210.130.154.162)  38.895 ms
+ 6  202.93.74.46 (202.93.74.46)  43.102 ms
+ 7  182.22.25.252 (182.22.25.252)  41.212 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.705/47.705/47.705/0.000 ms
+datetime 2020/02/22 17:14:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  42.904 ms
+ 4  210.138.106.238 (210.138.106.238)  32.942 ms
+ 5  183.79.224.150 (183.79.224.150)  34.442 ms
+ 6  183.79.217.124 (183.79.217.124)  34.094 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.560/38.560/38.560/0.000 ms
+datetime 2020/02/22 17:14:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  43.672 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  52.799 ms
+ 5  210.130.154.162 (210.130.154.162)  52.758 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  55.334 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.991/47.991/47.991/0.000 ms
+datetime 2020/02/22 17:15:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.752 ms
+ 4  210.138.106.238 (210.138.106.238)  37.703 ms
+ 5  183.79.224.202 (183.79.224.202)  46.916 ms
+ 6  183.79.250.251 (183.79.250.251)  49.005 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.543/50.543/50.543/0.000 ms
+datetime 2020/02/22 17:15:17
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  32.518 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  40.461 ms
+ 5  210.130.154.162 (210.130.154.162)  40.355 ms
+ 6  202.93.95.178 (202.93.95.178)  43.065 ms
+ 7  203.141.47.66 (203.141.47.66)  43.007 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  42.769 ms
+11  182.22.16.251 (182.22.16.251)  43.019 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.469/45.469/45.469/0.000 ms
+datetime 2020/02/22 17:15:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.957 ms
+ 4  210.138.106.238 (210.138.106.238)  27.914 ms
+ 5  183.79.224.150 (183.79.224.150)  37.236 ms
+ 6  183.79.217.124 (183.79.217.124)  37.186 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.944/47.944/47.944/0.000 ms
+datetime 2020/02/22 17:15:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  34.859 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.531 ms
+ 5  210.130.154.162 (210.130.154.162)  48.690 ms
+ 6  202.93.74.46 (202.93.74.46)  51.182 ms
+ 7  182.22.25.252 (182.22.25.252)  50.137 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.410/40.410/40.410/0.000 ms
+datetime 2020/02/22 17:16:02
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.108 ms
+ 4  210.138.106.238 (210.138.106.238)  39.066 ms
+ 5  183.79.224.150 (183.79.224.150)  51.288 ms
+ 6  183.79.217.124 (183.79.217.124)  51.239 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.241/41.241/41.241/0.000 ms
+datetime 2020/02/22 17:16:17
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  29.844 ms
+ 4  210.138.106.238 (210.138.106.238)  39.374 ms
+ 5  183.79.224.202 (183.79.224.202)  39.295 ms
+ 6  183.79.250.251 (183.79.250.251)  39.199 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.084/41.084/41.084/0.000 ms
+datetime 2020/02/22 17:16:32
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  50.717 ms
+ 4  210.138.106.238 (210.138.106.238)  38.580 ms
+ 5  183.79.224.146 (183.79.224.146)  49.116 ms
+ 6  183.79.250.123 (183.79.250.123)  49.056 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 31.220/31.220/31.220/0.000 ms
+datetime 2020/02/22 17:16:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  34.267 ms
+ 4  210.138.106.238 (210.138.106.238)  44.087 ms
+ 5  124.83.228.54 (124.83.228.54)  43.997 ms
+ 6  124.83.228.222 (124.83.228.222)  45.649 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  43.679 ms
+10  183.79.219.252 (183.79.219.252)  43.593 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.782/38.782/38.782/0.000 ms
+datetime 2020/02/22 17:17:02
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  44.818 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  54.123 ms
+ 5  210.130.154.162 (210.130.154.162)  54.082 ms
+ 6  202.93.95.178 (202.93.95.178)  54.028 ms
+ 7  203.141.47.66 (203.141.47.66)  53.981 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  53.838 ms
+11  182.22.16.251 (182.22.16.251)  55.318 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.665/38.665/38.665/0.000 ms
+datetime 2020/02/22 17:17:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.315 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  45.267 ms
+ 5  210.130.154.162 (210.130.154.162)  53.696 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  55.667 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.415/54.415/54.415/0.000 ms
+datetime 2020/02/22 17:17:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  43.393 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.337 ms
+ 5  210.130.154.162 (210.130.154.162)  52.424 ms
+ 6  202.93.74.46 (202.93.74.46)  54.597 ms
+ 7  182.22.25.252 (182.22.25.252)  52.321 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.020/40.020/40.020/0.000 ms
+datetime 2020/02/22 17:17:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.060 ms
+ 4  210.138.106.238 (210.138.106.238)  38.014 ms
+ 5  183.79.224.150 (183.79.224.150)  46.864 ms
+ 6  183.79.217.124 (183.79.217.124)  46.823 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.262/47.262/47.262/0.000 ms
+datetime 2020/02/22 17:18:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  47.558 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  47.506 ms
+ 5  210.130.154.162 (210.130.154.162)  57.797 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  55.067 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.949/44.949/44.949/0.000 ms
+datetime 2020/02/22 17:18:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  60.622 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  76.340 ms
+ 5  210.130.154.162 (210.130.154.162)  76.297 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  76.212 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.884/46.884/46.884/0.000 ms
+datetime 2020/02/22 17:18:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  44.336 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  44.280 ms
+ 5  210.130.154.162 (210.130.154.162)  53.403 ms
+ 6  202.93.74.46 (202.93.74.46)  56.027 ms
+ 7  182.22.25.252 (182.22.25.252)  53.299 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.867/46.867/46.867/0.000 ms
+datetime 2020/02/22 17:18:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.914 ms
+ 4  210.138.106.238 (210.138.106.238)  48.284 ms
+ 5  183.79.224.150 (183.79.224.150)  46.675 ms
+ 6  183.79.217.124 (183.79.217.124)  46.623 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.035/48.035/48.035/0.000 ms
+datetime 2020/02/22 17:19:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  25.038 ms
+ 4  210.138.106.238 (210.138.106.238)  24.990 ms
+ 5  183.79.224.202 (183.79.224.202)  36.548 ms
+ 6  183.79.250.251 (183.79.250.251)  34.862 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.181/39.181/39.181/0.000 ms
+datetime 2020/02/22 17:19:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.952 ms
+ 4  210.138.106.238 (210.138.106.238)  37.995 ms
+ 5  124.83.228.54 (124.83.228.54)  37.951 ms
+ 6  124.83.228.222 (124.83.228.222)  48.806 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  37.771 ms
+10  183.79.219.252 (183.79.219.252)  37.728 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.162/46.162/46.162/0.000 ms
+datetime 2020/02/22 17:19:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  46.076 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  46.002 ms
+ 5  210.130.154.162 (210.130.154.162)  54.964 ms
+ 6  202.93.74.46 (202.93.74.46)  58.221 ms
+ 7  182.22.25.252 (182.22.25.252)  58.167 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.213/48.213/48.213/0.000 ms
+datetime 2020/02/22 17:19:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  44.915 ms
+ 4  210.138.106.238 (210.138.106.238)  47.440 ms
+ 5  183.79.224.150 (183.79.224.150)  54.391 ms
+ 6  183.79.217.124 (183.79.217.124)  54.339 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.287/44.287/44.287/0.000 ms
+datetime 2020/02/22 17:20:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.946 ms
+ 4  210.138.106.238 (210.138.106.238)  39.896 ms
+ 5  183.79.224.202 (183.79.224.202)  51.486 ms
+ 6  183.79.250.251 (183.79.250.251)  51.421 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.259/39.259/39.259/0.000 ms
+datetime 2020/02/22 17:20:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  21.126 ms
+ 4  210.138.106.238 (210.138.106.238)  30.209 ms
+ 5  124.83.228.54 (124.83.228.54)  30.168 ms
+ 6  124.83.228.222 (124.83.228.222)  30.131 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  30.003 ms
+10  183.79.219.252 (183.79.219.252)  29.960 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.155/40.155/40.155/0.000 ms
+datetime 2020/02/22 17:20:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  44.239 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.179 ms
+ 5  210.130.154.162 (210.130.154.162)  53.434 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  53.331 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.227/46.227/46.227/0.000 ms
+datetime 2020/02/22 17:20:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  33.098 ms
+ 4  210.138.106.238 (210.138.106.238)  33.045 ms
+ 5  124.83.228.54 (124.83.228.54)  42.010 ms
+ 6  124.83.228.222 (124.83.228.222)  41.964 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  43.909 ms
+10  183.79.219.252 (183.79.219.252)  43.864 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.144/39.144/39.144/0.000 ms
+datetime 2020/02/22 17:21:02
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  39.040 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  38.997 ms
+ 5  210.130.154.162 (210.130.154.162)  38.947 ms
+ 6  202.93.95.178 (202.93.95.178)  49.339 ms
+ 7  203.141.47.66 (203.141.47.66)  38.846 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  38.703 ms
+11  182.22.16.251 (182.22.16.251)  49.097 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.883/45.883/45.883/0.000 ms
+datetime 2020/02/22 17:21:17
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  43.964 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  61.073 ms
+ 5  210.130.154.162 (210.130.154.162)  63.049 ms
+ 6  202.93.95.178 (202.93.95.178)  62.999 ms
+ 7  203.141.47.66 (203.141.47.66)  62.941 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  62.792 ms
+11  182.22.16.251 (182.22.16.251)  60.728 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.419/46.419/46.419/0.000 ms
+datetime 2020/02/22 17:21:32
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.024 ms
+ 4  210.138.106.238 (210.138.106.238)  38.981 ms
+ 5  183.79.224.202 (183.79.224.202)  48.380 ms
+ 6  183.79.250.251 (183.79.250.251)  48.342 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.457/40.457/40.457/0.000 ms
+datetime 2020/02/22 17:21:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  42.046 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  50.020 ms
+ 5  210.130.154.162 (210.130.154.162)  49.971 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  52.671 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.074/48.074/48.074/0.000 ms
+datetime 2020/02/22 17:22:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  41.922 ms
+ 4  210.138.106.238 (210.138.106.238)  41.866 ms
+ 5  183.79.224.146 (183.79.224.146)  49.379 ms
+ 6  183.79.250.123 (183.79.250.123)  49.321 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.843/39.843/39.843/0.000 ms
+datetime 2020/02/22 17:22:17
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  24.154 ms
+ 4  210.138.106.238 (210.138.106.238)  33.776 ms
+ 5  183.79.224.150 (183.79.224.150)  33.736 ms
+ 6  183.79.217.124 (183.79.217.124)  33.690 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.125/39.125/39.125/0.000 ms
+datetime 2020/02/22 17:22:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  44.301 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  44.977 ms
+ 5  210.130.154.162 (210.130.154.162)  45.693 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  44.853 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.148/39.148/39.148/0.000 ms
+datetime 2020/02/22 17:22:47
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.169 ms
+ 4  210.138.106.238 (210.138.106.238)  37.250 ms
+ 5  183.79.224.202 (183.79.224.202)  39.458 ms
+ 6  183.79.250.251 (183.79.250.251)  39.407 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.239/46.239/46.239/0.000 ms
+datetime 2020/02/22 17:23:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  45.610 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  54.101 ms
+ 5  210.130.154.162 (210.130.154.162)  54.060 ms
+ 6  202.93.74.46 (202.93.74.46)  55.639 ms
+ 7  182.22.25.252 (182.22.25.252)  53.955 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.217/45.217/45.217/0.000 ms
+datetime 2020/02/22 17:23:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  40.448 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  51.301 ms
+ 5  210.130.154.162 (210.130.154.162)  49.480 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  49.380 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.476/46.476/46.476/0.000 ms
+datetime 2020/02/22 17:23:32
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.990 ms
+ 4  210.138.106.238 (210.138.106.238)  39.949 ms
+ 5  183.79.224.146 (183.79.224.146)  56.217 ms
+ 6  183.79.250.123 (183.79.250.123)  56.170 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.094/38.094/38.094/0.000 ms
+datetime 2020/02/22 17:23:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  23.788 ms
+ 4  210.138.106.238 (210.138.106.238)  23.740 ms
+ 5  124.83.228.54 (124.83.228.54)  34.611 ms
+ 6  124.83.228.222 (124.83.228.222)  32.785 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  32.640 ms
+10  183.79.219.252 (183.79.219.252)  32.596 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.174/39.174/39.174/0.000 ms
+datetime 2020/02/22 17:24:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.843 ms
+ 4  210.138.106.238 (210.138.106.238)  36.799 ms
+ 5  183.79.224.146 (183.79.224.146)  46.101 ms
+ 6  183.79.250.123 (183.79.250.123)  46.047 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.461/36.461/36.461/0.000 ms
+datetime 2020/02/22 17:24:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  42.438 ms
+ 4  210.138.106.238 (210.138.106.238)  39.677 ms
+ 5  124.83.228.54 (124.83.228.54)  50.244 ms
+ 6  124.83.228.222 (124.83.228.222)  50.207 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  50.070 ms
+10  183.79.219.252 (183.79.219.252)  50.026 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.568/49.568/49.568/0.000 ms
+datetime 2020/02/22 17:24:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  29.763 ms
+ 4  210.138.106.238 (210.138.106.238)  45.713 ms
+ 5  124.83.228.54 (124.83.228.54)  48.802 ms
+ 6  124.83.228.222 (124.83.228.222)  45.578 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  48.530 ms
+10  183.79.219.252 (183.79.219.252)  48.484 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.018/38.018/38.018/0.000 ms
+datetime 2020/02/22 17:24:47
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.676 ms
+ 4  210.138.106.238 (210.138.106.238)  39.622 ms
+ 5  183.79.224.202 (183.79.224.202)  50.860 ms
+ 6  183.79.250.251 (183.79.250.251)  50.802 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.098/51.098/51.098/0.000 ms
+datetime 2020/02/22 17:25:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.758 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.758 ms
+ 5  210.130.154.162 (210.130.154.162)  43.712 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  45.412 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.349/40.349/40.349/0.000 ms
+datetime 2020/02/22 17:25:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  27.694 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  35.962 ms
+ 5  210.130.154.162 (210.130.154.162)  38.325 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  35.815 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.131/46.131/46.131/0.000 ms
+datetime 2020/02/22 17:25:32
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.438 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.777 ms
+ 5  210.130.154.162 (210.130.154.162)  44.739 ms
+ 6  202.93.95.178 (202.93.95.178)  44.698 ms
+ 7  203.141.47.66 (203.141.47.66)  44.651 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  44.519 ms
+11  182.22.16.251 (182.22.16.251)  44.480 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.006/40.006/40.006/0.000 ms
+datetime 2020/02/22 17:25:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.141 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  42.672 ms
+ 5  210.130.154.162 (210.130.154.162)  46.239 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  46.061 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.630/45.630/45.630/0.000 ms
+datetime 2020/02/22 17:26:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.208 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  42.384 ms
+ 5  210.130.154.162 (210.130.154.162)  42.344 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  44.974 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.444/47.444/47.444/0.000 ms
+datetime 2020/02/22 17:26:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  44.170 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  44.122 ms
+ 5  210.130.154.162 (210.130.154.162)  54.320 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  54.179 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.453/38.453/38.453/0.000 ms
+datetime 2020/02/22 17:26:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  33.053 ms
+ 4  210.138.106.238 (210.138.106.238)  33.585 ms
+ 5  183.79.224.150 (183.79.224.150)  36.478 ms
+ 6  183.79.217.124 (183.79.217.124)  36.425 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.226/47.226/47.226/0.000 ms
+datetime 2020/02/22 17:26:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  31.990 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  41.262 ms
+ 5  210.130.154.162 (210.130.154.162)  41.219 ms
+ 6  202.93.95.178 (202.93.95.178)  41.172 ms
+ 7  203.141.47.66 (203.141.47.66)  41.124 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  40.981 ms
+11  182.22.16.251 (182.22.16.251)  42.784 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 43.465/43.465/43.465/0.000 ms
+datetime 2020/02/22 17:27:02
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  57.085 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  50.826 ms
+ 5  210.130.154.162 (210.130.154.162)  51.357 ms
+ 6  202.93.95.178 (202.93.95.178)  50.664 ms
+ 7  203.141.47.66 (203.141.47.66)  50.580 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  50.626 ms
+11  182.22.16.251 (182.22.16.251)  53.407 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.800/45.800/45.800/0.000 ms
+datetime 2020/02/22 17:27:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.944 ms
+ 4  210.138.106.238 (210.138.106.238)  39.897 ms
+ 5  183.79.224.146 (183.79.224.146)  49.371 ms
+ 6  183.79.250.123 (183.79.250.123)  49.318 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.430/38.430/38.430/0.000 ms
+datetime 2020/02/22 17:27:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.121 ms
+ 4  210.138.106.238 (210.138.106.238)  46.472 ms
+ 5  124.83.228.54 (124.83.228.54)  46.418 ms
+ 6  124.83.228.222 (124.83.228.222)  46.363 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  46.228 ms
+10  183.79.219.252 (183.79.219.252)  46.183 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.213/48.213/48.213/0.000 ms
+datetime 2020/02/22 17:27:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  30.140 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  37.157 ms
+ 5  210.130.154.162 (210.130.154.162)  37.110 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  39.914 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.276/44.276/44.276/0.000 ms
+datetime 2020/02/22 17:28:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.000 ms
+ 4  210.138.106.238 (210.138.106.238)  37.384 ms
+ 5  183.79.224.146 (183.79.224.146)  37.334 ms
+ 6  183.79.250.123 (183.79.250.123)  37.278 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.006/39.006/39.006/0.000 ms
+datetime 2020/02/22 17:28:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.760 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  41.694 ms
+ 5  210.130.154.162 (210.130.154.162)  51.599 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  45.550 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.543/38.543/38.543/0.000 ms
+datetime 2020/02/22 17:28:32
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.986 ms
+ 4  210.138.106.238 (210.138.106.238)  38.938 ms
+ 5  183.79.224.202 (183.79.224.202)  49.166 ms
+ 6  183.79.250.251 (183.79.250.251)  46.792 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.276/49.276/49.276/0.000 ms
+datetime 2020/02/22 17:28:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.048 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  64.064 ms
+ 5  210.130.154.162 (210.130.154.162)  44.057 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  43.973 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.634/44.634/44.634/0.000 ms
+datetime 2020/02/22 17:29:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.649 ms
+ 4  210.138.106.238 (210.138.106.238)  48.263 ms
+ 5  183.79.224.146 (183.79.224.146)  48.124 ms
+ 6  183.79.250.123 (183.79.250.123)  47.681 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.384/40.384/40.384/0.000 ms
+datetime 2020/02/22 17:29:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  41.510 ms
+ 4  210.138.106.238 (210.138.106.238)  39.258 ms
+ 5  124.83.228.54 (124.83.228.54)  65.090 ms
+ 6  124.83.228.222 (124.83.228.222)  49.441 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  49.296 ms
+10  183.79.219.252 (183.79.219.252)  49.398 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.822/39.822/39.822/0.000 ms
+datetime 2020/02/22 17:29:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  61.005 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  76.538 ms
+ 5  210.130.154.162 (210.130.154.162)  86.858 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  76.401 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.229/44.229/44.229/0.000 ms
+datetime 2020/02/22 17:29:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  59.657 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  38.264 ms
+ 5  210.130.154.162 (210.130.154.162)  38.595 ms
+ 6  202.93.74.46 (202.93.74.46)  39.577 ms
+ 7  182.22.25.252 (182.22.25.252)  38.574 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.180/38.180/38.180/0.000 ms
+datetime 2020/02/22 17:30:02
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.856 ms
+ 4  210.138.106.238 (210.138.106.238)  41.707 ms
+ 5  183.79.224.150 (183.79.224.150)  41.636 ms
+ 6  183.79.217.124 (183.79.217.124)  40.868 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 29.653/29.653/29.653/0.000 ms
+datetime 2020/02/22 17:30:17
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  38.418 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  46.743 ms
+ 5  210.130.154.162 (210.130.154.162)  46.689 ms
+ 6  202.93.95.178 (202.93.95.178)  49.496 ms
+ 7  203.141.47.66 (203.141.47.66)  48.887 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  48.685 ms
+11  182.22.16.251 (182.22.16.251)  48.637 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.804/37.804/37.804/0.000 ms
+datetime 2020/02/22 17:30:32
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  34.932 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  44.356 ms
+ 5  210.130.154.162 (210.130.154.162)  44.310 ms
+ 6  202.93.95.178 (202.93.95.178)  44.262 ms
+ 7  203.141.47.66 (203.141.47.66)  44.209 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  44.053 ms
+11  182.22.16.251 (182.22.16.251)  44.006 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.483/45.483/45.483/0.000 ms
+datetime 2020/02/22 17:30:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.503 ms
+ 4  210.138.106.238 (210.138.106.238)  36.090 ms
+ 5  124.83.228.54 (124.83.228.54)  36.038 ms
+ 6  124.83.228.222 (124.83.228.222)  35.976 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  35.815 ms
+10  183.79.219.252 (183.79.219.252)  35.755 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.156/40.156/40.156/0.000 ms
+datetime 2020/02/22 17:31:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.898 ms
+ 4  210.138.106.238 (210.138.106.238)  47.434 ms
+ 5  183.79.224.202 (183.79.224.202)  47.327 ms
+ 6  183.79.250.251 (183.79.250.251)  47.248 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.210/39.210/39.210/0.000 ms
+datetime 2020/02/22 17:31:17
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  29.501 ms
+ 4  210.138.106.238 (210.138.106.238)  39.630 ms
+ 5  183.79.224.202 (183.79.224.202)  39.544 ms
+ 6  183.79.250.251 (183.79.250.251)  39.453 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.096/38.096/38.096/0.000 ms
+datetime 2020/02/22 17:31:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.320 ms
+ 4  210.138.106.238 (210.138.106.238)  63.258 ms
+ 5  183.79.224.150 (183.79.224.150)  46.181 ms
+ 6  183.79.217.124 (183.79.217.124)  45.686 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.105/39.105/39.105/0.000 ms
+datetime 2020/02/22 17:31:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.935 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.856 ms
+ 5  210.130.154.162 (210.130.154.162)  59.137 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  59.333 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.982/45.982/45.982/0.000 ms
+datetime 2020/02/22 17:32:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.330 ms
+ 4  210.138.106.238 (210.138.106.238)  38.056 ms
+ 5  183.79.224.202 (183.79.224.202)  38.019 ms
+ 6  183.79.250.251 (183.79.250.251)  37.965 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.081/40.081/40.081/0.000 ms
+datetime 2020/02/22 17:32:17
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  37.124 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  37.544 ms
+ 5  210.130.154.162 (210.130.154.162)  40.959 ms
+ 6  202.93.74.46 (202.93.74.46)  40.914 ms
+ 7  182.22.25.252 (182.22.25.252)  40.817 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.127/49.127/49.127/0.000 ms
+datetime 2020/02/22 17:32:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  56.396 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  57.160 ms
+ 5  210.130.154.162 (210.130.154.162)  57.107 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  57.007 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.432/49.432/49.432/0.000 ms
+datetime 2020/02/22 17:32:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  35.682 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  43.619 ms
+ 5  210.130.154.162 (210.130.154.162)  45.368 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  43.374 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.532/44.532/44.532/0.000 ms
+datetime 2020/02/22 17:33:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.069 ms
+ 4  210.138.106.238 (210.138.106.238)  44.158 ms
+ 5  183.79.224.146 (183.79.224.146)  46.623 ms
+ 6  183.79.250.123 (183.79.250.123)  44.077 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.151/38.151/38.151/0.000 ms
+datetime 2020/02/22 17:33:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.648 ms
+ 4  210.138.106.238 (210.138.106.238)  38.149 ms
+ 5  183.79.224.146 (183.79.224.146)  38.107 ms
+ 6  183.79.250.123 (183.79.250.123)  38.053 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.948/39.948/39.948/0.000 ms
+datetime 2020/02/22 17:33:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  34.468 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  42.557 ms
+ 5  210.130.154.162 (210.130.154.162)  44.483 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  44.655 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.188/48.188/48.188/0.000 ms
+datetime 2020/02/22 17:33:47
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.813 ms
+ 4  210.138.106.238 (210.138.106.238)  39.335 ms
+ 5  183.79.224.202 (183.79.224.202)  39.283 ms
+ 6  183.79.250.251 (183.79.250.251)  39.225 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.172/39.172/39.172/0.000 ms
+datetime 2020/02/22 17:34:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  22.021 ms
+ 4  210.138.106.238 (210.138.106.238)  41.041 ms
+ 5  183.79.224.202 (183.79.224.202)  40.989 ms
+ 6  183.79.250.251 (183.79.250.251)  39.399 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.990/38.990/38.990/0.000 ms
+datetime 2020/02/22 17:34:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  23.274 ms
+ 4  210.138.106.238 (210.138.106.238)  32.763 ms
+ 5  183.79.224.146 (183.79.224.146)  32.651 ms
+ 6  183.79.250.123 (183.79.250.123)  32.564 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.071/47.071/47.071/0.000 ms
+datetime 2020/02/22 17:34:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  60.170 ms
+ 4  210.138.106.238 (210.138.106.238)  48.390 ms
+ 5  124.83.228.54 (124.83.228.54)  48.347 ms
+ 6  124.83.228.222 (124.83.228.222)  57.517 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  57.380 ms
+10  183.79.219.252 (183.79.219.252)  57.324 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.482/37.482/37.482/0.000 ms
+datetime 2020/02/22 17:34:47
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  22.440 ms
+ 4  210.138.106.238 (210.138.106.238)  31.150 ms
+ 5  183.79.224.146 (183.79.224.146)  31.439 ms
+ 6  183.79.250.123 (183.79.250.123)  31.052 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.633/45.633/45.633/0.000 ms
+datetime 2020/02/22 17:35:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.943 ms
+ 4  210.138.106.238 (210.138.106.238)  54.694 ms
+ 5  183.79.224.202 (183.79.224.202)  55.741 ms
+ 6  183.79.250.251 (183.79.250.251)  54.601 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.416/38.416/38.416/0.000 ms
+datetime 2020/02/22 17:35:17
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  22.011 ms
+ 4  210.138.106.238 (210.138.106.238)  31.171 ms
+ 5  183.79.224.202 (183.79.224.202)  31.125 ms
+ 6  183.79.250.251 (183.79.250.251)  31.085 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.989/46.989/46.989/0.000 ms
+datetime 2020/02/22 17:35:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  40.839 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  49.945 ms
+ 5  210.130.154.162 (210.130.154.162)  49.898 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  53.057 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.348/47.348/47.348/0.000 ms
+datetime 2020/02/22 17:35:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  19.899 ms
+ 4  210.138.106.238 (210.138.106.238)  40.014 ms
+ 5  183.79.224.150 (183.79.224.150)  39.966 ms
+ 6  183.79.217.124 (183.79.217.124)  39.917 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.465/38.465/38.465/0.000 ms
+datetime 2020/02/22 17:36:02
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  30.916 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  41.238 ms
+ 5  210.130.154.162 (210.130.154.162)  41.199 ms
+ 6  202.93.95.178 (202.93.95.178)  41.145 ms
+ 7  203.141.47.66 (203.141.47.66)  41.094 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  40.944 ms
+11  182.22.16.251 (182.22.16.251)  42.659 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.588/38.588/38.588/0.000 ms
+datetime 2020/02/22 17:36:17
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.204 ms
+ 4  210.138.106.238 (210.138.106.238)  41.295 ms
+ 5  183.79.224.202 (183.79.224.202)  38.497 ms
+ 6  183.79.250.251 (183.79.250.251)  38.450 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.122/48.122/48.122/0.000 ms
+datetime 2020/02/22 17:36:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.989 ms
+ 4  210.138.106.238 (210.138.106.238)  38.267 ms
+ 5  124.83.228.54 (124.83.228.54)  36.844 ms
+ 6  124.83.228.222 (124.83.228.222)  36.800 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  36.649 ms
+10  183.79.219.252 (183.79.219.252)  36.596 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.069/40.069/40.069/0.000 ms
+datetime 2020/02/22 17:36:47
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.385 ms
+ 4  210.138.106.238 (210.138.106.238)  49.825 ms
+ 5  183.79.224.146 (183.79.224.146)  46.066 ms
+ 6  183.79.250.123 (183.79.250.123)  45.976 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.573/37.573/37.573/0.000 ms
+datetime 2020/02/22 17:37:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.901 ms
+ 4  210.138.106.238 (210.138.106.238)  47.853 ms
+ 5  183.79.224.202 (183.79.224.202)  40.042 ms
+ 6  183.79.250.251 (183.79.250.251)  39.989 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.332/39.332/39.332/0.000 ms
+datetime 2020/02/22 17:37:17
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.069 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.052 ms
+ 5  210.130.154.162 (210.130.154.162)  49.722 ms
+ 6  202.93.95.178 (202.93.95.178)  52.871 ms
+ 7  203.141.47.66 (203.141.47.66)  43.907 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  43.765 ms
+11  182.22.16.251 (182.22.16.251)  46.227 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.194/44.194/44.194/0.000 ms
+datetime 2020/02/22 17:37:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  24.478 ms
+ 4  210.138.106.238 (210.138.106.238)  24.429 ms
+ 5  124.83.228.54 (124.83.228.54)  35.318 ms
+ 6  124.83.228.222 (124.83.228.222)  33.522 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  33.311 ms
+10  183.79.219.252 (183.79.219.252)  33.251 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.249/40.249/40.249/0.000 ms
+datetime 2020/02/22 17:37:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  44.851 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  53.992 ms
+ 5  210.130.154.162 (210.130.154.162)  53.943 ms
+ 6  202.93.95.178 (202.93.95.178)  53.879 ms
+ 7  203.141.47.66 (203.141.47.66)  53.827 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  53.671 ms
+11  182.22.16.251 (182.22.16.251)  53.625 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.679/46.679/46.679/0.000 ms
+datetime 2020/02/22 17:38:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  47.062 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  47.012 ms
+ 5  210.130.154.162 (210.130.154.162)  55.185 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  55.101 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 27.850/27.850/27.850/0.000 ms
+datetime 2020/02/22 17:38:17
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.062 ms
+ 4  210.138.106.238 (210.138.106.238)  37.944 ms
+ 5  183.79.224.150 (183.79.224.150)  46.806 ms
+ 6  183.79.217.124 (183.79.217.124)  46.724 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.267/36.267/36.267/0.000 ms
+datetime 2020/02/22 17:38:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  29.688 ms
+ 4  210.138.106.238 (210.138.106.238)  29.630 ms
+ 5  183.79.224.150 (183.79.224.150)  31.921 ms
+ 6  183.79.217.124 (183.79.217.124)  31.274 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.967/48.967/48.967/0.000 ms
+datetime 2020/02/22 17:38:47
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.753 ms
+ 4  210.138.106.238 (210.138.106.238)  45.752 ms
+ 5  183.79.224.146 (183.79.224.146)  45.662 ms
+ 6  183.79.250.123 (183.79.250.123)  44.952 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.132/40.132/40.132/0.000 ms
+datetime 2020/02/22 17:39:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  40.849 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  47.090 ms
+ 5  210.130.154.162 (210.130.154.162)  47.032 ms
+ 6  202.93.74.46 (202.93.74.46)  49.967 ms
+ 7  182.22.25.252 (182.22.25.252)  46.904 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.000/49.000/49.000/0.000 ms
+datetime 2020/02/22 17:39:17
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  36.999 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  54.076 ms
+ 5  210.130.154.162 (210.130.154.162)  55.878 ms
+ 6  202.93.95.178 (202.93.95.178)  55.836 ms
+ 7  203.141.47.66 (203.141.47.66)  53.836 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  53.647 ms
+11  182.22.16.251 (182.22.16.251)  55.793 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.254/48.254/48.254/0.000 ms
+datetime 2020/02/22 17:39:32
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.914 ms
+ 4  210.138.106.238 (210.138.106.238)  37.478 ms
+ 5  183.79.224.202 (183.79.224.202)  37.425 ms
+ 6  183.79.250.251 (183.79.250.251)  37.339 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.007/41.007/41.007/0.000 ms
+datetime 2020/02/22 17:39:47
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  30.101 ms
+ 4  210.138.106.238 (210.138.106.238)  37.469 ms
+ 5  183.79.224.202 (183.79.224.202)  37.431 ms
+ 6  183.79.250.251 (183.79.250.251)  37.378 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.358/38.358/38.358/0.000 ms
+datetime 2020/02/22 17:40:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.045 ms
+ 4  210.138.106.238 (210.138.106.238)  36.438 ms
+ 5  183.79.224.146 (183.79.224.146)  36.391 ms
+ 6  183.79.250.123 (183.79.250.123)  36.341 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.100/46.100/46.100/0.000 ms
+datetime 2020/02/22 17:40:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  21.225 ms
+ 4  210.138.106.238 (210.138.106.238)  30.706 ms
+ 5  183.79.224.146 (183.79.224.146)  30.668 ms
+ 6  183.79.250.123 (183.79.250.123)  30.622 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.908/46.908/46.908/0.000 ms
+datetime 2020/02/22 17:40:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  27.187 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  37.418 ms
+ 5  210.130.154.162 (210.130.154.162)  37.380 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  37.293 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.167/48.167/48.167/0.000 ms
+datetime 2020/02/22 17:41:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  39.121 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  49.078 ms
+ 5  210.130.154.162 (210.130.154.162)  49.027 ms
+ 6  202.93.74.46 (202.93.74.46)  51.448 ms
+ 7  182.22.25.252 (182.22.25.252)  48.926 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.403/38.403/38.403/0.000 ms
+datetime 2020/02/22 17:41:17
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.618 ms
+ 4  210.138.106.238 (210.138.106.238)  40.872 ms
+ 5  183.79.224.150 (183.79.224.150)  40.827 ms
+ 6  183.79.217.124 (183.79.217.124)  38.007 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.507/39.507/39.507/0.000 ms
+datetime 2020/02/22 17:41:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  36.416 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.381 ms
+ 5  210.130.154.162 (210.130.154.162)  45.337 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  47.848 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.284/39.284/39.284/0.000 ms
+datetime 2020/02/22 17:41:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.383 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  42.042 ms
+ 5  210.130.154.162 (210.130.154.162)  44.424 ms
+ 6  202.93.95.178 (202.93.95.178)  44.328 ms
+ 7  203.141.47.66 (203.141.47.66)  41.861 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  41.652 ms
+11  182.22.16.251 (182.22.16.251)  44.272 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.088/46.088/46.088/0.000 ms
+datetime 2020/02/22 17:40:47
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  39.074 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  47.009 ms
+ 5  210.130.154.162 (210.130.154.162)  46.966 ms
+ 6  202.93.95.178 (202.93.95.178)  48.869 ms
+ 7  203.141.47.66 (203.141.47.66)  46.879 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  46.753 ms
+11  182.22.16.251 (182.22.16.251)  48.659 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.055/48.055/48.055/0.000 ms
+datetime 2020/02/22 17:42:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  42.317 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  42.262 ms
+ 5  210.130.154.162 (210.130.154.162)  51.705 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  51.612 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.068/49.068/49.068/0.000 ms
+datetime 2020/02/22 17:42:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  39.113 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  42.985 ms
+ 5  210.130.154.162 (210.130.154.162)  42.950 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  42.870 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 26.187/26.187/26.187/0.000 ms
+datetime 2020/02/22 17:42:32
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.027 ms
+ 4  210.138.106.238 (210.138.106.238)  36.091 ms
+ 5  183.79.224.202 (183.79.224.202)  37.797 ms
+ 6  183.79.250.251 (183.79.250.251)  35.643 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.150/44.150/44.150/0.000 ms
+datetime 2020/02/22 17:42:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.125 ms
+ 4  210.138.106.238 (210.138.106.238)  38.353 ms
+ 5  124.83.228.54 (124.83.228.54)  74.157 ms
+ 6  124.83.228.222 (124.83.228.222)  36.383 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  36.263 ms
+10  183.79.219.252 (183.79.219.252)  36.223 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.071/39.071/39.071/0.000 ms
+datetime 2020/02/22 17:43:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  41.015 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  52.446 ms
+ 5  210.130.154.162 (210.130.154.162)  52.387 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  49.954 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.937/46.937/46.937/0.000 ms
+datetime 2020/02/22 17:43:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  37.379 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  172.717 ms
+ 5  *
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  172.559 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.222/39.222/39.222/0.000 ms
+datetime 2020/02/22 17:43:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  41.222 ms
+ 4  210.138.106.238 (210.138.106.238)  38.716 ms
+ 5  183.79.224.150 (183.79.224.150)  41.045 ms
+ 6  183.79.217.124 (183.79.217.124)  40.713 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.145/38.145/38.145/0.000 ms
+datetime 2020/02/22 17:43:47
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  42.778 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  50.778 ms
+ 5  210.130.154.162 (210.130.154.162)  50.662 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  54.381 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.808/44.808/44.808/0.000 ms
+datetime 2020/02/22 17:44:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  36.989 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  54.083 ms
+ 5  210.130.154.162 (210.130.154.162)  56.182 ms
+ 6  202.93.74.46 (202.93.74.46)  56.148 ms
+ 7  182.22.25.252 (182.22.25.252)  56.095 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.088/39.088/39.088/0.000 ms
+datetime 2020/02/22 17:44:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  36.057 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.068 ms
+ 5  210.130.154.162 (210.130.154.162)  45.030 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  44.942 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.175/39.175/39.175/0.000 ms
+datetime 2020/02/22 17:44:32
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.971 ms
+ 4  210.138.106.238 (210.138.106.238)  39.027 ms
+ 5  183.79.224.146 (183.79.224.146)  38.946 ms
+ 6  183.79.250.123 (183.79.250.123)  36.498 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.204/45.204/45.204/0.000 ms
+datetime 2020/02/22 17:44:47
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  30.373 ms
+ 4  210.138.106.238 (210.138.106.238)  48.965 ms
+ 5  183.79.224.146 (183.79.224.146)  48.912 ms
+ 6  183.79.250.123 (183.79.250.123)  48.764 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.250/38.250/38.250/0.000 ms
+datetime 2020/02/22 17:45:02
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  30.664 ms
+ 4  210.138.106.238 (210.138.106.238)  40.104 ms
+ 5  124.83.228.54 (124.83.228.54)  39.989 ms
+ 6  124.83.228.222 (124.83.228.222)  39.897 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  39.631 ms
+10  183.79.219.252 (183.79.219.252)  39.547 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.614/45.614/45.614/0.000 ms
+datetime 2020/02/22 17:45:17
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  27.131 ms
+ 4  210.138.106.238 (210.138.106.238)  52.134 ms
+ 5  183.79.224.202 (183.79.224.202)  39.095 ms
+ 6  183.79.250.251 (183.79.250.251)  36.993 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.170/40.170/40.170/0.000 ms
+datetime 2020/02/22 17:45:32
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  31.092 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  40.339 ms
+ 5  210.130.154.162 (210.130.154.162)  40.305 ms
+ 6  202.93.95.178 (202.93.95.178)  40.266 ms
+ 7  203.141.47.66 (203.141.47.66)  40.221 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  40.088 ms
+11  182.22.16.251 (182.22.16.251)  41.754 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.376/46.376/46.376/0.000 ms
+datetime 2020/02/22 17:45:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.142 ms
+ 4  210.138.106.238 (210.138.106.238)  38.094 ms
+ 5  124.83.228.54 (124.83.228.54)  38.049 ms
+ 6  124.83.228.222 (124.83.228.222)  37.999 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  39.620 ms
+10  183.79.219.252 (183.79.219.252)  39.572 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.207/39.207/39.207/0.000 ms
+datetime 2020/02/22 17:46:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  40.583 ms
+ 4  210.138.106.238 (210.138.106.238)  41.469 ms
+ 5  183.79.224.146 (183.79.224.146)  42.323 ms
+ 6  183.79.250.123 (183.79.250.123)  41.373 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.175/38.175/38.175/0.000 ms
+datetime 2020/02/22 17:46:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  40.082 ms
+ 4  210.138.106.238 (210.138.106.238)  40.036 ms
+ 5  183.79.224.146 (183.79.224.146)  51.009 ms
+ 6  183.79.250.123 (183.79.250.123)  49.300 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.277/40.277/40.277/0.000 ms
+datetime 2020/02/22 17:46:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  39.530 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  48.861 ms
+ 5  210.130.154.162 (210.130.154.162)  48.820 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  48.724 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.171/48.171/48.171/0.000 ms
+datetime 2020/02/22 17:46:47
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.239 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.381 ms
+ 5  210.130.154.162 (210.130.154.162)  43.339 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  43.233 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.436/38.436/38.436/0.000 ms
+datetime 2020/02/22 17:47:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  39.132 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  39.090 ms
+ 5  210.130.154.162 (210.130.154.162)  50.152 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  38.969 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.285/46.285/46.285/0.000 ms
+datetime 2020/02/22 17:47:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.356 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  42.338 ms
+ 5  210.130.154.162 (210.130.154.162)  44.026 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  42.195 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.123/50.123/50.123/0.000 ms
+datetime 2020/02/22 17:47:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  37.032 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  46.266 ms
+ 5  210.130.154.162 (210.130.154.162)  49.479 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  46.121 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.109/48.109/48.109/0.000 ms
+datetime 2020/02/22 17:47:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  34.251 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  42.968 ms
+ 5  210.130.154.162 (210.130.154.162)  46.276 ms
+ 6  202.93.74.46 (202.93.74.46)  46.236 ms
+ 7  182.22.25.252 (182.22.25.252)  46.174 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.210/47.210/47.210/0.000 ms
+datetime 2020/02/22 17:48:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  36.665 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  52.727 ms
+ 5  210.130.154.162 (210.130.154.162)  54.501 ms
+ 6  202.93.74.46 (202.93.74.46)  56.318 ms
+ 7  182.22.25.252 (182.22.25.252)  54.351 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.225/39.225/39.225/0.000 ms
+datetime 2020/02/22 17:48:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.245 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  45.191 ms
+ 5  210.130.154.162 (210.130.154.162)  50.350 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  50.171 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.755/36.755/36.755/0.000 ms
+datetime 2020/02/22 17:48:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  21.078 ms
+ 4  210.138.106.238 (210.138.106.238)  30.225 ms
+ 5  124.83.228.54 (124.83.228.54)  30.188 ms
+ 6  124.83.228.222 (124.83.228.222)  30.143 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  30.022 ms
+10  183.79.219.252 (183.79.219.252)  29.985 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.049/40.049/40.049/0.000 ms
+datetime 2020/02/22 17:48:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  28.002 ms
+ 4  210.138.106.238 (210.138.106.238)  40.870 ms
+ 5  183.79.224.150 (183.79.224.150)  38.590 ms
+ 6  183.79.217.124 (183.79.217.124)  38.531 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.004/37.004/37.004/0.000 ms
+datetime 2020/02/22 17:49:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  41.751 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  49.655 ms
+ 5  210.130.154.162 (210.130.154.162)  49.617 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  49.528 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.277/49.277/49.277/0.000 ms
+datetime 2020/02/22 17:49:17
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  29.775 ms
+ 4  210.138.106.238 (210.138.106.238)  38.763 ms
+ 5  183.79.224.150 (183.79.224.150)  41.010 ms
+ 6  183.79.217.124 (183.79.217.124)  40.910 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.343/46.343/46.343/0.000 ms
+datetime 2020/02/22 17:49:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  36.214 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  46.299 ms
+ 5  210.130.154.162 (210.130.154.162)  46.577 ms
+ 6  202.93.74.46 (202.93.74.46)  48.023 ms
+ 7  182.22.25.252 (182.22.25.252)  46.160 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.710/40.710/40.710/0.000 ms
+datetime 2020/02/22 17:49:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  39.023 ms
+ 4  210.138.106.238 (210.138.106.238)  38.976 ms
+ 5  183.79.224.150 (183.79.224.150)  55.567 ms
+ 6  183.79.217.124 (183.79.217.124)  57.320 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.206/45.206/45.206/0.000 ms
+datetime 2020/02/22 17:50:02
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  38.892 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  55.834 ms
+ 5  210.130.154.162 (210.130.154.162)  53.981 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  55.688 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 33.839/33.839/33.839/0.000 ms
+datetime 2020/02/22 17:50:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  32.250 ms
+ 4  210.138.106.238 (210.138.106.238)  41.129 ms
+ 5  124.83.228.54 (124.83.228.54)  41.045 ms
+ 6  124.83.228.222 (124.83.228.222)  42.979 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  42.716 ms
+10  183.79.219.252 (183.79.219.252)  42.664 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.838/39.838/39.838/0.000 ms
+datetime 2020/02/22 17:50:32
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  39.662 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  47.644 ms
+ 5  210.130.154.162 (210.130.154.162)  49.379 ms
+ 6  202.93.74.46 (202.93.74.46)  51.803 ms
+ 7  182.22.25.252 (182.22.25.252)  47.519 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.157/48.157/48.157/0.000 ms
+datetime 2020/02/22 17:50:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  32.053 ms
+ 4  210.138.106.238 (210.138.106.238)  41.913 ms
+ 5  183.79.224.150 (183.79.224.150)  41.867 ms
+ 6  183.79.217.124 (183.79.217.124)  41.367 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.272/40.272/40.272/0.000 ms
+datetime 2020/02/22 17:51:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  39.953 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  49.109 ms
+ 5  210.130.154.162 (210.130.154.162)  75.942 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  51.486 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.511/51.511/51.511/0.000 ms
+datetime 2020/02/22 17:51:17
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  46.342 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  56.580 ms
+ 5  210.130.154.162 (210.130.154.162)  56.537 ms
+ 6  202.93.95.178 (202.93.95.178)  56.494 ms
+ 7  203.141.47.66 (203.141.47.66)  56.446 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  56.302 ms
+11  182.22.16.251 (182.22.16.251)  56.260 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.626/45.626/45.626/0.000 ms
+datetime 2020/02/22 17:51:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  37.753 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  47.707 ms
+ 5  210.130.154.162 (210.130.154.162)  49.820 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  49.596 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.277/44.277/44.277/0.000 ms
+datetime 2020/02/22 17:51:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.079 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  41.010 ms
+ 5  210.130.154.162 (210.130.154.162)  42.669 ms
+ 6  202.93.74.46 (202.93.74.46)  45.052 ms
+ 7  182.22.25.252 (182.22.25.252)  45.003 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.415/48.415/48.415/0.000 ms
+datetime 2020/02/22 17:52:02
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.972 ms
+ 4  210.138.106.238 (210.138.106.238)  38.867 ms
+ 5  124.83.228.54 (124.83.228.54)  54.938 ms
+ 6  124.83.228.222 (124.83.228.222)  54.896 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  56.592 ms
+10  183.79.219.252 (183.79.219.252)  56.551 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.160/40.160/40.160/0.000 ms
+datetime 2020/02/22 17:52:17
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  33.910 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.165 ms
+ 5  210.130.154.162 (210.130.154.162)  43.118 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  46.011 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.113/46.113/46.113/0.000 ms
+datetime 2020/02/22 17:52:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  34.789 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  34.732 ms
+ 5  210.130.154.162 (210.130.154.162)  42.658 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  44.712 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.813/36.813/36.813/0.000 ms
+datetime 2020/02/22 17:52:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  35.760 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.144 ms
+ 5  210.130.154.162 (210.130.154.162)  45.094 ms
+ 6  202.93.74.46 (202.93.74.46)  46.850 ms
+ 7  182.22.25.252 (182.22.25.252)  46.798 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.320/48.320/48.320/0.000 ms
+datetime 2020/02/22 17:53:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  37.188 ms
+ 4  210.138.106.238 (210.138.106.238)  48.045 ms
+ 5  183.79.224.146 (183.79.224.146)  42.057 ms
+ 6  183.79.250.123 (183.79.250.123)  39.790 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 29.721/29.721/29.721/0.000 ms
+datetime 2020/02/22 17:53:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.912 ms
+ 4  210.138.106.238 (210.138.106.238)  44.580 ms
+ 5  183.79.224.146 (183.79.224.146)  37.426 ms
+ 6  183.79.250.123 (183.79.250.123)  35.881 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.138/48.138/48.138/0.000 ms
+datetime 2020/02/22 17:53:32
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.965 ms
+ 4  210.138.106.238 (210.138.106.238)  49.809 ms
+ 5  124.83.228.54 (124.83.228.54)  40.737 ms
+ 6  124.83.228.222 (124.83.228.222)  40.683 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  40.439 ms
+10  183.79.219.252 (183.79.219.252)  40.353 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.346/48.346/48.346/0.000 ms
+datetime 2020/02/22 17:53:47
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  34.560 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.244 ms
+ 5  210.130.154.162 (210.130.154.162)  44.967 ms
+ 6  202.93.74.46 (202.93.74.46)  49.233 ms
+ 7  182.22.25.252 (182.22.25.252)  47.353 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.352/49.352/49.352/0.000 ms
+datetime 2020/02/22 17:54:02
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.696 ms
+ 4  210.138.106.238 (210.138.106.238)  37.174 ms
+ 5  183.79.224.202 (183.79.224.202)  37.122 ms
+ 6  183.79.250.251 (183.79.250.251)  37.067 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.227/38.227/38.227/0.000 ms
+datetime 2020/02/22 17:54:17
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  47.064 ms
+ 4  210.138.106.238 (210.138.106.238)  57.779 ms
+ 5  183.79.224.146 (183.79.224.146)  57.731 ms
+ 6  183.79.250.123 (183.79.250.123)  57.675 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.165/38.165/38.165/0.000 ms
+datetime 2020/02/22 17:54:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  45.036 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.988 ms
+ 5  210.130.154.162 (210.130.154.162)  53.940 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  55.552 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.193/47.193/47.193/0.000 ms
+datetime 2020/02/22 17:54:47
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  37.274 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  47.309 ms
+ 5  210.130.154.162 (210.130.154.162)  51.859 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  49.813 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.866/46.866/46.866/0.000 ms
+datetime 2020/02/22 17:55:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.902 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  46.180 ms
+ 5  210.130.154.162 (210.130.154.162)  46.136 ms
+ 6  202.93.74.46 (202.93.74.46)  47.841 ms
+ 7  182.22.25.252 (182.22.25.252)  46.029 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.998/39.998/39.998/0.000 ms
+datetime 2020/02/22 17:55:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  35.076 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  44.968 ms
+ 5  210.130.154.162 (210.130.154.162)  44.927 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  46.966 ms
+
+PING edge12.g.yimg.jp (182.22.25.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.422/45.422/45.422/0.000 ms
+datetime 2020/02/22 17:55:32
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  37.243 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  37.196 ms
+ 5  210.130.154.162 (210.130.154.162)  46.316 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  46.213 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.005/44.005/44.005/0.000 ms
+datetime 2020/02/22 17:55:47
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  42.187 ms
+ 4  210.138.106.238 (210.138.106.238)  40.639 ms
+ 5  183.79.224.146 (183.79.224.146)  40.519 ms
+ 6  183.79.250.123 (183.79.250.123)  40.453 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.570/38.570/38.570/0.000 ms
+datetime 2020/02/22 17:56:02
+traceroute to news.yahoo.co.jp (182.22.28.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  38.565 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  41.153 ms
+ 5  210.130.154.162 (210.130.154.162)  41.111 ms
+ 6  *
+ 7  182.22.28.252 (182.22.28.252)  44.486 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.092/37.092/37.092/0.000 ms
+datetime 2020/02/22 17:56:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  40.166 ms
+ 4  210.138.106.238 (210.138.106.238)  49.432 ms
+ 5  124.83.228.54 (124.83.228.54)  41.596 ms
+ 6  124.83.228.222 (124.83.228.222)  41.528 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  41.266 ms
+10  183.79.219.252 (183.79.219.252)  41.227 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.504/46.504/46.504/0.000 ms
+datetime 2020/02/22 17:56:32
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  25.115 ms
+ 4  210.138.106.238 (210.138.106.238)  35.151 ms
+ 5  183.79.224.150 (183.79.224.150)  37.430 ms
+ 6  183.79.217.124 (183.79.217.124)  37.378 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.064/37.064/37.064/0.000 ms
+datetime 2020/02/22 17:56:47
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  44.094 ms
+ 4  210.138.106.238 (210.138.106.238)  45.927 ms
+ 5  183.79.224.202 (183.79.224.202)  58.053 ms
+ 6  183.79.250.251 (183.79.250.251)  45.827 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.240/45.240/45.240/0.000 ms
+datetime 2020/02/22 17:57:02
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  38.917 ms
+ 4  210.138.106.238 (210.138.106.238)  43.048 ms
+ 5  183.79.224.146 (183.79.224.146)  42.816 ms
+ 6  183.79.250.123 (183.79.250.123)  40.609 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.726/39.726/39.726/0.000 ms
+datetime 2020/02/22 17:57:17
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.594 ms
+ 4  210.138.106.238 (210.138.106.238)  45.750 ms
+ 5  124.83.228.54 (124.83.228.54)  45.699 ms
+ 6  124.83.228.222 (124.83.228.222)  47.308 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  45.528 ms
+10  183.79.219.252 (183.79.219.252)  45.487 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.628/46.628/46.628/0.000 ms
+datetime 2020/02/22 17:57:32
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  43.844 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  54.651 ms
+ 5  210.130.154.162 (210.130.154.162)  54.565 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  52.615 ms
+
+PING edge12.g.yimg.jp (183.79.219.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.873/37.873/37.873/0.000 ms
+datetime 2020/02/22 17:57:47
+traceroute to news.yahoo.co.jp (183.79.217.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.988 ms
+ 4  210.138.106.238 (210.138.106.238)  38.453 ms
+ 5  183.79.224.150 (183.79.224.150)  38.401 ms
+ 6  183.79.217.124 (183.79.217.124)  38.339 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.948/40.948/40.948/0.000 ms
+datetime 2020/02/22 17:58:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  35.743 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.18)  45.070 ms
+ 5  210.130.154.162 (210.130.154.162)  45.031 ms
+ 6  202.93.74.46 (202.93.74.46)  47.399 ms
+ 7  182.22.25.252 (182.22.25.252)  44.940 ms
+
+PING edge12.g.yimg.jp (183.79.217.124) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.283/40.283/40.283/0.000 ms
+datetime 2020/02/22 17:58:17
+traceroute to news.yahoo.co.jp (182.22.25.124), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  40.252 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  49.544 ms
+ 5  210.130.154.162 (210.130.154.162)  49.500 ms
+ 6  *
+ 7  182.22.25.124 (182.22.25.124)  51.146 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.198/38.198/38.198/0.000 ms
+datetime 2020/02/22 17:58:32
+traceroute to news.yahoo.co.jp (183.79.250.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  35.818 ms
+ 4  210.138.106.238 (210.138.106.238)  35.764 ms
+ 5  183.79.224.202 (183.79.224.202)  37.610 ms
+ 6  183.79.250.251 (183.79.250.251)  37.557 ms
+
+PING edge12.g.yimg.jp (183.79.250.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.123/38.123/38.123/0.000 ms
+datetime 2020/02/22 17:58:47
+traceroute to news.yahoo.co.jp (183.79.219.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  36.562 ms
+ 4  210.138.106.238 (210.138.106.238)  45.945 ms
+ 5  124.83.228.54 (124.83.228.54)  45.901 ms
+ 6  124.83.228.222 (124.83.228.222)  46.105 ms
+ 7  *
+ 8  *
+ 9  183.79.219.253 (183.79.219.253)  45.721 ms
+10  183.79.219.252 (183.79.219.252)  45.675 ms
+
+PING edge12.g.yimg.jp (182.22.28.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.545/46.545/46.545/0.000 ms
+datetime 2020/02/22 17:59:02
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.88.17)  35.915 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  45.076 ms
+ 5  210.130.154.162 (210.130.154.162)  45.037 ms
+ 6  202.93.74.46 (202.93.74.46)  47.599 ms
+ 7  182.22.25.252 (182.22.25.252)  44.935 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.202/41.202/41.202/0.000 ms
+datetime 2020/02/22 17:59:17
+traceroute to news.yahoo.co.jp (182.22.25.252), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  43.270 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  43.218 ms
+ 5  210.130.154.162 (210.130.154.162)  53.145 ms
+ 6  202.93.74.46 (202.93.74.46)  57.312 ms
+ 7  182.22.25.252 (182.22.25.252)  56.738 ms
+
+PING edge12.g.yimg.jp (182.22.25.252) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.902/46.902/46.902/0.000 ms
+datetime 2020/02/22 17:59:32
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  44.064 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  53.193 ms
+ 5  210.130.154.162 (210.130.154.162)  55.846 ms
+ 6  202.93.95.178 (202.93.95.178)  53.102 ms
+ 7  203.141.47.66 (203.141.47.66)  53.061 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  52.936 ms
+11  182.22.16.251 (182.22.16.251)  55.595 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.033/45.033/45.033/0.000 ms
+datetime 2020/02/22 17:59:47
+traceroute to news.yahoo.co.jp (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ip56.IIJ.Net (58.138.106.158)  26.983 ms
+ 4  210.138.106.238 (210.138.106.238)  36.162 ms
+ 5  183.79.224.146 (183.79.224.146)  36.120 ms
+ 6  183.79.250.123 (183.79.250.123)  38.010 ms
+
+PING edge12.g.yimg.jp (182.22.16.251) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.085/47.085/47.085/0.000 ms
+datetime 2020/02/22 18:00:02
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  tky001bb10.IIJ.Net (58.138.98.221)  48.821 ms
+ 4  tky001ix50.IIJ.Net (58.138.102.34)  53.083 ms
+ 5  210.130.154.162 (210.130.154.162)  69.607 ms
+ 6  202.93.95.178 (202.93.95.178)  54.391 ms
+ 7  203.141.47.66 (203.141.47.66)  52.832 ms
+ 8  *
+ 9  *
+10  182.22.16.253 (182.22.16.253)  52.619 ms
+11  182.22.16.251 (182.22.16.251)  52.566 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.141/38.141/38.141/0.000 ms

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  4 MAR 2020 12:26
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.14)  4 MAR 2020 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -123,19 +123,62 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
+File: ../figure/experiment.pdf Graphic file (type pdf)
+<../figure/experiment.pdf>
 
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+Overfull \hbox (12.95258pt too wide) in paragraph at lines 40--52
+[]\JY1/mc/m/n/10 クラウドサ ーバとしては \OT1/cmr/m/n/10 AWS \JY1/mc/m/n/10 サ 
+ーバ （\OT1/cmr/m/n/10 13.114.202.235\JY1/mc/m/n/10 ） や \OT1/cmr/m/n/10 AWS \
+JY1/mc/m/n/10 のウ ェ ブサ ーバ （\OT1/cmr/m/n/10 aws.amazon.com\JY1/mc/m/n/10 
+） ，
+ []
+
+[1
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 5175) in paragraph at lines 61--61
+[]\OT1/cmr/m/n/10 2/22 \JY1/mc/m/n/10 （ 土 ） から \OT1/cmr/m/n/10 2/28 \JY1/m
+c/m/n/10 （ 金 ） までのそれぞ
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 61--61
+\JY1/mc/m/n/10 れ \OT1/cmr/m/n/10 3:00-4:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 7:
+00-8:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 12:00-13:00\JY1/mc/m/n/10 ， \OT1/cmr/
+m/n/10 17:00-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\OT1/cmr/m/n/10 4:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 7:00-8:00\JY1/mc/m/n/10 
+， \OT1/cmr/m/n/10 12:00-13:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 17:00-18:00\JY1
+/mc/m/n/10 ，
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\OT1/cmr/m/n/10 4:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 7:00-8:00\JY1/mc/m/n/10 
+， \OT1/cmr/m/n/10 12:00-13:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 17:00-18:00\JY1
+/mc/m/n/10 ，
+ []
+
+
+Overfull \hbox (4.33856pt too wide) in paragraph at lines 57--68
+ [][][][] 
+ []
+
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200222_030001-plot.pdf Gr
 aphic file (type pdf)
 <C:/master/mstudy/analysis/plot/aws.amazon.com/20200222_030001-plot.pdf>
@@ -167,8 +210,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200222_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200222_200001-plot.pdf>
 
-
-LaTeX Warning: Float too large for page by 19.14984pt on input line 77.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 113.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200223_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -201,7 +243,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200223_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200223_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 115.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 151.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200224_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -234,7 +276,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200224_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200224_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 154.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 190.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200225_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -267,7 +309,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200225_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200225_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 193.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 229.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200226_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -300,7 +342,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200226_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200226_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 231.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 267.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200227_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -333,7 +375,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200227_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200227_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 269.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 305.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200228_030002-plot.pdf Gr
 aphic file (type pdf)
@@ -366,7 +408,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200228_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200228_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 307.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 343.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200229_030001-plot.pdf Graphic file 
 (type pdf)
@@ -399,7 +441,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200229_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200229_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 345.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 381.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200301_030001-plot.pdf Graphic file 
 (type pdf)
@@ -432,7 +474,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200301_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200301_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 383.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 419.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200302_030001-plot.pdf Graphic file 
 (type pdf)
@@ -465,7 +507,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200302_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200302_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 421.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 457.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200303_030001-plot.pdf Graphic file 
 (type pdf)
@@ -498,19 +540,29 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200303_200002-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200303_200002-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 461.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 497.
 
-[1
+[2] [3] [4] [5] (./2020-03-04.bbl
 
-] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
-(./2020-03-04.aux) ) 
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 5.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 5.
+
+) [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] (./2020-03-04.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1492 strings out of 493230
- 33308 string characters out of 6147555
- 123335 words of memory out of 5000000
- 5421 multiletter control sequences out of 15000+600000
- 12109 words of font info for 50 fonts, out of 8000000 for 9000
+ 1513 strings out of 493216
+ 33623 string characters out of 6147083
+ 123386 words of memory out of 5000000
+ 5443 multiletter control sequences out of 15000+600000
+ 12455 words of font info for 51 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,27p,267b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,9n,27p,673b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2020-03-04.dvi (16 pages, 34292 bytes).
+Output written on 2020-03-04.dvi (17 pages, 41824 bytes).

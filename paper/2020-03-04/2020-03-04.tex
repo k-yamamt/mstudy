@@ -21,6 +21,7 @@ Analysis of delay characteristics of connection through LTE by time series analy
 \item 5 月開催 IN 研究会への参加申し込みを行いました．
 \item \lq{}\lq{}aws.amazon.com\rq{}\rq{}，\lq{}\lq{}news.yahoo.co.jp\rq{}\rq{}，\lq{}\lq{}13.114.202.235（AWS サーバ）\rq{}\rq{}を対象に計測実験を行いました．
 \item traceroute 結果より通信経路を調べました．
+\item fBm（fractional Brownian motion : 非整数ブラウン運動）モデルへの適用を検討しています．
 \end{itemize}
 
 \section{アブストラクト}
@@ -29,7 +30,42 @@ Analysis of delay characteristics of connection through LTE by time series analy
 本稿では，遅延の変動特性や，場所や曜日，時間帯に依存した傾向の有無について，時系列モデルを用いたクラスタリングによって分析した結果を示す．
 
 \textbf{キーワード : }LTE（Long Term Evolution），応答遅延，障害検知，時系列モデリング\\
-\section{計測実験設定}
+\section{計測実験の設定}
+本報告では図 \ref{exp} に示す構成で計測実験を行った．
+モニタリングシステムにおける無線端末としては LTE モジュールとして Quectel 社製 EC21-J を搭載した Raspberry Pi を用いた．
+また，LTE 回線としては IIJ モバイル社のサービスタイプ D 定額プランライト（いちねん プリペイド）を用いた．
+IIJ モバイル社は他の通信事業者から通信回線を借り受け，サービスを提供している MVNO（Mobile Virtual Network Operator）であり，サービスタイプ D では NTT ドコモ社の回線を使用している．
+月あたり通信量が 3GB を超過すると通信速度が 256kbps に制限されるが，本実験中には速度制限は課されなかった．
+
+クラウドサーバとしては AWS サーバ（13.114.202.235）や AWS のウェブサーバ（aws.amazon.com），yahoo ニュースのサーバ（news.yahoo.co.jp）を用い，Raspberry Pi から traceroute や ping を用いて経路や応答遅延を計測した．
+自動的に計測データを取得できるよう，Raspberry Pi 上で動作する Raspbian において計測用のスクリプトを用いることで，5 秒または 15 秒毎に時刻を取得し，続けて ping （パケットサイズ 60 バイト， ICMP ECHO メッセージ，パケット数 1 ）を実行し，続けて traceroute （パケットサイズ 60 バイト， TCP パケット，パケット数 1 ）を実行した．
+計測時刻，tracerouteの出力，pingの出力をログデータとして取り出し，分析を行った．
+また，日時が応答遅延に与える影響を調べるため，様々な時間帯で計測を行った．
+計測日時，計測内容を表 \ref{keisoku} に示す．
+計測場所は若宮研究室内，測定周期は 15 秒，計測内容はすべて ping と traceroute とした．
+\begin{figure}[tb]
+\centering
+\includegraphics[width=10.0cm]{../figure/experiment.pdf}
+\caption{モニタリングシステムと実験設定の対応}
+\label{exp}
+\end{figure}
+
+\begin{table}[tb]
+\centering
+\caption{実験の計測日時，対象}
+\label{keisoku}
+\begin{tabular}{|p{7cm}|p{7cm}|}
+\hline
+計測日時&対象\\
+\hline
+2/22（土）から 2/28（金）までのそれぞれ 3:00-4:00，7:00-8:00，12:00-13:00，17:00-18:00，20:00-21:00& AWS のウェブサーバ（aws.amazon.com）\\
+\hline
+2/22（土）から 3/3（火）までのそれぞれ 3:00-4:00，7:00-8:00，12:00-13:00，17:00-18:00，20:00-21:00& yahoo ニュースのサーバ（news.yahoo.co.jp）\\
+\hline
+2/29（土）から 3/3（火）までのそれぞれ 3:00-4:00，7:00-8:00，12:00-13:00，17:00-18:00，20:00-21:00&  AWS サーバ（13.114.202.235）\\
+\hline
+\end{tabular}
+\end{table}
 
 \section{計測結果}
 2/22（土）から 3/3（火）までの計測結果を図 \ref{data-start} から図 \ref{data-end} に示す．
@@ -532,7 +568,7 @@ traceroute による経路だが，
 \end{tabular}
 \end{table}
 などが入り混じっていた．
-ping や traceroute の宛先をドメイン名 news.yahoo.co.jp で指定したため実行毎に名前解決が行われ異なるサーバに対し計測を行ってしまった．
+yahoo ニュースのウェブサーバは負荷分散を行っているようで ping や traceroute の宛先をドメイン名で指定してしまったため，計測毎に異なるサーバに対しコマンド実行を行ってしまった．
 今後は IP アドレス指定で計測を行います．
  
 AWS サーバを対象とした計測データの平均値は，70ms 前半のものと 80ms 後半のものが見て取れる．
@@ -591,11 +627,19 @@ traceroute による経路は，2/29（土）3:00 から 2/29（土）13:00 ま�
 となっていた．
 IP アドレス 52.95.30.0 から 52.95.31.255 は Amazon のネットワーク内の機器であり所在地は日本である．
 また，原因はよくわからないのですが，120 ホップまででは AWS サーバから traceroute の応答が得られませんでした．
+\section{fBmモデル}
+fBm モデルは長期依存性を持つ時系列モデルとして知られており，通信トラフィックのモデル化などに使用された\cite{rizk2012non}．
+これは測定データを $\{y_t\}$ として次式で表される\cite{perrin2002fast}．
+$$y_t = B(t) - B(t-1)$$
+$$B(t) \sim N(0,\sigma^2)$$
+$$\textbf{E}[B(t)-B(s)] = 0$$
+$$\textbf{E}[(B(t)-B(s))^2] = \sigma^2|t-s|^{2H}$$
+$$0<H<1$$
+このパラメータは$ H と \sigma^2 $だと思います．まだ理解しきれていないので，これからパラメータ推定を行います． 
 \section{今後の予定}
 \begin{itemize}
-\item fBm（fractional Brownian motion : 非整数ブラウン運動）モデルへの適用を検討します．
 \item ポスターを作成します．
-\item 卒論の内容をもとに IN の原稿を執筆します．改善点として，パラメータの次数決めにおいて AIC の代わりに WBIC などの他の情報量基準を用いることや，モデルの適合度の評価において，リュング・ボックス検定などの検定を行うことを考えています．
+\item 卒論の内容をもとに IN の原稿を執筆します．改善点として，パラメータの次数決めにおいて AIC の代わりに WBIC\cite{watanabe2013waic} などの他の情報量基準を用いることや，モデルの適合度の評価において，リュング・ボックス検定\cite{asai1999ana}などの検定を行うことを考えています．ただ今回の計測データは SINET のウェブサーバを対象とした計測データと同様，生データで曜日や時間帯ごとに応じた顕著な傾向が見れているわけではないので，卒論と同じ時系列データを用いた傾向分析がうまくいくのか怪しいと思っています．分布に注目した確率モデル，確率遷移モデルといった別のアプローチも試してみたほうが良いのかとも思っているのですが，ご意見をいただきたいです．
 \end{itemize}
 \section{スケジュール}
 \begin{table}[H]
@@ -609,7 +653,7 @@ IP アドレス 52.95.30.0 から 52.95.31.255 は Amazon のネットワーク�
 \hline
 4/1&原稿書き上げ\\
 \hline
-&原稿締め切り\\
+4月中旬&原稿締め切り\\
 \hline
 5/21 - 5/22&IN研究会\\
 \hline
@@ -621,4 +665,6 @@ IP アドレス 52.95.30.0 から 52.95.31.255 は Amazon のネットワーク�
 
 5/14～ : 技報ダウンロード開始
 
+\bibliography{reference}
+\bibliographystyle{ieeetr}
 \end{document}

@@ -1,7 +1,8 @@
 library('stringr')
 
-addr <- 'C:/master/mstudy/data/aws.amazon.com/'
+#addr <- 'C:/master/mstudy/data/aws.amazon.com/'
 #addr <- 'C:/master/mstudy/data/news.yahoo.co.jp/'
+addr <- 'C:/master/mstudy/data/AWS/'
 
 for (filename in list.files(addr, pattern = '-ping.csv', full.names = TRUE)){
   df <- read.csv(file = filename, header = TRUE, sep=',')
@@ -43,6 +44,7 @@ for (filename in list.files(addr, pattern = '-ping.csv', full.names = TRUE)){
   par(new=T)
   plot(c(200,200),c(0,130), type='l', lty=3, xlab = '', ylab = '',xlim = c(0,length(y)+1),ylim = c(0,130),yaxt='n', xaxs = "i", yaxs = "i")
   par(mar=c(3, 3, 1, 1))
+  mtext(paste('Mean:',signif(mean(df$ping),4),'[ms] , Var:',signif(var(df$ping),4),seq=''), side = 3, line = -3,cex = 2)
   dev.off()
   
 }

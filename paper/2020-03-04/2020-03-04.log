@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  4 MAR 2020 07:31
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  4 MAR 2020 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**plot.tex
-(./plot.tex
+**2020-03-04.tex
+(./2020-03-04.tex
 pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
 (c:/texlive/2019/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
@@ -83,25 +83,59 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip47
 \subfig@bottom=\skip48
-) (./plot.aux)
-\openout1 = `plot.aux'.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/here/here.sty)
+(c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks17
+\float@box=\box43
+\@float@everytoks=\toks18
+\@floatcapt=\box44
+) (./2020-03-04.aux)
+\openout1 = `2020-03-04.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200222_030001-plot.pdf Gr
 aphic file (type pdf)
 <C:/master/mstudy/analysis/plot/aws.amazon.com/20200222_030001-plot.pdf>
@@ -134,7 +168,7 @@ Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200222_200001-plot.pdf>
 
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 45.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 77.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200223_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -167,7 +201,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200223_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200223_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 83.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 115.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200224_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -200,7 +234,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200224_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200224_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 121.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 154.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200225_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -233,7 +267,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200225_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200225_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 160.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 193.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200226_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -266,7 +300,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200226_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200226_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 198.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 231.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200227_030001-plot.pdf Gr
 aphic file (type pdf)
@@ -299,7 +333,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200227_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200227_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 236.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 269.
 
 File: C:/master/mstudy/analysis/plot/aws.amazon.com/20200228_030002-plot.pdf Gr
 aphic file (type pdf)
@@ -332,7 +366,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200228_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200228_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 274.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 307.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200229_030001-plot.pdf Graphic file 
 (type pdf)
@@ -365,7 +399,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200229_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200229_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 312.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 345.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200301_030001-plot.pdf Graphic file 
 (type pdf)
@@ -398,7 +432,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200301_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200301_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 350.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 383.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200302_030001-plot.pdf Graphic file 
 (type pdf)
@@ -431,7 +465,7 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200302_200001-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200302_200001-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 388.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 421.
 
 File: C:/master/mstudy/analysis/plot/AWS/20200303_030001-plot.pdf Graphic file 
 (type pdf)
@@ -464,16 +498,19 @@ File: C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200303_200002-plot.pdf
 Graphic file (type pdf)
 <C:/master/mstudy/analysis/plot/news.yahoo.co.jp/20200303_200002-plot.pdf>
 
-LaTeX Warning: Float too large for page by 19.14984pt on input line 427.
+LaTeX Warning: Float too large for page by 19.14984pt on input line 461.
 
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] (./plot.aux) ) 
+[1
+
+] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+(./2020-03-04.aux) ) 
 Here is how much of TeX's memory you used:
- 1362 strings out of 493230
- 31341 string characters out of 6147555
- 115497 words of memory out of 5000000
- 5318 multiletter control sequences out of 15000+600000
- 8273 words of font info for 34 fonts, out of 8000000 for 9000
+ 1492 strings out of 493230
+ 33308 string characters out of 6147555
+ 123335 words of memory out of 5000000
+ 5421 multiletter control sequences out of 15000+600000
+ 12109 words of font info for 50 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,4n,27p,203b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,27p,267b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on plot.dvi (11 pages, 24016 bytes).
+Output written on 2020-03-04.dvi (16 pages, 34292 bytes).

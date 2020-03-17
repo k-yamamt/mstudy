@@ -10,11 +10,10 @@ files <- list.files(path, pattern = "-ping.csv", full.names = TRUE)
 p <- 2
 d <- 1
 q <- 2
-
 aicCheck <- function(){
 
   arimaAIC <- function(data,p,d,q){
-  arima(data,order = c(p,d,q))$aic
+    arima(data,order = c(p,d,q))$aic
   }
   
   AIC <- matrix(nrow = 0,ncol = 2)
@@ -28,6 +27,11 @@ aicCheck <- function(){
     best.d <- 0
     best.q <- 0
     min.aic <- 10000
+    
+    #data <- c(df$ping[1])
+    #for (i in 2:length(df$ping)){
+    #  data <- c(data,0.1*df$ping[i]+0.9*data[i-1])
+    #}
     
     for (pp in 0:p){
       for (dd in 0:d){
@@ -78,10 +82,141 @@ clust <- function(D){
   cutree(hclust(dist(D,method = 'euclidean'),method = 'ward.D2'),k)
 }
 
-#AIC <- aicCheck()
+regplot <- function(){
+  normalPlot <- function(y){
+    arima_result <- arima(y,order=c(2,0,2))
+    predict.y <- y - arima_result$residuals
+    predict.y.upper <- predict.y + 1.96*sqrt(arima_result$sigma2)
+    predict.y.lower <- predict.y - 1.96*sqrt(arima_result$sigma2)
+    pdf(paste(str_sub(filename,-20,-14),'-arma-normal.pdf',sep=''))
+    plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(c(0,length(y)+1),c(30,30), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(60,60), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(90,90), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(120,120), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(150,150), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(180,180), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(50,50),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(100,100),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(150,150),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(200,200),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(mar=c(3, 3, 1, 1))
+    dev.off()
+  }
+  y <- c(df$ping[1])
+    for (i in 2:length(df$ping)){
+      y <- c(y,0.1*df$ping[i] + 0.9*y[i-1])
+    }
+  diffPlot <- function(y){
+    arima_result <- arima(y,order=c(2,1,2))
+    predict.y <- y - arima_result$residuals
+    predict.y.upper <- predict.y + 1.96*sqrt(arima_result$sigma2)
+    predict.y.lower <- predict.y - 1.96*sqrt(arima_result$sigma2)
+    pdf(paste(str_sub(filename,-20,-14),'-arma-diff.pdf',sep=''))
+    plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(c(0,length(y)+1),c(30,30), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(60,60), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(90,90), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(120,120), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(150,150), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(180,180), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(50,50),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(100,100),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(150,150),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(200,200),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(mar=c(3, 3, 1, 1))
+    dev.off()
+  }
   
-D <- paramCheck()
+  maPlot <- function(y){
+    arima_result <- arima(y,order=c(1,0,1))
+    predict.y <- y - arima_result$residuals
+    predict.y.upper <- predict.y + 1.96*sqrt(arima_result$sigma2)
+    predict.y.lower <- predict.y - 1.96*sqrt(arima_result$sigma2)
+    pdf(paste(str_sub(filename,-20,-14),'-arma-ma.pdf',sep=''))
+    plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(c(0,length(y)+1),c(30,30), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(60,60), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(90,90), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(120,120), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(150,150), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(0,length(y)+1),c(180,180), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(50,50),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(100,100),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(150,150),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(new=T)
+    plot(c(200,200),c(0,200), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,200), xaxs = "i", yaxs = "i")
+    par(mar=c(3, 3, 1, 1))
+    dev.off()
+  }
+  
+  for(filename in files[1:1]){
+    df <- read.csv(file = filename, header = TRUE, sep=',')
+    
+    normalPlot(df$ping)
+    b1 <- Box.test(result$residuals,type = "Ljung-Box")
+    j1 <- jarque.bera.test(result$residuals)
+    
+    diffPlot(df$ping)
+    
+    
+    maPlot(y)
+  }
+}
 
-cluster <- clust(D)
+#regplot()
 
-plot(cluster)
+AIC <- aicCheck()
+  
+#D <- paramCheck()
+
+#cluster <- clust(D)
+
+#plot(cluster)

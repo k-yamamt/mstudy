@@ -20,7 +20,7 @@ Analysis of delay characteristics of connection through LTE by time series analy
 \begin{itemize}
 \item 計測実験を行いました
 \item ポスターを作成しました
-\item AWS サーバを対象とした実験データに対して，モデルと適用を行いました
+\item AWS サーバを対象とした実験データに対して，ARMA モデルによる回帰の妥当性を確かめるために残差分析を行いました．
 \end{itemize}
 
 \section{アブストラクト}
@@ -158,9 +158,8 @@ traceroute による経路は，主に二つ確認できた．
 多くの時系列モデルでは，対象データに定常性を仮定しており，ARMA モデルもそのひとつである．
 そのため，ARMA モデルを適用するにあたり，まず AWS サーバを計測対象とした ping 応答遅延データが定常性を満たすか確認する必要がある．
 その手段として，非定常であることを帰無仮説，定常であることを対立仮説とした単位根検定が知られている．
-ここでは，その一つの拡張ディッキー–フラー検定（ADF検定）を用いた．
-
-12/29（土）に計測した五つのデータを対象に ADF 検定を用いた結果，それぞれの p 値はすべて 0.01 以下となり非定常であることは棄却され定常性を満たすことが確認できた．
+ここでは，その一つの拡張ディッキー–フラー検定（ADF検定）を用い，AWS サーバからの ping 応答遅延データが定常性を満たすかを確認した結果，12/29（土）に計測した五つのデータにおいて，それぞれの p 値はすべて 0.01 以下となった．
+よって，非定常であるという帰無仮説は棄却され定常性を満たすことが確認できた．
 
 \subsubsection{データの前処理}
 データの前処理として次を検討する．\\
@@ -243,8 +242,74 @@ $$\displaystyle y_t = c + \sum^p_{i=1}a_iy_i + \sum^q_{j=1}b_j\varepsilon_j + \v
 
 モデルの適切さを判断するためには，残差分析が必要である．
 ARMA モデルの残差は平均 0 の正規分布に従い，それらは互いに独立であることが望ましい．
+図 \ref{reg1} から図 \ref{reg2} のそれぞれの残差分布を図 \ref{res1} から図 \ref{res2} に示す．
 
-残差の独立性を検証する手段の一つとして，リュング・ボックス検定を用いた．
+\begin{figure}[H]
+\begin{center}
+\subfigure[3:00 - 4:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_03-arma-normal-reshist.pdf}
+}~
+\subfigure[7:00 - 8:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_07-arma-normal-reshist.pdf}
+}~
+\subfigure[12:00 - 13:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_12-arma-normal-reshist.pdf}
+}\\
+\subfigure[17:00 - 18:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_17-arma-normal-reshist.pdf}
+}~
+\subfigure[20:00 - 21:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_20-arma-normal-reshist.pdf}
+}
+\caption{図 \ref{reg1} の残差分布，ビン幅 1ms}
+\label{res1}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\subfigure[3:00 - 4:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_03-arma-diff-reshist.pdf}
+}~
+\subfigure[7:00 - 8:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_07-arma-diff-reshist.pdf}
+}~
+\subfigure[12:00 - 13:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_12-arma-diff-reshist.pdf}
+}\\
+\subfigure[17:00 - 18:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_17-arma-diff-reshist.pdf}
+}~
+\subfigure[20:00 - 21:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_20-arma-diff-reshist.pdf}
+}
+\caption{図 4 の残差分布，ビン幅 1ms}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\subfigure[3:00 - 4:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_03-arma-ma-reshist.pdf}
+}~
+\subfigure[7:00 - 8:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_07-arma-ma-reshist.pdf}
+}~
+\subfigure[12:00 - 13:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_12-arma-ma-reshist.pdf}
+}\\
+\subfigure[17:00 - 18:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_17-arma-ma-reshist.pdf}
+}~
+\subfigure[20:00 - 21:00]{
+\includegraphics[width=.33\columnwidth]{C:/master/mstudy/paper/figure/0229_20-arma-ma-reshist.pdf}
+}
+\caption{図 \ref{reg2} の残差分布，ビン幅 1ms}
+\label{res2}
+\end{center}
+\end{figure}
+
+ここでは，残差の独立性を検証する手段の一つとして，リュング・ボックス検定を用いた．
 これは，帰無仮説を検証データが互いに独立であるとし，対立仮説を検証データは互いに独立でないとした検定である．
 また，残差の分布の正規性を検証する手段の一つとして，ジャック-ベラ検定を用いた．
 これは，帰無仮説を検証データの分布が正規分布であるとし，対立仮説を検証データの分布が正規分布でないとした検定である．
@@ -315,11 +380,13 @@ ARMA モデルの残差は平均 0 の正規分布に従い，それらは互い
 \end{center}
 \end{table}
 
-表 \ref{t1} から表 \ref{t2} において全てのリュングボックス検定の p 値は有意水準 5\% としたときよりも大きな値をとっている．
-そのため，(i)(ii)(iii)のそれぞれの回帰において，残差は互いに独立であった．
+表 \ref{t1} から表 \ref{t2} において各時間帯のリュングボックス検定の p 値は全て有意水準 5\% としたときよりも大きな値をとっている．
+そのため，(i)(ii)(iii)のそれぞれの回帰において，残差は互いに独立であるという帰無仮説は保留された．
 しかし，ジャック-ベラ検定の p 値は有意水準 5\% としたときよりも小さい値をとっており，(i)(ii)(iii)のそれぞれの回帰において，残差の分布は正規分布に従っていないという結果となった．
 
-従って，ping 応答遅延データに対し前処理(i)(ii)(iii)を行った ARMA モデルによる回帰は十分適切とは言い難い．
+これは，計測データにおいて単発的な大きなもしくは小さな値の応答遅延が存在し，過去直近の計測データから回帰を行う ARMA モデルではこれらの単発的な応答遅延に対する残差の絶対値が大きくなる．
+さらに，これらの単発的な応答遅延の発生頻度が少なくないことから，残差分布の裾部分が正規分布から外れることが原因と考えられる．
+
 \section{今後の予定}
 \begin{itemize}
 \item 原稿を執筆します

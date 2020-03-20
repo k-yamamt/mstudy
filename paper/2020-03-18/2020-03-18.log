@@ -1,0 +1,356 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.14)  18 MAR 2020 12:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2020-03-18.tex
+(./2020-03-18.tex
+pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
+(c:/texlive/2019/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
+\c@@paper=\count83
+(c:/texlive/2019/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2019/04/02 v1.8b Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip46
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(c:/texlive/2019/texmf-dist/tex/latex/here/here.sty)
+(c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks17
+\float@box=\box43
+\@float@everytoks=\toks18
+\@floatcapt=\box44
+) (./2020-03-18.aux)
+\openout1 = `2020-03-18.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
+File: ../figure/experiment.pdf Graphic file (type pdf)
+<../figure/experiment.pdf>
+
+Overfull \hbox (12.95258pt too wide) in paragraph at lines 39--50
+[]\JY1/mc/m/n/10 クラウドサ ーバとしては \OT1/cmr/m/n/10 AWS \JY1/mc/m/n/10 サ 
+ーバ （\OT1/cmr/m/n/10 13.114.202.235\JY1/mc/m/n/10 ） や \OT1/cmr/m/n/10 AWS \
+JY1/mc/m/n/10 のウ ェ ブサ ーバ （\OT1/cmr/m/n/10 aws.amazon.com\JY1/mc/m/n/10 
+） ，
+ []
+
+[1
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 5175) in paragraph at lines 60--60
+[]\OT1/cmr/m/n/10 2/22 \JY1/mc/m/n/10 （ 土 ） から \OT1/cmr/m/n/10 2/28 \JY1/m
+c/m/n/10 （ 金 ） までのそれぞ
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 60--60
+\JY1/mc/m/n/10 れ \OT1/cmr/m/n/10 3:00-4:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 7:
+00-8:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 12:00-13:00\JY1/mc/m/n/10 ， \OT1/cmr/
+m/n/10 17:00-
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 62--62
+[]\OT1/cmr/m/n/10 2/22 \JY1/mc/m/n/10 （ 土 ） から \OT1/cmr/m/n/10 3/18 \JY1/m
+c/m/n/10 （ 水 ） までのそれぞ
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 62--62
+\JY1/mc/m/n/10 れ \OT1/cmr/m/n/10 3:00-4:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 7:
+00-8:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 12:00-13:00\JY1/mc/m/n/10 ， \OT1/cmr/
+m/n/10 17:00-
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 64--64
+[]\OT1/cmr/m/n/10 2/29 \JY1/mc/m/n/10 （ 土 ） から \OT1/cmr/m/n/10 3/18 \JY1/m
+c/m/n/10 （ 水 ） までのそれぞ
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 64--64
+\JY1/mc/m/n/10 れ \OT1/cmr/m/n/10 3:00-4:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 7:
+00-8:00\JY1/mc/m/n/10 ， \OT1/cmr/m/n/10 12:00-13:00\JY1/mc/m/n/10 ， \OT1/cmr/
+m/n/10 17:00-
+ []
+
+
+Overfull \hbox (4.33856pt too wide) in paragraph at lines 56--67
+ [][][][] 
+ []
+
+File: C:/master/mstudy/analysis/plot/AWS/20200229_030001-plot.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/analysis/plot/AWS/20200229_030001-plot.pdf>
+File: C:/master/mstudy/analysis/plot/AWS/20200229_070001-plot.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/analysis/plot/AWS/20200229_070001-plot.pdf>
+File: C:/master/mstudy/analysis/plot/AWS/20200229_120001-plot.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/analysis/plot/AWS/20200229_120001-plot.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 79--85
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/analysis/plot/AWS/20200229_170002-plot.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/analysis/plot/AWS/20200229_170002-plot.pdf>
+File: C:/master/mstudy/analysis/plot/AWS/20200229_200001-plot.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/analysis/plot/AWS/20200229_200001-plot.pdf>
+[2] [3] [4]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 156.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 156.
+File: C:/master/mstudy/paper/figure/0229_03-arma-normal.pdf Graphic file (type 
+pdf)
+<C:/master/mstudy/paper/figure/0229_03-arma-normal.pdf>
+File: C:/master/mstudy/paper/figure/0229_07-arma-normal.pdf Graphic file (type 
+pdf)
+<C:/master/mstudy/paper/figure/0229_07-arma-normal.pdf>
+File: C:/master/mstudy/paper/figure/0229_12-arma-normal.pdf Graphic file (type 
+pdf)
+<C:/master/mstudy/paper/figure/0229_12-arma-normal.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 182--188
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/paper/figure/0229_17-arma-normal.pdf Graphic file (type 
+pdf)
+<C:/master/mstudy/paper/figure/0229_17-arma-normal.pdf>
+File: C:/master/mstudy/paper/figure/0229_20-arma-normal.pdf Graphic file (type 
+pdf)
+<C:/master/mstudy/paper/figure/0229_20-arma-normal.pdf>
+[5]
+File: C:/master/mstudy/paper/figure/0229_03-arma-diff.pdf Graphic file (type pd
+f)
+<C:/master/mstudy/paper/figure/0229_03-arma-diff.pdf>
+File: C:/master/mstudy/paper/figure/0229_07-arma-diff.pdf Graphic file (type pd
+f)
+<C:/master/mstudy/paper/figure/0229_07-arma-diff.pdf>
+File: C:/master/mstudy/paper/figure/0229_12-arma-diff.pdf Graphic file (type pd
+f)
+<C:/master/mstudy/paper/figure/0229_12-arma-diff.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 204--210
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/paper/figure/0229_17-arma-diff.pdf Graphic file (type pd
+f)
+<C:/master/mstudy/paper/figure/0229_17-arma-diff.pdf>
+File: C:/master/mstudy/paper/figure/0229_20-arma-diff.pdf Graphic file (type pd
+f)
+<C:/master/mstudy/paper/figure/0229_20-arma-diff.pdf>
+[6]
+File: C:/master/mstudy/paper/figure/0229_03-arma-ma.pdf Graphic file (type pdf)
+
+<C:/master/mstudy/paper/figure/0229_03-arma-ma.pdf>
+File: C:/master/mstudy/paper/figure/0229_07-arma-ma.pdf Graphic file (type pdf)
+
+<C:/master/mstudy/paper/figure/0229_07-arma-ma.pdf>
+File: C:/master/mstudy/paper/figure/0229_12-arma-ma.pdf Graphic file (type pdf)
+
+<C:/master/mstudy/paper/figure/0229_12-arma-ma.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 225--231
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/paper/figure/0229_17-arma-ma.pdf Graphic file (type pdf)
+
+<C:/master/mstudy/paper/figure/0229_17-arma-ma.pdf>
+File: C:/master/mstudy/paper/figure/0229_20-arma-ma.pdf Graphic file (type pdf)
+
+<C:/master/mstudy/paper/figure/0229_20-arma-ma.pdf>
+[7]
+File: C:/master/mstudy/paper/figure/0229_03-arma-normal-reshist.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/paper/figure/0229_03-arma-normal-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_07-arma-normal-reshist.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/paper/figure/0229_07-arma-normal-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_12-arma-normal-reshist.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/paper/figure/0229_12-arma-normal-reshist.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 251--257
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/paper/figure/0229_17-arma-normal-reshist.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/paper/figure/0229_17-arma-normal-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_20-arma-normal-reshist.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/paper/figure/0229_20-arma-normal-reshist.pdf>
+[8]
+File: C:/master/mstudy/paper/figure/0229_03-arma-diff-reshist.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/paper/figure/0229_03-arma-diff-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_07-arma-diff-reshist.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/paper/figure/0229_07-arma-diff-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_12-arma-diff-reshist.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/paper/figure/0229_12-arma-diff-reshist.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 273--279
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/paper/figure/0229_17-arma-diff-reshist.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/paper/figure/0229_17-arma-diff-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_20-arma-diff-reshist.pdf Graphic file 
+(type pdf)
+<C:/master/mstudy/paper/figure/0229_20-arma-diff-reshist.pdf>
+[9]
+File: C:/master/mstudy/paper/figure/0229_03-arma-ma-reshist.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/paper/figure/0229_03-arma-ma-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_07-arma-ma-reshist.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/paper/figure/0229_07-arma-ma-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_12-arma-ma-reshist.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/paper/figure/0229_12-arma-ma-reshist.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 294--300
+ []  []  [] 
+ []
+
+File: C:/master/mstudy/paper/figure/0229_17-arma-ma-reshist.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/paper/figure/0229_17-arma-ma-reshist.pdf>
+File: C:/master/mstudy/paper/figure/0229_20-arma-ma-reshist.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/paper/figure/0229_20-arma-ma-reshist.pdf>
+[10] [11] [12]
+No file 2020-03-18.bbl.
+[13] (./2020-03-18.aux) ) 
+Here is how much of TeX's memory you used:
+ 1322 strings out of 493216
+ 20128 string characters out of 6147083
+ 83770 words of memory out of 5000000
+ 5292 multiletter control sequences out of 15000+600000
+ 12584 words of font info for 52 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,9n,27p,340b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2020-03-18.dvi (13 pages, 30056 bytes).

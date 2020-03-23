@@ -1,0 +1,102 @@
+%% 4. 「技術研究報告」
+\documentclass[technicalreport]{ieicej}
+%\usepackage[dvips]{graphicx}
+\usepackage[dvipdfmx]{graphicx,xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{latexsym}
+%\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+
+\jtitle{ LTE 環境における応答遅延特性の時系列モデリングによる分析}
+\jsubtitle{}
+\etitle{Analysis of delay characteristics of connection through LTE by time series analysis}
+\esubtitle{}
+\authorlist{%
+ \authorentry[k-yamamt@ist.osaka-u.ac.jp]{山本 航平}{Kohei YAMAMOTO}{Osaka}
+ \authorentry[wakamiya@ist.osaka-u.ac.jp]{若宮 直紀}{Naoki WAKAMIYA}{Osaka}
+ \authorentry[ryo.nakano.xd@hitachi.com]{中野 亮}{Ryo NAKANO}{hitachi}
+ \authorentry[ryosuke.fujiwara.mb@hitachi.com]{藤原 亮介}{Ryosuke FUJIWARA}{hitachi}
+% \authorentry[メールアドレス]{和文著者名}{英文著者名}{所属ラベル}
+}
+\affiliate[Osaka]{大阪大学大学院情報科学研究科バイオ情報工学講座\\ 〒565-0871 大阪府吹田市山田丘 1-5}{Department of Bioinformatic engineering,Graduate school of Information Science and Technology,Osaka University\\ 1-5 Yamadaoka, suita-shi, Osaka, 565-0871, Japan}
+\affiliate[hitachi]{株式会社日立製作所 研究開発グループ\\ 〒185-8601 東京都国分寺市東恋ヶ窪 1-280}{Research \& Development Group, Hitachi, Ltd.\\ 1-280 Higashikoigakubo, kokubunji-shi, Tokyo, 185-8601, Japan}
+%\affiliate[所属ラベル]{和文勤務先\\ 連絡先住所}{英文勤務先\\ 英文連絡先住所}
+
+\begin{document}
+\begin{jabstract}
+%和文あらまし
+産業用モニタリングシステムにおける運用管理コストの低減のため，迅速な障害検知・予測，ならびに原因の特定と対処法の提示が求められている．その実現にむけて，無線機器からサーバまでのLTE回線を含む通信路について，異なる時間帯において応答遅延の計測を行った．本稿では，遅延の変動特性や，曜日や時間帯に依存した傾向の有無について，時系列モデルを用いたクラスタリングによって分析した結果を示す．
+\end{jabstract}
+\begin{jkeyword}
+%和文キーワード
+Long Term Evolution，応答遅延，時系列モデリング，異常検知
+\end{jkeyword}
+\begin{eabstract}
+%英文アブストラクト
+In order to reduce the costs of operation and management in industrial monitoring systems, it is necessary to detect or predict failures quickly, identify the cause, and present countermeasures. To achieve this, we measured response delays of connection from one wireless device to one server, includeing LTE, in different time zones.In this technical report, we show the results of analyzing the fluctuation characteristics of responce delay and the tendency depending on the day of week or time zone by clustering using a time series analysis.
+\end{eabstract}
+\begin{ekeyword}
+%英文キーワード
+Long Term Evolution，response delay，time series analysis，anomaly detection
+\end{ekeyword}
+\maketitle
+
+\section{はじめに}
+近年，IoT （Internet of Things） 技術の発展とともに産業用モニタリングシステム\cite{monitering}が普及している．
+これは，工場などの産業施設に設置された機器から直接，あるいは配置したカメラやセンサーなどの IoT デバイスを通じて，機器の稼働状態に関する情報をリアルタイムで収集し，キャリア回線を通じてクラウドサーバに送信，さらにクラウドサーバでデータ処理を行い，運用管理担当者に提示するものである．
+従来作業員が巡回し行っていた工場内の機器の点検業務を自動化できるため，人員コストの軽減，目視確認より生じる人的ミスの低減，リアルタイムなデータの利活用などの効果が期待できる．
+一方で，長期間の運用のなかで機器に具備された IoT デバイスの故障，工場内ネットワークの通信の途絶，クラウドサーバへの通信の遅延などの障害は避けられない．
+このような障害が発生した場合には工場内の機器の稼働状況を把握することが困難となり，工場の稼働停止や業務の遅れなどが引き起こされ大きな損失をもたらす可能性がある．
+
+障害発生時には迅速な復旧作業が求められるが，障害はその原因や内容，規模よってさまざまである．
+しかしながら，現状ではシステムから得られる情報を用いてこれらの障害を適切かつ迅速に区別することが困難であるため，障害発生時には運用管理担当者が直接現場に行き障害の原因や内容，規模を確認する必要があり，多大な運用管理コストが発生している．
+そのため，モニタリングシステムによる運用管理コストの低減のためには，直接また間接的に取得できる情報にもとづいて，障害発生を迅速に検知また予測するとともに，障害の原因を特定し，加えてその対処法を示すことが求められている．
+
+すでに我々の研究グループでは機器間で測定される受信電波強度の時間変化にもとづいて空間的な電波伝搬特性の変動を推定することにより工場内での無線通信の異常を検知する手法を提案している\cite{prev}．
+そこで，本報告では工場内で機器稼働情報を収集する無線機器からクラウドサーバまでの通信路で発生する異常の検知にむけてさまざまな曜日，時間帯で応答遅延を計測し特性の分析を行う．
+具体的には，キャリア回線として産業用モニタリングシステムに広く用いられている LTE（Long Term Evolution）回線を用いる．
+LTE 回線に関する研究として，応答遅延時間を他の無線回線と比べて評価を行った研究\cite{lte1}\cite{lte2}や LTE 環境下での TCP パケットの振る舞いに関する調査\cite{tcp}，LTE 環境の応答遅延において，人の混雑状況にかかわらず発生する低遅延帯の分布が部分正規分布に従うことを示唆した研究\cite{distribution}などが行われている．
+しかし，LTE を利用したインターネットとの通信において発生する遅延などの異常を検知・予測するといった観点からの通信特性の多角的な分析は十分になされていない．
+そこでまずは分析に用いる実測データの収集として，月曜日から日曜日の 3 時，7 時，12 時，17 時，20 時のそれぞれ 1 時間において私が在籍している研究室内に設置した無線端末から AWS サーバへ ping による応答遅延の計測を行った．
+計測した応答遅延に，例えば曜日，時間帯に依存した傾向が認められれば，その傾向と対比することによって応答遅延の通常ではない振る舞い，すなわち異常を検知することができる．
+そこで，時系列モデリングによる回帰で得られたパラメータやその主成分を用いてクラスタリングすることで計測データをグループ化し，共通する特徴を見いだす．
+
+第 2 章では本報告で実施した計測実験の設定について述べる．
+第 3 章では時系列モデルによる回帰について述べる．
+第 4 章では回帰結果に用いたクラスタリングにもとづく分析について述べる．
+第 5 章では全体のまとめと今後の課題について述べる．
+\section{計測実験の設定}
+本報告では図 \ref{exp} に示す構成で計測実験を行った．
+モニタリングシステムにおける無線端末としては LTE モジュールとして Quectel 社製 EC21-J を搭載した Raspberry Pi を用いた．
+また，LTE 回線としては IIJ モバイル社のサービスタイプ D 定額プランライト（いちねん プリペイド）を用いた．
+IIJ モバイル社は他の通信事業者から通信回線を借り受け，サービスを提供している MVNO（Mobile Virtual Network Operator）であり，サービスタイプ D では NTT ドコモ社の回線を使用している．
+月あたり通信量が 3GB を超過すると通信速度が 256kbps に制限されるが，本実験中には速度制限は課されなかった．
+
+クラウドサーバとしては本計測を行うにあたり契約した一台の AWS サーバを用い，大阪大学敷地内の研究室に設置した Raspberry Pi から ping を用いて応答遅延を計測した．
+自動的に計測データを取得できるよう，Raspberry Pi 上で動作する Raspbian において計測用のスクリプトを用いることで， 15 秒毎に時刻を取得し，続けて ping （パケットサイズ 60 バイト， ICMP ECHO メッセージ，パケット数 1 ）を実行した．
+計測時刻，ping の出力をログデータとして取り出し，分析を行った．
+また，日時が応答遅延に与える影響を調べるため，様々な時間帯で計測を行った．
+計測は 2/29（土）から 3/27（金）までの四週間に渡って行った．
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=7.5cm]{experiment.pdf}
+\caption{モニタリングシステムと実験環境の対応図}
+\label{exp}
+\end{figure}
+
+\section{時系列モデリングによる回帰}
+
+\section{クラスタリングによる分類}
+
+\section{まとめ}
+
+\bibliography{myrefs}
+\bibliographystyle{sieicej}
+%\begin{thebibliography}{99}% 文献数が10未満の時 {9}
+%\bibitem{}
+%\end{thebibliography}
+
+\end{document}

@@ -537,105 +537,109 @@ params <- function(files,id){
   D
 }
 
-clustering <- function(id,dist.method,clustering.method,k){
-  if(id == 'norm'){
+clustering <- function(dataID,dist.method,clustering.method,k,type){
+  if(dataID == 'norm'){
     D <- Dnorm
   }
-  else if(id == 'diff'){
+  else if(dataID == 'diff'){
     D <- Ddiff
   }
   
   cluster <- cutree(hclust(dist(D,method = dist.method),method = clustering.method),k = k)
   
-  # 時間帯
-  data <- matrix(0,nrow = 5, ncol = k)
-  rownames(data) <- c('03','07','12','17','20')
-  colnames(data) <- 1:k
-  for (i in 1:length(cluster)){
-    data[str_sub(names(cluster[i]),-2),cluster[i]] <- data[str_sub(names(cluster[i]),-2),cluster[i]] + 1
-  }
-  num <- colSums(data)
-  for (i in 1:length(num)){
-    data[,i] <- data[,i]/num[i]
-  }
-  par(mar=c(4,4,4,7))
-  bar <- barplot(
-    data,
-    names.arg = 1:k,
-    col = c('purple','green','red','darkorange','blue'),
-    xlab = 'クラスタ番号',
-    ylab = '割合'
-  )
-  par(xpd=T)
-  legend(par()$usr[2] + 0.2, par()$usr[4], legend = c('20:00-21:00','17:00-18:00','12:00-13:00','7:00-8:00','3:00-4:00'),
-         bty = "n", pch = 15, col = c('blue','darkorange','red','green','purple'))
-  
-  for (i in 1:length(num)){
-    text(num[i],x = bar[i], y = 1.05)
-  }
-  
-  #曜日
-  data <- matrix(0,nrow = 7, ncol = k)
-  rownames(data) <- c('Mon','Tue','Wed','Thu','Fri','Sat','Sun')
-  colnames(data) <- 1:k
-  for (i in 1:length(cluster)){
-    day <- str_sub(names(cluster[i]),start = 3, end = 4)
-    if(day == '29'){
-      id <- 'Sat'
+  if (type == 'timezone'){
+    data <- matrix(0,nrow = 5, ncol = k)
+    rownames(data) <- c('03','07','12','17','20')
+    colnames(data) <- 1:k
+    for (i in 1:length(cluster)){
+      data[str_sub(names(cluster[i]),-2),cluster[i]] <- data[str_sub(names(cluster[i]),-2),cluster[i]] + 1
     }
-    else{
-      x <- as.integer(day)%%7
-      if(x == 1){
-        id <- 'Sun'
-      }
-      else if(x == 2){
-        id <- 'Mon'
-      }
-      else if(x == 3){
-        id <- 'Tue'
-      }
-      else if(x == 4){
-        id <- 'Wed'
-      }
-      else if(x == 5){
-        id <- 'Thu'
-      }
-      else if(x == 6){
-        id <- 'Fri'
-      }
-      else if(x == 0){
+    num <- colSums(data)
+    for (i in 1:length(num)){
+      data[,i] <- data[,i]/num[i]
+    }
+    par(mar=c(4,4,4,7))
+    bar <- barplot(
+      data,
+      names.arg = 1:k,
+      col = c('purple','green','red','darkorange','blue'),
+      xlab = 'クラスタ番号',
+      ylab = '割合',
+    )
+    par(xpd=T)
+    legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('20:00-21:00','17:00-18:00','12:00-13:00','7:00-8:00','3:00-4:00'),
+          pch = 15, col = c('blue','darkorange','red','green','purple'),title = '時間帯')
+    
+    for (i in 1:length(num)){
+      text(num[i],x = bar[i], y = 1.05)
+    }
+    text('総数', x = bar[length(bar)%/%2], y = 1.13)
+  }
+  else if(type == 'day'){
+    data <- matrix(0,nrow = 7, ncol = k)
+    rownames(data) <- c('Mon','Tue','Wed','Thu','Fri','Sat','Sun')
+    colnames(data) <- 1:k
+    for (i in 1:length(cluster)){
+      day <- str_sub(names(cluster[i]),start = 3, end = 4)
+      if(day == '29'){
         id <- 'Sat'
       }
+      else{
+        x <- as.integer(day)%%7
+        if(x == 1){
+          id <- 'Sun'
+        }
+        else if(x == 2){
+          id <- 'Mon'
+        }
+        else if(x == 3){
+          id <- 'Tue'
+        }
+        else if(x == 4){
+          id <- 'Wed'
+        }
+        else if(x == 5){
+          id <- 'Thu'
+        }
+        else if(x == 6){
+          id <- 'Fri'
+        }
+        else if(x == 0){
+          id <- 'Sat'
+        }
+      }
+      data[id,cluster[i]] <- data[id,cluster[i]] + 1
     }
-    data[id,cluster[i]] <- data[id,cluster[i]] + 1
+    num <- colSums(data)
+    for (i in 1:length(num)){
+      data[,i] <- data[,i]/num[i]
+    }
+    par(mar=c(4,4,4,7))
+    bar <- barplot(
+      data,
+      names.arg = 1:k,
+      col = c('gray','firebrick3','darkturquoise','green','goldenrod3','blue','red'),
+      xlab = 'クラスタ番号',
+      ylab = '割合'
+    )
+    par(xpd=T)
+    legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('日','土','金','木','水','火','月'),
+          pch = 15, col = c('red','blue','goldenrod3','green','darkturquoise','firebrick3','gray'), title = '曜日')
+    
+    for (i in 1:length(num)){
+      text(num[i],x = bar[i], y = 1.05)
+    }
+    text('総数',x = bar[length(bar)%/%2], y = 1.13)
   }
-  num <- colSums(data)
-  for (i in 1:length(num)){
-    data[,i] <- data[,i]/num[i]
-  }
-  par(mar=c(4,4,4,7))
-  bar <- barplot(
-    data,
-    names.arg = 1:k,
-    col = c('gray','firebrick3','darkturquoise','green','goldenrod3','blue','red'),
-    xlab = 'クラスタ番号',
-    ylab = '割合'
-  )
-  par(xpd=T)
-  legend(par()$usr[2] + 0.2, par()$usr[4], legend = c('日','土','金','木','水','火','月'),
-         bty = "n", pch = 15, col = c('red','blue','goldenrod3','green','darkturquoise','firebrick3','gray'))
   
-  for (i in 1:length(num)){
-    text(num[i],x = bar[i], y = 1.05)
-  }
 }
 
 #AIC <- identifyNumParam(files)
 
-#regression(files,'norm')
-#regression(files,'diff')
+regression(files,'norm')
+regression(files,'diff')
 
-#Dnorm <- params(files,'norm')
-#Ddiff <- params(files,'diff')
+Dnorm <- params(files,'norm')
+Ddiff <- params(files,'diff')
 
-clustering('norm','euclidean','ward.D2',15)
+#clustering('norm','euclidean','ward.D2',15,'timezone')

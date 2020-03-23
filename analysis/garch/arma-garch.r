@@ -544,10 +544,24 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
   else if(dataID == 'diff'){
     D <- Ddiff
   }
+  else if(dataID == 'norm_comp'){
+    D <- Dnorm_comp
+  }
+  else if(dataID == 'diff_comp'){
+    D <- Ddiff_comp
+  }
   
-  cluster <- cutree(hclust(dist(D,method = dist.method),method = clustering.method),k = k)
-  
+  if (clustering.method == 'kmeans'){
+    cluster <- kmeans(D, k)$cluster
+    filename <- paste(dataID,'-eucl-kmean-',k,'-',type,'.pdf',sep = '')
+  }
+  else{
+    cluster <- cutree(hclust(dist(D,method = dist.method),method = clustering.method),k = k)
+    filename <- paste(dataID,'-',str_sub(dist.method,1,4),'-',str_sub(clustering.method,1,4),'-',k,'-',type,'.pdf',sep = '')
+    }
+    
   if (type == 'timezone'){
+    pdf(filename,family = 'Japan1')
     data <- matrix(0,nrow = 5, ncol = k)
     rownames(data) <- c('03','07','12','17','20')
     colnames(data) <- 1:k
@@ -573,9 +587,12 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     for (i in 1:length(num)){
       text(num[i],x = bar[i], y = 1.05)
     }
-    text('総数', x = bar[length(bar)%/%2], y = 1.13)
+    text('総数', x = (bar[1]+bar[length(bar)])/2, y = 1.13)
+    
+    dev.off()
   }
   else if(type == 'day'){
+    pdf(filename,family = 'Japan1')
     data <- matrix(0,nrow = 7, ncol = k)
     rownames(data) <- c('Mon','Tue','Wed','Thu','Fri','Sat','Sun')
     colnames(data) <- 1:k
@@ -629,17 +646,51 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     for (i in 1:length(num)){
       text(num[i],x = bar[i], y = 1.05)
     }
-    text('総数',x = bar[length(bar)%/%2], y = 1.13)
+    text('総数', x = (bar[1]+bar[length(bar)])/2, y = 1.13)
+    
+    dev.off()
   }
   
 }
 
 #AIC <- identifyNumParam(files)
 
-regression(files,'norm')
-regression(files,'diff')
+#regression(files,'norm')
+#regression(files,'diff')
 
-Dnorm <- params(files,'norm')
-Ddiff <- params(files,'diff')
+#Dnorm <- params(files,'norm')
+#Ddiff <- params(files,'diff')
+#summary(princomp(scale(Dnorm)))
+#princomp(scale(Dnorm))$loadings
+#Dnorm_comp <- princomp(scale(Dnorm))$scores[,0:3]
+#summary(princomp(scale(Ddiff)))
+#princomp(scale(Ddiff))$loadings
+#Ddiff_comp <- princomp(scale(Ddiff))$scores[,0:3]
 
-#clustering('norm','euclidean','ward.D2',15,'timezone')
+data <- c('norm','diff','norm_comp','diff_comp')
+distance <- c('euclidean','manhattan','canberra','maximum','binary')
+method <- c('kmeans','single','centroid','ward.D2','complete','average','mcquitty')
+k <- c(6,7,9,12,15)
+trend <- c('timezone','day')
+
+#clustering(data[1],distance[2],method[2],k[4],trend[1])
+
+for(a in data){
+  for(b in distance[1:3]){
+    for(c in method[2:4]){
+      for(d in k){
+        for (e in trend){
+          clustering(a,b,c,d,e)
+        }
+      }
+    }
+  }
+}
+
+for(a in data){
+  for(d in k){
+    for (e in trend){
+      clustering(a,distance[1],method[1],d,e)
+    }
+  }
+}

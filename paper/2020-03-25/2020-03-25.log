@@ -1,0 +1,1105 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.14)  25 MAR 2020 14:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2020-03-25.tex
+(./2020-03-25.tex
+pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
+(c:/texlive/2019/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
+\c@@paper=\count83
+(c:/texlive/2019/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2019/04/02 v1.8b Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip46
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(./2020-03-25.aux
+
+LaTeX Warning: Label `norm-comp-summary' multiply defined.
+
+
+LaTeX Warning: Label `norm-comp-loading' multiply defined.
+
+)
+\openout1 = `2020-03-25.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
+File: ../figure/experiment.pdf Graphic file (type pdf)
+<../figure/experiment.pdf>
+ [1
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../figure/0301_12-plot.pdf Graphic file (type pdf)
+<../figure/0301_12-plot.pdf>
+File: ../figure/0301_12-plot-diff.pdf Graphic file (type pdf)
+<../figure/0301_12-plot-diff.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 207.
+
+ (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
+ [3] [4]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 235.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 235.
+
+
+LaTeX Warning: Reference `diff-comp-summary' on page 5 undefined on input line 
+235.
+
+
+LaTeX Warning: Reference `diff-comp-loading' on page 5 undefined on input line 
+236.
+
+File: ../figure/norm-eucl-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-6-timezone.pdf>
+File: ../figure/norm-eucl-cent-6-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-6-day.pdf>
+File: ../figure/norm-eucl-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-7-timezone.pdf>
+File: ../figure/norm-eucl-cent-7-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-7-day.pdf>
+File: ../figure/norm-eucl-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-9-timezone.pdf>
+File: ../figure/norm-eucl-cent-9-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-9-day.pdf>
+File: ../figure/norm-eucl-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-12-timezone.pdf>
+File: ../figure/norm-eucl-cent-12-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-12-day.pdf>
+File: ../figure/norm-eucl-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-15-timezone.pdf>
+File: ../figure/norm-eucl-cent-15-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 337.
+
+File: ../figure/norm-eucl-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-6-timezone.pdf>
+File: ../figure/norm-eucl-sing-6-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-6-day.pdf>
+File: ../figure/norm-eucl-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-7-timezone.pdf>
+File: ../figure/norm-eucl-sing-7-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-7-day.pdf>
+File: ../figure/norm-eucl-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-9-timezone.pdf>
+File: ../figure/norm-eucl-sing-9-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-9-day.pdf>
+File: ../figure/norm-eucl-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-12-timezone.pdf>
+File: ../figure/norm-eucl-sing-12-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-12-day.pdf>
+File: ../figure/norm-eucl-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-15-timezone.pdf>
+File: ../figure/norm-eucl-sing-15-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 372.
+
+File: ../figure/norm-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-6-timezone.pdf>
+File: ../figure/norm-eucl-ward-6-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-6-day.pdf>
+File: ../figure/norm-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-7-timezone.pdf>
+File: ../figure/norm-eucl-ward-7-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-7-day.pdf>
+File: ../figure/norm-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-9-timezone.pdf>
+File: ../figure/norm-eucl-ward-9-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-9-day.pdf>
+File: ../figure/norm-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-12-timezone.pdf>
+File: ../figure/norm-eucl-ward-12-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-12-day.pdf>
+File: ../figure/norm-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-15-timezone.pdf>
+File: ../figure/norm-eucl-ward-15-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 407.
+
+File: ../figure/norm-manh-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-6-timezone.pdf>
+File: ../figure/norm-manh-cent-6-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-6-day.pdf>
+File: ../figure/norm-manh-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-7-timezone.pdf>
+File: ../figure/norm-manh-cent-7-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-7-day.pdf>
+File: ../figure/norm-manh-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-9-timezone.pdf>
+File: ../figure/norm-manh-cent-9-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-9-day.pdf>
+File: ../figure/norm-manh-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-12-timezone.pdf>
+File: ../figure/norm-manh-cent-12-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-12-day.pdf>
+File: ../figure/norm-manh-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-15-timezone.pdf>
+File: ../figure/norm-manh-cent-15-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 442.
+
+File: ../figure/norm-manh-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-6-timezone.pdf>
+File: ../figure/norm-manh-sing-6-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-6-day.pdf>
+File: ../figure/norm-manh-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-7-timezone.pdf>
+File: ../figure/norm-manh-sing-7-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-7-day.pdf>
+File: ../figure/norm-manh-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-9-timezone.pdf>
+File: ../figure/norm-manh-sing-9-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-9-day.pdf>
+File: ../figure/norm-manh-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-12-timezone.pdf>
+File: ../figure/norm-manh-sing-12-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-12-day.pdf>
+File: ../figure/norm-manh-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-15-timezone.pdf>
+File: ../figure/norm-manh-sing-15-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 477.
+
+File: ../figure/norm-manh-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-6-timezone.pdf>
+File: ../figure/norm-manh-ward-6-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-6-day.pdf>
+File: ../figure/norm-manh-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-7-timezone.pdf>
+File: ../figure/norm-manh-ward-7-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-7-day.pdf>
+File: ../figure/norm-manh-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-9-timezone.pdf>
+File: ../figure/norm-manh-ward-9-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-9-day.pdf>
+File: ../figure/norm-manh-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-12-timezone.pdf>
+File: ../figure/norm-manh-ward-12-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-12-day.pdf>
+File: ../figure/norm-manh-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-15-timezone.pdf>
+File: ../figure/norm-manh-ward-15-day.pdf Graphic file (type pdf)
+<../figure/norm-manh-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 512.
+
+File: ../figure/norm-canb-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-6-timezone.pdf>
+File: ../figure/norm-canb-cent-6-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-6-day.pdf>
+File: ../figure/norm-canb-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-7-timezone.pdf>
+File: ../figure/norm-canb-cent-7-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-7-day.pdf>
+File: ../figure/norm-canb-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-9-timezone.pdf>
+File: ../figure/norm-canb-cent-9-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-9-day.pdf>
+File: ../figure/norm-canb-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-12-timezone.pdf>
+File: ../figure/norm-canb-cent-12-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-12-day.pdf>
+File: ../figure/norm-canb-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-15-timezone.pdf>
+File: ../figure/norm-canb-cent-15-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 547.
+
+File: ../figure/norm-canb-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-6-timezone.pdf>
+File: ../figure/norm-canb-sing-6-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-6-day.pdf>
+File: ../figure/norm-canb-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-7-timezone.pdf>
+File: ../figure/norm-canb-sing-7-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-7-day.pdf>
+File: ../figure/norm-canb-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-9-timezone.pdf>
+File: ../figure/norm-canb-sing-9-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-9-day.pdf>
+File: ../figure/norm-canb-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-12-timezone.pdf>
+File: ../figure/norm-canb-sing-12-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-12-day.pdf>
+File: ../figure/norm-canb-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-15-timezone.pdf>
+File: ../figure/norm-canb-sing-15-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 582.
+
+File: ../figure/norm-canb-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-6-timezone.pdf>
+File: ../figure/norm-canb-ward-6-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-6-day.pdf>
+File: ../figure/norm-canb-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-7-timezone.pdf>
+File: ../figure/norm-canb-ward-7-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-7-day.pdf>
+File: ../figure/norm-canb-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-9-timezone.pdf>
+File: ../figure/norm-canb-ward-9-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-9-day.pdf>
+File: ../figure/norm-canb-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-12-timezone.pdf>
+File: ../figure/norm-canb-ward-12-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-12-day.pdf>
+File: ../figure/norm-canb-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-15-timezone.pdf>
+File: ../figure/norm-canb-ward-15-day.pdf Graphic file (type pdf)
+<../figure/norm-canb-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 617.
+
+File: ../figure/norm-eucl-kmean-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-6-timezone.pdf>
+File: ../figure/norm-eucl-kmean-6-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-6-day.pdf>
+File: ../figure/norm-eucl-kmean-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-7-timezone.pdf>
+File: ../figure/norm-eucl-kmean-7-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-7-day.pdf>
+File: ../figure/norm-eucl-kmean-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-9-timezone.pdf>
+File: ../figure/norm-eucl-kmean-9-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-9-day.pdf>
+File: ../figure/norm-eucl-kmean-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-12-timezone.pdf>
+File: ../figure/norm-eucl-kmean-12-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-12-day.pdf>
+File: ../figure/norm-eucl-kmean-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-15-timezone.pdf>
+File: ../figure/norm-eucl-kmean-15-day.pdf Graphic file (type pdf)
+<../figure/norm-eucl-kmean-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 652.
+
+File: ../figure/diff-eucl-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-6-timezone.pdf>
+File: ../figure/diff-eucl-cent-6-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-6-day.pdf>
+File: ../figure/diff-eucl-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-7-timezone.pdf>
+File: ../figure/diff-eucl-cent-7-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-7-day.pdf>
+File: ../figure/diff-eucl-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-9-timezone.pdf>
+File: ../figure/diff-eucl-cent-9-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-9-day.pdf>
+File: ../figure/diff-eucl-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-12-timezone.pdf>
+File: ../figure/diff-eucl-cent-12-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-12-day.pdf>
+File: ../figure/diff-eucl-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-15-timezone.pdf>
+File: ../figure/diff-eucl-cent-15-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 690.
+
+File: ../figure/diff-eucl-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-6-timezone.pdf>
+File: ../figure/diff-eucl-sing-6-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-6-day.pdf>
+File: ../figure/diff-eucl-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-7-timezone.pdf>
+File: ../figure/diff-eucl-sing-7-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-7-day.pdf>
+File: ../figure/diff-eucl-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-9-timezone.pdf>
+File: ../figure/diff-eucl-sing-9-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-9-day.pdf>
+File: ../figure/diff-eucl-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-12-timezone.pdf>
+File: ../figure/diff-eucl-sing-12-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-12-day.pdf>
+File: ../figure/diff-eucl-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-15-timezone.pdf>
+File: ../figure/diff-eucl-sing-15-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 725.
+
+File: ../figure/diff-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-6-timezone.pdf>
+File: ../figure/diff-eucl-ward-6-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-6-day.pdf>
+File: ../figure/diff-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-7-timezone.pdf>
+File: ../figure/diff-eucl-ward-7-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-7-day.pdf>
+File: ../figure/diff-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-9-timezone.pdf>
+File: ../figure/diff-eucl-ward-9-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-9-day.pdf>
+File: ../figure/diff-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-12-timezone.pdf>
+File: ../figure/diff-eucl-ward-12-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-12-day.pdf>
+File: ../figure/diff-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-15-timezone.pdf>
+File: ../figure/diff-eucl-ward-15-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 760.
+
+File: ../figure/diff-manh-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-6-timezone.pdf>
+File: ../figure/diff-manh-cent-6-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-6-day.pdf>
+File: ../figure/diff-manh-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-7-timezone.pdf>
+File: ../figure/diff-manh-cent-7-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-7-day.pdf>
+File: ../figure/diff-manh-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-9-timezone.pdf>
+File: ../figure/diff-manh-cent-9-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-9-day.pdf>
+File: ../figure/diff-manh-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-12-timezone.pdf>
+File: ../figure/diff-manh-cent-12-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-12-day.pdf>
+File: ../figure/diff-manh-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-15-timezone.pdf>
+File: ../figure/diff-manh-cent-15-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 795.
+
+File: ../figure/diff-manh-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-6-timezone.pdf>
+File: ../figure/diff-manh-sing-6-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-6-day.pdf>
+File: ../figure/diff-manh-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-7-timezone.pdf>
+File: ../figure/diff-manh-sing-7-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-7-day.pdf>
+File: ../figure/diff-manh-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-9-timezone.pdf>
+File: ../figure/diff-manh-sing-9-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-9-day.pdf>
+File: ../figure/diff-manh-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-12-timezone.pdf>
+File: ../figure/diff-manh-sing-12-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-12-day.pdf>
+File: ../figure/diff-manh-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-15-timezone.pdf>
+File: ../figure/diff-manh-sing-15-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 830.
+
+File: ../figure/diff-manh-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-6-timezone.pdf>
+File: ../figure/diff-manh-ward-6-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-6-day.pdf>
+File: ../figure/diff-manh-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-7-timezone.pdf>
+File: ../figure/diff-manh-ward-7-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-7-day.pdf>
+File: ../figure/diff-manh-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-9-timezone.pdf>
+File: ../figure/diff-manh-ward-9-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-9-day.pdf>
+File: ../figure/diff-manh-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-12-timezone.pdf>
+File: ../figure/diff-manh-ward-12-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-12-day.pdf>
+File: ../figure/diff-manh-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-15-timezone.pdf>
+File: ../figure/diff-manh-ward-15-day.pdf Graphic file (type pdf)
+<../figure/diff-manh-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 865.
+
+File: ../figure/diff-canb-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-6-timezone.pdf>
+File: ../figure/diff-canb-cent-6-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-6-day.pdf>
+File: ../figure/diff-canb-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-7-timezone.pdf>
+File: ../figure/diff-canb-cent-7-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-7-day.pdf>
+File: ../figure/diff-canb-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-9-timezone.pdf>
+File: ../figure/diff-canb-cent-9-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-9-day.pdf>
+File: ../figure/diff-canb-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-12-timezone.pdf>
+File: ../figure/diff-canb-cent-12-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-12-day.pdf>
+File: ../figure/diff-canb-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-15-timezone.pdf>
+File: ../figure/diff-canb-cent-15-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 900.
+
+File: ../figure/diff-canb-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-6-timezone.pdf>
+File: ../figure/diff-canb-sing-6-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-6-day.pdf>
+File: ../figure/diff-canb-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-7-timezone.pdf>
+File: ../figure/diff-canb-sing-7-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-7-day.pdf>
+File: ../figure/diff-canb-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-9-timezone.pdf>
+File: ../figure/diff-canb-sing-9-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-9-day.pdf>
+File: ../figure/diff-canb-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-12-timezone.pdf>
+File: ../figure/diff-canb-sing-12-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-12-day.pdf>
+File: ../figure/diff-canb-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-15-timezone.pdf>
+File: ../figure/diff-canb-sing-15-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 935.
+
+File: ../figure/diff-canb-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-6-timezone.pdf>
+File: ../figure/diff-canb-ward-6-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-6-day.pdf>
+File: ../figure/diff-canb-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-7-timezone.pdf>
+File: ../figure/diff-canb-ward-7-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-7-day.pdf>
+File: ../figure/diff-canb-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-9-timezone.pdf>
+File: ../figure/diff-canb-ward-9-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-9-day.pdf>
+File: ../figure/diff-canb-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-12-timezone.pdf>
+File: ../figure/diff-canb-ward-12-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-12-day.pdf>
+File: ../figure/diff-canb-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-15-timezone.pdf>
+File: ../figure/diff-canb-ward-15-day.pdf Graphic file (type pdf)
+<../figure/diff-canb-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 970.
+
+File: ../figure/diff-eucl-kmean-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-6-timezone.pdf>
+File: ../figure/diff-eucl-kmean-6-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-6-day.pdf>
+File: ../figure/diff-eucl-kmean-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-7-timezone.pdf>
+File: ../figure/diff-eucl-kmean-7-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-7-day.pdf>
+File: ../figure/diff-eucl-kmean-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-9-timezone.pdf>
+File: ../figure/diff-eucl-kmean-9-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-9-day.pdf>
+File: ../figure/diff-eucl-kmean-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-12-timezone.pdf>
+File: ../figure/diff-eucl-kmean-12-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-12-day.pdf>
+File: ../figure/diff-eucl-kmean-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-15-timezone.pdf>
+File: ../figure/diff-eucl-kmean-15-day.pdf Graphic file (type pdf)
+<../figure/diff-eucl-kmean-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1006.
+
+File: ../figure/norm_comp-eucl-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-6-timezone.pdf>
+File: ../figure/norm_comp-eucl-cent-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-6-day.pdf>
+File: ../figure/norm_comp-eucl-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-7-timezone.pdf>
+File: ../figure/norm_comp-eucl-cent-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-7-day.pdf>
+File: ../figure/norm_comp-eucl-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-9-timezone.pdf>
+File: ../figure/norm_comp-eucl-cent-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-9-day.pdf>
+File: ../figure/norm_comp-eucl-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-12-timezone.pdf>
+File: ../figure/norm_comp-eucl-cent-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-12-day.pdf>
+File: ../figure/norm_comp-eucl-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-15-timezone.pdf>
+File: ../figure/norm_comp-eucl-cent-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1047.
+
+File: ../figure/norm_comp-eucl-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-6-timezone.pdf>
+File: ../figure/norm_comp-eucl-sing-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-6-day.pdf>
+File: ../figure/norm_comp-eucl-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-7-timezone.pdf>
+File: ../figure/norm_comp-eucl-sing-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-7-day.pdf>
+File: ../figure/norm_comp-eucl-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-9-timezone.pdf>
+File: ../figure/norm_comp-eucl-sing-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-9-day.pdf>
+File: ../figure/norm_comp-eucl-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-12-timezone.pdf>
+File: ../figure/norm_comp-eucl-sing-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-12-day.pdf>
+File: ../figure/norm_comp-eucl-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-15-timezone.pdf>
+File: ../figure/norm_comp-eucl-sing-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1082.
+
+File: ../figure/norm_comp-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-6-timezone.pdf>
+File: ../figure/norm_comp-eucl-ward-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-6-day.pdf>
+File: ../figure/norm_comp-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-7-timezone.pdf>
+File: ../figure/norm_comp-eucl-ward-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-7-day.pdf>
+File: ../figure/norm_comp-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-9-timezone.pdf>
+File: ../figure/norm_comp-eucl-ward-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-9-day.pdf>
+File: ../figure/norm_comp-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-12-timezone.pdf>
+File: ../figure/norm_comp-eucl-ward-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-12-day.pdf>
+File: ../figure/norm_comp-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-15-timezone.pdf>
+File: ../figure/norm_comp-eucl-ward-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1117.
+
+File: ../figure/norm_comp-manh-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-6-timezone.pdf>
+File: ../figure/norm_comp-manh-cent-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-6-day.pdf>
+File: ../figure/norm_comp-manh-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-7-timezone.pdf>
+File: ../figure/norm_comp-manh-cent-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-7-day.pdf>
+File: ../figure/norm_comp-manh-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-9-timezone.pdf>
+File: ../figure/norm_comp-manh-cent-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-9-day.pdf>
+File: ../figure/norm_comp-manh-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-12-timezone.pdf>
+File: ../figure/norm_comp-manh-cent-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-12-day.pdf>
+File: ../figure/norm_comp-manh-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-15-timezone.pdf>
+File: ../figure/norm_comp-manh-cent-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1152.
+
+File: ../figure/norm_comp-manh-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-6-timezone.pdf>
+File: ../figure/norm_comp-manh-sing-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-6-day.pdf>
+File: ../figure/norm_comp-manh-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-7-timezone.pdf>
+File: ../figure/norm_comp-manh-sing-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-7-day.pdf>
+File: ../figure/norm_comp-manh-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-9-timezone.pdf>
+File: ../figure/norm_comp-manh-sing-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-9-day.pdf>
+File: ../figure/norm_comp-manh-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-12-timezone.pdf>
+File: ../figure/norm_comp-manh-sing-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-12-day.pdf>
+File: ../figure/norm_comp-manh-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-15-timezone.pdf>
+File: ../figure/norm_comp-manh-sing-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1187.
+
+File: ../figure/norm_comp-manh-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-6-timezone.pdf>
+File: ../figure/norm_comp-manh-ward-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-6-day.pdf>
+File: ../figure/norm_comp-manh-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-7-timezone.pdf>
+File: ../figure/norm_comp-manh-ward-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-7-day.pdf>
+File: ../figure/norm_comp-manh-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-9-timezone.pdf>
+File: ../figure/norm_comp-manh-ward-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-9-day.pdf>
+File: ../figure/norm_comp-manh-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-12-timezone.pdf>
+File: ../figure/norm_comp-manh-ward-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-12-day.pdf>
+File: ../figure/norm_comp-manh-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-15-timezone.pdf>
+File: ../figure/norm_comp-manh-ward-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-manh-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1222.
+
+File: ../figure/norm_comp-canb-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-6-timezone.pdf>
+File: ../figure/norm_comp-canb-cent-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-6-day.pdf>
+File: ../figure/norm_comp-canb-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-7-timezone.pdf>
+File: ../figure/norm_comp-canb-cent-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-7-day.pdf>
+File: ../figure/norm_comp-canb-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-9-timezone.pdf>
+File: ../figure/norm_comp-canb-cent-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-9-day.pdf>
+File: ../figure/norm_comp-canb-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-12-timezone.pdf>
+File: ../figure/norm_comp-canb-cent-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-12-day.pdf>
+File: ../figure/norm_comp-canb-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-15-timezone.pdf>
+File: ../figure/norm_comp-canb-cent-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1257.
+
+File: ../figure/norm_comp-canb-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-6-timezone.pdf>
+File: ../figure/norm_comp-canb-sing-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-6-day.pdf>
+File: ../figure/norm_comp-canb-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-7-timezone.pdf>
+File: ../figure/norm_comp-canb-sing-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-7-day.pdf>
+File: ../figure/norm_comp-canb-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-9-timezone.pdf>
+File: ../figure/norm_comp-canb-sing-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-9-day.pdf>
+File: ../figure/norm_comp-canb-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-12-timezone.pdf>
+File: ../figure/norm_comp-canb-sing-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-12-day.pdf>
+File: ../figure/norm_comp-canb-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-15-timezone.pdf>
+File: ../figure/norm_comp-canb-sing-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1292.
+
+File: ../figure/norm_comp-canb-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-6-timezone.pdf>
+File: ../figure/norm_comp-canb-ward-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-6-day.pdf>
+File: ../figure/norm_comp-canb-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-7-timezone.pdf>
+File: ../figure/norm_comp-canb-ward-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-7-day.pdf>
+File: ../figure/norm_comp-canb-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-9-timezone.pdf>
+File: ../figure/norm_comp-canb-ward-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-9-day.pdf>
+File: ../figure/norm_comp-canb-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-12-timezone.pdf>
+File: ../figure/norm_comp-canb-ward-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-12-day.pdf>
+File: ../figure/norm_comp-canb-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-15-timezone.pdf>
+File: ../figure/norm_comp-canb-ward-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-canb-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1327.
+
+File: ../figure/norm_comp-eucl-kmean-6-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-6-timezone.pdf>
+File: ../figure/norm_comp-eucl-kmean-6-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-6-day.pdf>
+File: ../figure/norm_comp-eucl-kmean-7-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-7-timezone.pdf>
+File: ../figure/norm_comp-eucl-kmean-7-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-7-day.pdf>
+File: ../figure/norm_comp-eucl-kmean-9-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-9-timezone.pdf>
+File: ../figure/norm_comp-eucl-kmean-9-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-9-day.pdf>
+File: ../figure/norm_comp-eucl-kmean-12-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-12-timezone.pdf>
+File: ../figure/norm_comp-eucl-kmean-12-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-12-day.pdf>
+File: ../figure/norm_comp-eucl-kmean-15-timezone.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-15-timezone.pdf>
+File: ../figure/norm_comp-eucl-kmean-15-day.pdf Graphic file (type pdf)
+<../figure/norm_comp-eucl-kmean-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1362.
+
+File: ../figure/diff_comp-eucl-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-6-timezone.pdf>
+File: ../figure/diff_comp-eucl-cent-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-6-day.pdf>
+File: ../figure/diff_comp-eucl-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-7-timezone.pdf>
+File: ../figure/diff_comp-eucl-cent-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-7-day.pdf>
+File: ../figure/diff_comp-eucl-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-9-timezone.pdf>
+File: ../figure/diff_comp-eucl-cent-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-9-day.pdf>
+File: ../figure/diff_comp-eucl-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-12-timezone.pdf>
+File: ../figure/diff_comp-eucl-cent-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-12-day.pdf>
+File: ../figure/diff_comp-eucl-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-15-timezone.pdf>
+File: ../figure/diff_comp-eucl-cent-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1400.
+
+File: ../figure/diff_comp-eucl-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-6-timezone.pdf>
+File: ../figure/diff_comp-eucl-sing-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-6-day.pdf>
+File: ../figure/diff_comp-eucl-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-7-timezone.pdf>
+File: ../figure/diff_comp-eucl-sing-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-7-day.pdf>
+File: ../figure/diff_comp-eucl-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-9-timezone.pdf>
+File: ../figure/diff_comp-eucl-sing-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-9-day.pdf>
+File: ../figure/diff_comp-eucl-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-12-timezone.pdf>
+File: ../figure/diff_comp-eucl-sing-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-12-day.pdf>
+File: ../figure/diff_comp-eucl-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-15-timezone.pdf>
+File: ../figure/diff_comp-eucl-sing-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1435.
+
+File: ../figure/diff_comp-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-6-timezone.pdf>
+File: ../figure/diff_comp-eucl-ward-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-6-day.pdf>
+File: ../figure/diff_comp-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-7-timezone.pdf>
+File: ../figure/diff_comp-eucl-ward-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-7-day.pdf>
+File: ../figure/diff_comp-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-9-timezone.pdf>
+File: ../figure/diff_comp-eucl-ward-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-9-day.pdf>
+File: ../figure/diff_comp-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-12-timezone.pdf>
+File: ../figure/diff_comp-eucl-ward-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-12-day.pdf>
+File: ../figure/diff_comp-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-15-timezone.pdf>
+File: ../figure/diff_comp-eucl-ward-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1470.
+
+File: ../figure/diff_comp-manh-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-6-timezone.pdf>
+File: ../figure/diff_comp-manh-cent-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-6-day.pdf>
+File: ../figure/diff_comp-manh-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-7-timezone.pdf>
+File: ../figure/diff_comp-manh-cent-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-7-day.pdf>
+File: ../figure/diff_comp-manh-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-9-timezone.pdf>
+File: ../figure/diff_comp-manh-cent-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-9-day.pdf>
+File: ../figure/diff_comp-manh-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-12-timezone.pdf>
+File: ../figure/diff_comp-manh-cent-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-12-day.pdf>
+File: ../figure/diff_comp-manh-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-15-timezone.pdf>
+File: ../figure/diff_comp-manh-cent-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1505.
+
+File: ../figure/diff_comp-manh-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-6-timezone.pdf>
+File: ../figure/diff_comp-manh-sing-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-6-day.pdf>
+File: ../figure/diff_comp-manh-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-7-timezone.pdf>
+File: ../figure/diff_comp-manh-sing-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-7-day.pdf>
+File: ../figure/diff_comp-manh-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-9-timezone.pdf>
+File: ../figure/diff_comp-manh-sing-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-9-day.pdf>
+File: ../figure/diff_comp-manh-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-12-timezone.pdf>
+File: ../figure/diff_comp-manh-sing-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-12-day.pdf>
+File: ../figure/diff_comp-manh-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-15-timezone.pdf>
+File: ../figure/diff_comp-manh-sing-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1540.
+
+File: ../figure/diff_comp-manh-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-6-timezone.pdf>
+File: ../figure/diff_comp-manh-ward-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-6-day.pdf>
+File: ../figure/diff_comp-manh-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-7-timezone.pdf>
+File: ../figure/diff_comp-manh-ward-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-7-day.pdf>
+File: ../figure/diff_comp-manh-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-9-timezone.pdf>
+File: ../figure/diff_comp-manh-ward-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-9-day.pdf>
+File: ../figure/diff_comp-manh-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-12-timezone.pdf>
+File: ../figure/diff_comp-manh-ward-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-12-day.pdf>
+File: ../figure/diff_comp-manh-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-15-timezone.pdf>
+File: ../figure/diff_comp-manh-ward-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-manh-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1575.
+
+File: ../figure/diff_comp-canb-cent-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-6-timezone.pdf>
+File: ../figure/diff_comp-canb-cent-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-6-day.pdf>
+File: ../figure/diff_comp-canb-cent-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-7-timezone.pdf>
+File: ../figure/diff_comp-canb-cent-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-7-day.pdf>
+File: ../figure/diff_comp-canb-cent-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-9-timezone.pdf>
+File: ../figure/diff_comp-canb-cent-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-9-day.pdf>
+File: ../figure/diff_comp-canb-cent-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-12-timezone.pdf>
+File: ../figure/diff_comp-canb-cent-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-12-day.pdf>
+File: ../figure/diff_comp-canb-cent-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-15-timezone.pdf>
+File: ../figure/diff_comp-canb-cent-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-cent-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1610.
+
+File: ../figure/diff_comp-canb-sing-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-6-timezone.pdf>
+File: ../figure/diff_comp-canb-sing-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-6-day.pdf>
+File: ../figure/diff_comp-canb-sing-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-7-timezone.pdf>
+File: ../figure/diff_comp-canb-sing-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-7-day.pdf>
+File: ../figure/diff_comp-canb-sing-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-9-timezone.pdf>
+File: ../figure/diff_comp-canb-sing-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-9-day.pdf>
+File: ../figure/diff_comp-canb-sing-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-12-timezone.pdf>
+File: ../figure/diff_comp-canb-sing-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-12-day.pdf>
+File: ../figure/diff_comp-canb-sing-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-15-timezone.pdf>
+File: ../figure/diff_comp-canb-sing-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-sing-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1645.
+
+File: ../figure/diff_comp-canb-ward-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-6-timezone.pdf>
+File: ../figure/diff_comp-canb-ward-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-6-day.pdf>
+File: ../figure/diff_comp-canb-ward-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-7-timezone.pdf>
+File: ../figure/diff_comp-canb-ward-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-7-day.pdf>
+File: ../figure/diff_comp-canb-ward-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-9-timezone.pdf>
+File: ../figure/diff_comp-canb-ward-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-9-day.pdf>
+File: ../figure/diff_comp-canb-ward-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-12-timezone.pdf>
+File: ../figure/diff_comp-canb-ward-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-12-day.pdf>
+File: ../figure/diff_comp-canb-ward-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-15-timezone.pdf>
+File: ../figure/diff_comp-canb-ward-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-canb-ward-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1680.
+
+File: ../figure/diff_comp-eucl-kmean-6-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-6-timezone.pdf>
+File: ../figure/diff_comp-eucl-kmean-6-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-6-day.pdf>
+File: ../figure/diff_comp-eucl-kmean-7-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-7-timezone.pdf>
+File: ../figure/diff_comp-eucl-kmean-7-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-7-day.pdf>
+File: ../figure/diff_comp-eucl-kmean-9-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-9-timezone.pdf>
+File: ../figure/diff_comp-eucl-kmean-9-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-9-day.pdf>
+File: ../figure/diff_comp-eucl-kmean-12-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-12-timezone.pdf>
+File: ../figure/diff_comp-eucl-kmean-12-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-12-day.pdf>
+File: ../figure/diff_comp-eucl-kmean-15-timezone.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-15-timezone.pdf>
+File: ../figure/diff_comp-eucl-kmean-15-day.pdf Graphic file (type pdf)
+<../figure/diff_comp-eucl-kmean-15-day.pdf>
+
+LaTeX Warning: Float too large for page by 92.1903pt on input line 1716.
+
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] (./2020-03-25.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2352 strings out of 493216
+ 62604 string characters out of 6147083
+ 264885 words of memory out of 5000000
+ 5969 multiletter control sequences out of 15000+600000
+ 12109 words of font info for 50 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,8n,27p,304b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2020-03-25.dvi (47 pages, 115668 bytes).

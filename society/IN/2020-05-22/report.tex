@@ -87,16 +87,207 @@ IIJ モバイル社は他の通信事業者から通信回線を借り受け，�
 \label{exp}
 \end{figure}
 
-\section{時系列モデリングによる回帰}
+\section{時系列モデルによる回帰}
+本報告では，時系列モデルとして式 (\ref{garch1}) と式 (\ref{garch2}) で表される ARMA-GARCH（Autoregressive Moving Average - Generalized Autoregressive Conditional Heteroscedasticity）モデル\cite{arma-garch}を用いる．
+\begin{equation}
+y_t = \sum_{i=1}^p a_i y_{t-i} + \sum_{i=1}^q b_i \varepsilon_{t-i} + c + \varepsilon_{t} 
+\label{garch1}
+\end{equation}
+$$\varepsilon_t \sim N(0,h_t) \hspace{0.5cm} \rm{i.i.d}$$
+\begin{equation}
+\displaystyle h_{t} = \omega + \sum_{i=1}^{r}\alpha_i\varepsilon_{t-i}^2 + \sum_{i=1}^{s}\beta_ih_{t-i}
+\label{garch2}
+\end{equation}
 
+各一時間の計測実験において Raspberry Pi が AWS サーバから受け取る ping の応答遅延の実測値を計測時刻順に $y_1$，$y_2$，...，$y_N$ と表す．
+式 (\ref{garch1}) において，$c$ は定数項，$\varepsilon_t$ はノイズ項であり平均 0 分散 $h_t$ の正規分布に従いそれらは互いに独立であるとする．
+時刻 $t$ における実測値 $y_t$ は，過去の $p$ 時点前までの実測値の線形和と $q$ 時点前までのノイズ項の加重和と自身のノイズ項によって表される．
+また，式 (\ref{garch2}) において，$\omega$ は定数項であり，時刻 $t$ におけるノイズ項が従う正規分布の分散 $h_t$ は，過去の $r$ 時点前までのノイズ項の線形和と $s$ 時点前までのノイズ項が従う正規分布の分散の加重和によって表される．
+
+各パラメータのパラメータ数 $(p,q,r,s)$ は次数と呼ばれ，精度の良い回帰を行うためには対象とする時系列データに応じてこの次数を適切に定める必要がある．
+しかしながら，計測データのクラスタリングによる分類のためには異なる曜日や時間帯での計測によって得られた時系列データに対して次数を統一して回帰しなければならない．
+そこで，本報告では，まず，各計測データに対し ARMA-GARCH モデルの次数を変えながら適用し，AIC（赤池情報量規準）\cite{aic1}\cite{aic2}によってその妥当性を評価することで，各時系列データにとって適切な次数を求める．
+ここで，AIC は式（\ref{aic}）で定められる指標である．
+高すぎる次元での回帰による過適合の問題を考慮し，時系列モデルによる回帰のよさを評価する第 1 項とパラメータの少なさを評価する第 2 項を組み合わせている．
+AICが小さいほどよいモデルとされている．
+\begin{equation}
+\rm{AIC} = -2 *（対数尤度）+2 *（パラメータ数）
+\label{aic}
+\end{equation}
+また，対数尤度は式 (\ref{llh}) と式 (\ref{predict-y}) で定められる．
+\begin{equation}
+(対数尤度) = \sum^N_{t=1} \log \left[\frac{1}{\sqrt{2\pi h_t}}exp \left\{ -\frac{1}{2h_t}(y_t - \widehat{y_t})^2 \right\}\right]
+\label{llh}
+\end{equation}
+\begin{equation}
+\widehat{y_t} = \sum_{i=1}^p a_i y_{t-i} + \sum_{i=1}^q b_i \varepsilon_{t-i} + c 
+\label{predict-y}
+\end{equation}
+
+次に，各時系列データ間で AIC による最適次数を比較し，その最大のものを用いることとする．
+次数の探索範囲は $0 \le p \le 2$，$0 \le q \le 2$，$r = 1$，$0 \le s \le 1$ とした．
+
+各時系列データをその最適次数ごとにまとめると表 \ref{count_norm} となっていたため，次数を $(p,q,r,s) = (2,2,1,1)$ で統一した．
+この次数での ARMA-GARCH モデルによる回帰結果の一部を \ref{norm-reg} に示す．
+
+また，応答遅延の変動に注目し，応答遅延の実測値の差分系列 $\{\Delta y_t | y_t - y_{t-1}\}$ に対しても同様の手法でモデルの適用を行った．
+この各変動値の時系列データをその最適次数ごとにまとめると表 \ref{count_diff} となっていたため，次数は $(p,q,r,s) = (2,2,1,1)$ で統一を行った．
+この次数での変動値に対する ARMA-GARCH モデルでの回帰結果の一部を図 \ref{diff-reg} に示す．
+
+\begin{table}[tb]
+\begin{minipage}{.25\textwidth}
+\begin{center}
+\caption{{$\vcenter{\hbox{最適次数と対応する}\hbox{実測値データの数}}$}}
+\label{count_norm}
+\begin{tabular}{|l|l|}
+\hline
+次数 $(p,q,r,s)$ & データ数\\
+\hline
+(0,0,1,0) & 9\\
+\hline
+(0,0,1,1) & 6\\
+\hline
+(0,1,1,0) & 11\\
+\hline
+(0,1,1,1) & 4\\
+\hline
+(0,2,1,0) & 5\\
+\hline
+(0,2,1,1) & 3\\
+\hline
+(1,0,1,0) & 3\\
+\hline
+(1,0,1,1) & 3\\
+\hline
+(1,1,1,0) & 4\\
+\hline
+(1,1,1,1) & 1\\
+\hline
+(1,2,1,0) & 6\\
+\hline
+(1,2,1,1) & 8\\
+\hline
+(2,0,1,0) & 4\\
+\hline
+(2,0,1,1) & 3\\
+\hline
+(2,1,1,0) & 3\\
+\hline
+(2,1,1,1) & 1\\
+\hline
+(2,2,1,0) & 21\\
+\hline
+(2,2,1,1) & 11\\
+\hline
+\end{tabular}
+\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}{.25\textwidth}
+\begin{center}
+\caption{{$\vcenter{\hbox{最適次数と対応する}\hbox{変動値データの数}}$}}
+\label{count_diff}
+\begin{tabular}{|l|l|}
+\hline
+次数 $(p,q,r,s)$ & データ数\\
+\hline
+(0,0,1,0) & 0\\
+\hline
+(0,0,1,1) & 0\\
+\hline
+(0,1,1,0) & 11\\
+\hline
+(0,1,1,1) & 4\\
+\hline
+(0,2,1,0) & 7\\
+\hline
+(0,2,1,1) & 3\\
+\hline
+(1,0,1,0) & 0\\
+\hline
+(1,0,1,1) & 0\\
+\hline
+(1,1,1,0) & 4\\
+\hline
+(1,1,1,1) & 2\\
+\hline
+(1,2,1,0) & 21\\
+\hline
+(1,2,1,1) & 10\\
+\hline
+(2,0,1,0) & 0\\
+\hline
+(2,0,1,1) & 0\\
+\hline
+(2,1,1,0) & 2\\
+\hline
+(2,1,1,1) & 0\\
+\hline
+(2,2,1,0) & 19\\
+\hline
+(2,2,1,1) & 23\\
+\hline
+\end{tabular}
+\end{center}
+\end{minipage}
+\\
+\begin{center}
+3/6（金）17:00-18:00，3/7（土）17:00-18:00\\
+3/12（木）12:00-13:00，3/12（木）17:00-18:00\\
+3/13（金）17:00-18:00，3/14（土）17:00-18:00\\
+3/15（日）17:00-18:00，3/16（月）17:00-18:00\\
+3/17（火）20:00-21:00，3/20（木）17:00-18:00\\
+3/22（土）17:00-18:00，3/23（日）12:00-13:00\\
+の計測データは Raspberry Pi の動作不良のため未使用
+\end{center}
+\end{table}
+
+また，最大次数で統一することにより本来の最適次数よりも大きな次数で回帰が行われる時系列データがあるが，次数を最適なものに比べ大きく設定することがモデルの回帰精度に際立った悪影響を与えないことを対数尤度を比較することにより確認した．
+一例として，表 \ref{more-param} に最適次数と統一次数が異なるある一つの時系列データに対して，それぞれの次数で回帰を行った時のモデルの対数尤度を示す．
+
+
+\begin{table}[tb]
+\centering
+\caption{最適次数と統一次数でのモデルの尤度}
+\label{more-param}
+\begin{tabular}{|l|c|c|}
+\hline
+&最適次数での対数尤度&統一次数での対数尤度\\
+\hline
+実測値データ&-969.8327&-971.9196\\
+\hline
+変動値データ&-924.6495&-922.7543\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=7.5cm]{0301_12-plot}
+\caption{3/1（日）12:00-13:00 計測の実測値に対する次数 (2,2,1,1) のARMA-GARCH モデルによる回帰}
+\label{norm-reg}
+\end{figure}
+\begin{figure}[tb]
+\includegraphics[width=7.5cm]{0301_12-plot-diff}
+\caption{3/1（日）12:00-13:00 計測の変動値に対する次数 (2,2,1,1) のARMA-GARCH モデルによる回帰}
+\label{diff-reg}
+\end{figure}
+
+図 \ref{norm-reg} より，赤線で示される ARMA-GARCH モデルによる回帰線は青線で示された ping 応答の実測値の推移の傾向を大まかに捉えられている．
+したがって，応答遅延時間が時間とともに単調に増加するなどの異常は，例えば工場内部の無線端末上でリアルタイムに ARMA-GARCH モデルによる応答遅延データの回帰を行うことで断続的に定まるパラメータの変化や，現場環境における通常時の傾向を反映した ARMA-GARCH のパラメータを用いて行った予測値から実測値が大きく外れ続けた場合などをもとに，検知することが可能と考える．
+しかしながら一方で，単発的に発生する大きな応答遅延を予測できていない．
+これは，この単発的に発生する応答遅延に周期性や過去データからみられる兆候がなく，予測が困難であることを示唆している．
+この単発的な応答遅延によって，モデルの回帰精度が悪化したり，その発生頻度などに関する異常を検知できなかったりすることが考えられ，実用的な異常検知にむけてはこれらの点を改善するような別の手法と組み合わせることが必要だと思われる．
+また，図 \ref{diff-reg} においては図 \ref{norm-reg} の場合と同様に，回帰線が変動値の推移をおおよそ捉えられ単発的な変動は捉えられていなかったものの，大きな ping 応答に対する立下りは捉えられていた．
+このことから，変動値に対する ARMA-GARCH モデルではこれらの大きな応答遅延の単発性を表現できていると考えられる．
+従って，大きな応答遅延が連続して発生するような異常は ARMA-GARCH モデルを用いることで検知可能ではないかと考えられる．
 \section{クラスタリングによる分類}
+ ARMA-GARCH モデルを実測値データもしくは変動値データに対して適用した結果定まるパラメータ $W$ をもとにクラスタリングを行い，時間帯や場所ごとの ping 応答遅延特性を分析する．
+また， $W$ は，実測値データと差分系列データともに
+$$W = [c, a_1, a_2, b_1, b_2, \omega, \alpha_1, \beta_1] $$
+で与えられる．
 
-\section{まとめ}
 
 \bibliography{myrefs}
 \bibliographystyle{sieicej}
-%\begin{thebibliography}{99}% 文献数が10未満の時 {9}
-%\bibitem{}
-%\end{thebibliography}
-
 \end{document}

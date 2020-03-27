@@ -1,0 +1,42 @@
+time 17:00:16
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 31.847/31.847/31.847/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.647 ms
+ 2  202.215.242.173 (202.215.242.173)  39.307 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.336 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.118 ms
+ 5  210.173.176.94 (210.173.176.94)  56.358 ms
+ 6  chiba-RM-ET-7-1-0-1151.s5.sinet.ad.jp (150.99.89.154)  56.277 ms
+ 7  www.sinet.ad.jp (150.100.8.18)  58.156 ms
+time 17:00:31
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.348/37.348/37.348/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  35.506 ms
+ 2  202.215.242.173 (202.215.242.173)  35.416 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.186 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  37.148 ms
+ 5  210.173.176.94 (210.173.176.94)  54.258 ms
+ 6  chiba-RM-ET-7-1-0-1151.s5.sinet.ad.jp (150.99.89.154)  54.225 ms
+ 7  www.sinet.ad.jp (150.100.8.18)  56.374 ms
+time 17:00:46
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.859/50.859/50.859/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.440 ms
+ 2  202.215.242.173 (202.215.242.173)  40.120 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  38.176 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.958 ms
+ 5  210.173.176.94 (210.173.176.94)  55.993 ms
+ 6  chiba-RM-ET-7-1-0-1151.s5.sinet.ad.jp (150.99.89.154)  55.918 ms
+ 7  www.sinet.ad.jp (150.100.8.18)  58.536 ms

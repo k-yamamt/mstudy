@@ -1,0 +1,65 @@
+time 20:00:16
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 33.616/33.616/33.616/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ix51.IIJ.Net (58.138.106.126)  21.253 ms
+ 4  210.173.178.25 (210.173.178.25)  21.221 ms
+ 5  chiba-RM-ET-7-1-0-1152.s5.sinet.ad.jp (150.99.90.26)  39.207 ms
+ 6  www.sinet.ad.jp (150.100.8.18)  41.183 ms
+time 20:00:31
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.944/36.944/36.944/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ix50.IIJ.Net (58.138.107.18)  38.369 ms
+ 4  210.173.178.25 (210.173.178.25)  38.224 ms
+ 5  chiba-RM-ET-7-1-0-1152.s5.sinet.ad.jp (150.99.90.26)  57.480 ms
+ 6  www.sinet.ad.jp (150.100.8.18)  57.350 ms
+time 20:00:46
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.828/38.828/38.828/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ix51.IIJ.Net (58.138.106.126)  39.527 ms
+ 4  210.173.178.25 (210.173.178.25)  115.545 ms
+ 5  chiba-RM-ET-7-1-0-1152.s5.sinet.ad.jp (150.99.90.26)  54.498 ms
+ 6  www1.sinet.ad.jp (150.100.8.18)  57.634 ms
+time 20:01:01
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 42.835/42.835/42.835/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ix50.IIJ.Net (58.138.106.118)  37.757 ms
+ 4  210.173.178.25 (210.173.178.25)  37.689 ms
+ 5  chiba-RM-ET-7-1-0-1152.s5.sinet.ad.jp (150.99.90.26)  57.988 ms
+ 6  www1.sinet.ad.jp (150.100.8.18)  57.806 ms
+time 20:01:16
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.873/38.873/38.873/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  *
+ 2  *
+ 3  osk004ix50.IIJ.Net (58.138.107.18)  38.560 ms
+ 4  210.173.178.25 (210.173.178.25)  48.474 ms
+ 5  chiba-RM-ET-7-1-0-1152.s5.sinet.ad.jp (150.99.90.26)  54.423 ms
+ 6  www.sinet.ad.jp (150.100.8.18)  57.329 ms

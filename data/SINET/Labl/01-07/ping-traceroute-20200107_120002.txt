@@ -1,0 +1,896 @@
+time 12:00:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.631/52.631/52.631/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.333 ms
+ 2  202.215.242.173 (202.215.242.173)  38.223 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  39.844 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.809 ms
+ 5  210.173.176.94 (210.173.176.94)  57.594 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  57.564 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  57.535 ms
+time 12:00:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.598/59.598/59.598/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.639 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  56.486 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  57.931 ms
+ 5  210.173.176.94 (210.173.176.94)  67.402 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  67.370 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  70.095 ms
+time 12:00:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.451/44.451/44.451/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.375 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  57.894 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  66.138 ms
+ 5  210.173.176.94 (210.173.176.94)  66.103 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  66.061 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.494 ms
+time 12:01:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 43.240/43.240/43.240/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  45.463 ms
+ 2  202.215.242.173 (202.215.242.173)  45.358 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  45.319 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  45.282 ms
+ 5  210.173.176.94 (210.173.176.94)  57.727 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  57.698 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  57.665 ms
+time 12:01:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.493/59.493/59.493/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.232 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  56.011 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  55.972 ms
+ 5  210.173.176.94 (210.173.176.94)  67.260 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  68.599 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.552 ms
+time 12:01:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 74.316/74.316/74.316/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  74.565 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  75.755 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  74.383 ms
+ 5  210.173.176.94 (210.173.176.94)  92.902 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  92.867 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  92.834 ms
+time 12:01:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.285/56.285/56.285/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  54.140 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  56.274 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  64.033 ms
+ 5  210.173.176.94 (210.173.176.94)  63.998 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  66.136 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  66.096 ms
+time 12:02:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 70.128/70.128/70.128/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  79.340 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  79.134 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  91.014 ms
+ 5  210.173.176.94 (210.173.176.94)  90.980 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  90.902 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  93.195 ms
+time 12:02:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.949/54.949/54.949/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  45.216 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  45.045 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  46.679 ms
+ 5  210.173.176.94 (210.173.176.94)  46.642 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.209 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  49.174 ms
+time 12:02:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.462/63.462/63.462/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  58.770 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  58.532 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  60.240 ms
+ 5  210.173.176.94 (210.173.176.94)  68.484 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  70.502 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  70.461 ms
+time 12:02:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.156/55.156/55.156/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.225 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  127.970 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  64.887 ms
+ 5  210.173.176.94 (210.173.176.94)  64.849 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  68.315 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.283 ms
+time 12:03:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 70.135/70.135/70.135/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  44.212 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  44.060 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  46.819 ms
+ 5  210.173.176.94 (210.173.176.94)  54.889 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  56.588 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  54.820 ms
+time 12:03:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.071/62.071/62.071/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  65.748 ms
+ 2  202.215.242.173 (202.215.242.173)  65.634 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  65.597 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  65.839 ms
+ 5  210.173.176.94 (210.173.176.94)  65.803 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  68.565 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.530 ms
+time 12:03:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.373/55.373/55.373/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.635 ms
+ 2  202.215.242.173 (202.215.242.173)  55.527 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  57.212 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  74.814 ms
+ 5  210.173.176.94 (210.173.176.94)  74.774 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  74.743 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  74.715 ms
+time 12:03:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.324/50.324/50.324/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.241 ms
+ 2  202.215.242.173 (202.215.242.173)  37.127 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  38.803 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  38.768 ms
+ 5  210.173.176.94 (210.173.176.94)  48.136 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  48.108 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  48.072 ms
+time 12:04:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.603/46.603/46.603/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.227 ms
+ 2  202.215.242.173 (202.215.242.173)  38.840 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.080 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  47.722 ms
+ 5  210.173.176.94 (210.173.176.94)  47.686 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.449 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  49.408 ms
+time 12:04:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.701/41.701/41.701/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  39.194 ms
+ 2  202.215.242.173 (202.215.242.173)  39.080 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  39.032 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  40.660 ms
+ 5  210.173.176.94 (210.173.176.94)  48.902 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  48.868 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  51.964 ms
+time 12:04:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.948/64.948/64.948/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.037 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  48.055 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  48.022 ms
+ 5  210.173.176.94 (210.173.176.94)  47.938 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  50.819 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  50.741 ms
+time 12:04:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.452/50.452/50.452/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.194 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  40.844 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  37.998 ms
+ 5  210.173.176.94 (210.173.176.94)  56.082 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  58.637 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  58.189 ms
+time 12:05:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.661/55.661/55.661/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.399 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  55.190 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  55.096 ms
+ 5  210.173.176.94 (210.173.176.94)  58.677 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  61.313 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  61.222 ms
+time 12:05:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.276/49.276/49.276/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.808 ms
+ 2  202.215.242.173 (202.215.242.173)  56.646 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  66.553 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  66.512 ms
+ 5  210.173.176.94 (210.173.176.94)  68.275 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  69.030 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.164 ms
+time 12:05:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.618/54.618/54.618/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.322 ms
+ 2  202.215.242.173 (202.215.242.173)  56.165 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  56.126 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  57.833 ms
+ 5  210.173.176.94 (210.173.176.94)  67.074 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  66.998 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  67.191 ms
+time 12:05:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 69.551/69.551/69.551/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  53.679 ms
+ 2  202.215.242.173 (202.215.242.173)  53.455 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  53.366 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  62.304 ms
+ 5  210.173.176.94 (210.173.176.94)  74.204 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  74.128 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  74.053 ms
+time 12:06:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.295/49.295/49.295/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  51.247 ms
+ 2  202.215.242.173 (202.215.242.173)  51.058 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  50.984 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  50.942 ms
+ 5  210.173.176.94 (210.173.176.94)  69.052 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  69.012 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  70.851 ms
+time 12:06:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.346/46.346/46.346/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.433 ms
+ 2  202.215.242.173 (202.215.242.173)  56.320 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  58.456 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  66.280 ms
+ 5  210.173.176.94 (210.173.176.94)  66.249 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  68.361 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.325 ms
+time 12:06:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.980/48.980/48.980/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.606 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  55.454 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  65.389 ms
+ 5  210.173.176.94 (210.173.176.94)  84.335 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  65.321 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  67.981 ms
+time 12:06:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.954/45.954/45.954/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.201 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  38.010 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  48.939 ms
+ 5  210.173.176.94 (210.173.176.94)  48.876 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  48.813 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  59.044 ms
+time 12:07:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.264/39.264/39.264/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  58.285 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  58.089 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  76.790 ms
+ 5  210.173.176.94 (210.173.176.94)  76.704 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  76.669 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  76.617 ms
+time 12:07:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.242/46.242/46.242/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.420 ms
+ 2  202.215.242.173 (202.215.242.173)  38.305 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  39.925 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.890 ms
+ 5  210.173.176.94 (210.173.176.94)  49.172 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.140 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  51.263 ms
+time 12:07:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.316/57.316/57.316/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.280 ms
+ 2  202.215.242.173 (202.215.242.173)  38.703 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.117 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  47.041 ms
+ 5  210.173.176.94 (210.173.176.94)  47.004 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.204 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  49.165 ms
+time 12:07:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.896/54.896/54.896/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  49.376 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  49.225 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  59.240 ms
+ 5  210.173.176.94 (210.173.176.94)  59.205 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  60.956 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  60.925 ms
+time 12:08:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.521/41.521/41.521/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.566 ms
+ 2  202.215.242.173 (202.215.242.173)  56.453 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  58.069 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  66.272 ms
+ 5  210.173.176.94 (210.173.176.94)  66.239 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  69.345 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  69.305 ms
+time 12:08:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.437/48.437/48.437/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  38.385 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  38.238 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  56.689 ms
+ 5  210.173.176.94 (210.173.176.94)  56.659 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  56.629 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  56.602 ms
+time 12:08:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.518/47.518/47.518/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  65.934 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  65.696 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  65.658 ms
+ 5  210.173.176.94 (210.173.176.94)  68.528 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  68.499 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  69.055 ms
+time 12:08:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.732/48.732/48.732/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.361 ms
+ 2  202.215.242.173 (202.215.242.173)  55.249 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  55.209 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  56.974 ms
+ 5  210.173.176.94 (210.173.176.94)  66.304 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  66.868 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  68.247 ms
+time 12:09:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.823/56.823/56.823/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  46.324 ms
+ 2  202.215.242.173 (202.215.242.173)  46.206 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  55.975 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  56.570 ms
+ 5  210.173.176.94 (210.173.176.94)  56.505 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  57.894 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  57.820 ms
+time 12:09:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 65.204/65.204/65.204/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  68.140 ms
+ 2  202.215.242.173 (202.215.242.173)  68.018 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  67.977 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  71.947 ms
+ 5  210.173.176.94 (210.173.176.94)  71.863 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  75.507 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  75.471 ms
+time 12:09:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.193/53.193/53.193/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  36.919 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  36.764 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  46.852 ms
+ 5  210.173.176.94 (210.173.176.94)  46.819 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.368 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  49.030 ms
+time 12:09:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.202/47.202/47.202/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  35.874 ms
+ 2  202.215.242.173 (202.215.242.173)  35.622 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.169 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  45.264 ms
+ 5  210.173.176.94 (210.173.176.94)  45.217 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  47.333 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  47.502 ms
+time 12:10:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.400/45.400/45.400/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  36.450 ms
+ 2  202.215.242.173 (202.215.242.173)  36.319 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  44.229 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  36.229 ms
+ 5  210.173.176.94 (210.173.176.94)  47.411 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  47.386 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  47.342 ms
+time 12:10:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.430/44.430/44.430/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  47.794 ms
+ 2  202.215.242.173 (202.215.242.173)  47.577 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  49.253 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  57.373 ms
+ 5  210.173.176.94 (210.173.176.94)  57.340 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  57.250 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  60.871 ms
+time 12:10:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.901/53.901/53.901/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.556 ms
+ 2  202.215.242.173 (202.215.242.173)  39.201 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.398 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.125 ms
+ 5  210.173.176.94 (210.173.176.94)  47.281 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.599 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  49.567 ms
+time 12:10:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.764/49.764/49.764/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  66.421 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  66.268 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  67.912 ms
+ 5  210.173.176.94 (210.173.176.94)  67.874 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  70.471 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  70.444 ms
+time 12:11:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.630/56.630/56.630/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  45.306 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  47.562 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  47.460 ms
+ 5  210.173.176.94 (210.173.176.94)  55.863 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  55.825 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  57.744 ms
+time 12:11:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 67.277/67.277/67.277/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  64.301 ms
+ 2  202.215.242.173 (202.215.242.173)  64.122 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  64.082 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  74.477 ms
+ 5  210.173.176.94 (210.173.176.94)  74.391 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  74.356 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  74.265 ms
+time 12:11:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.644/55.644/55.644/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  46.406 ms
+ 2  202.215.242.173 (202.215.242.173)  46.292 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  46.214 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  47.891 ms
+ 5  210.173.176.94 (210.173.176.94)  56.080 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  70.039 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  58.016 ms
+time 12:11:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.052/44.052/44.052/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  57.454 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  57.286 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  57.249 ms
+ 5  210.173.176.94 (210.173.176.94)  67.106 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  67.074 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  69.302 ms
+time 12:12:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.165/48.165/48.165/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  49.257 ms
+ 2  202.215.242.173 (202.215.242.173)  49.150 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  49.111 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  59.089 ms
+ 5  210.173.176.94 (210.173.176.94)  59.057 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  63.440 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  58.989 ms
+time 12:12:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.403/45.403/45.403/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  50.207 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  61.353 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  61.319 ms
+ 5  210.173.176.94 (210.173.176.94)  61.759 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  61.719 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  61.213 ms
+time 12:12:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.174/55.174/55.174/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  46.528 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  46.297 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  56.223 ms
+ 5  210.173.176.94 (210.173.176.94)  56.188 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  58.182 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  58.150 ms
+time 12:12:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.432/39.432/39.432/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  56.417 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  56.234 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  56.197 ms
+ 5  210.173.176.94 (210.173.176.94)  67.657 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  68.824 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  67.590 ms
+time 12:13:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.887/62.887/62.887/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  61.384 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  61.232 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  62.983 ms
+ 5  210.173.176.94 (210.173.176.94)  62.946 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  65.265 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  65.231 ms
+time 12:13:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.754/49.754/49.754/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  58.278 ms
+ 2  202.215.242.173 (202.215.242.173)  58.091 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  58.022 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  74.905 ms
+ 5  210.173.176.94 (210.173.176.94)  74.839 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  74.804 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  78.044 ms
+time 12:13:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.166/58.166/58.166/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.993 ms
+ 2  202.215.242.173 (202.215.242.173)  39.611 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.739 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.449 ms
+ 5  210.173.176.94 (210.173.176.94)  51.159 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  51.099 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  51.011 ms
+time 12:13:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.363/53.363/53.363/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  49.247 ms
+ 2  202.215.242.173 (202.215.242.173)  49.067 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  48.980 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  50.533 ms
+ 5  210.173.176.94 (210.173.176.94)  59.161 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  61.330 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  61.248 ms
+time 12:14:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.738/56.738/56.738/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.439 ms
+ 2  202.215.242.173 (202.215.242.173)  38.967 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  37.289 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  37.249 ms
+ 5  210.173.176.94 (210.173.176.94)  48.117 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  50.296 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  48.045 ms
+time 12:14:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.389/37.389/37.389/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  70.252 ms
+ 2  202.215.242.173 (202.215.242.173)  74.047 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  73.998 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  73.959 ms
+ 5  210.173.176.94 (210.173.176.94)  81.804 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  81.766 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  83.796 ms
+time 12:14:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.162/44.162/44.162/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  36.056 ms
+ 2  202.215.242.173 (202.215.242.173)  35.942 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  35.899 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  47.171 ms
+ 5  210.173.176.94 (210.173.176.94)  47.139 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  49.324 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  49.295 ms
+time 12:14:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 71.257/71.257/71.257/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  79.494 ms
+ 2  202.215.242.173 (202.215.242.173)  79.286 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  79.181 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  79.086 ms
+ 5  210.173.176.94 (210.173.176.94)  78.981 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  79.264 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  79.160 ms
+time 12:15:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.627/64.627/64.627/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  53.619 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  85.828 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  52.918 ms
+ 5  210.173.176.94 (210.173.176.94)  62.893 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  62.750 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  62.619 ms
+time 12:15:17
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 67.403/67.403/67.403/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.334 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  55.154 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  65.083 ms
+ 5  210.173.176.94 (210.173.176.94)  65.038 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  64.992 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  67.206 ms
+time 12:15:32
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.983/51.983/51.983/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  49.401 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  49.232 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  50.703 ms
+ 5  210.173.176.94 (210.173.176.94)  59.092 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  59.057 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  60.961 ms
+time 12:15:47
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.115/56.115/56.115/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  37.229 ms
+ 2  *
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  39.311 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  39.227 ms
+ 5  210.173.176.94 (210.173.176.94)  56.471 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  56.392 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  56.351 ms
+time 12:16:02
+PING sinet.ad.jp (150.100.8.18) 32(60) bytes of data.
+
+--- sinet.ad.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.947/64.947/64.947/0.000 ms
+traceroute to sinet.ad.jp (150.100.8.18), 30 hops max, 60 byte packets
+ 1  192.168.132.86 (192.168.132.86)  55.874 ms
+ 2  202.215.242.173 (202.215.242.173)  57.454 ms
+ 3  ae24.core2.nihonbashi.vectant.ne.jp (163.139.128.29)  55.680 ms
+ 4  ae1.peer2.nihonbashi.vectant.ne.jp (163.139.128.238)  64.920 ms
+ 5  210.173.176.94 (210.173.176.94)  64.881 ms
+ 6  chiba-RM-ET-5-1-0-151.s5.sinet.ad.jp (150.99.70.230)  67.257 ms
+ 7  www1.sinet.ad.jp (150.100.8.18)  67.222 ms

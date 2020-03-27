@@ -1,0 +1,3844 @@
+datetime 2020/03/26 07:00:16
+traceroute to news.yahoo.co.jp (182.22.16.251), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.245)  36.903 ms
+ 3  *
+ 4  tky001bb10.IIJ.Net (58.138.80.97)  36.607 ms
+ 5  tky001ix50.IIJ.Net (58.138.102.18)  56.840 ms
+ 6  210.130.154.162 (210.130.154.162)  56.766 ms
+ 7  202.93.95.178 (202.93.95.178)  56.722 ms
+ 8  203.141.47.66 (203.141.47.66)  56.821 ms
+ 9  *
+10  *
+11  182.22.16.253 (182.22.16.253)  56.392 ms
+12  182.22.16.251 (182.22.16.251)  56.344 ms
+
+PING edge12.g.yimg.jp (183.79.250.123) 32(60) bytes of data.
+
+--- edge12.g.yimg.jp ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.259/58.259/58.259/0.000 ms
+datetime 2020/03/26 07:00:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.680 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.746 ms
+ 6  210.138.106.238 (210.138.106.238)  90.583 ms
+ 7  183.79.224.146 (183.79.224.146)  91.223 ms
+ 8  183.79.250.123 (183.79.250.123)  90.501 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 66.573/66.573/66.573/0.000 ms
+datetime 2020/03/26 07:00:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.659 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.993 ms
+ 6  210.138.106.238 (210.138.106.238)  89.914 ms
+ 7  183.79.224.146 (183.79.224.146)  89.870 ms
+ 8  183.79.250.123 (183.79.250.123)  89.724 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 43.736/43.736/43.736/0.000 ms
+datetime 2020/03/26 07:01:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.255 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.085 ms
+ 6  210.138.106.238 (210.138.106.238)  87.042 ms
+ 7  183.79.224.146 (183.79.224.146)  90.324 ms
+ 8  183.79.250.123 (183.79.250.123)  90.280 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.570/51.570/51.570/0.000 ms
+datetime 2020/03/26 07:01:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.803 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.134 ms
+ 6  210.138.106.238 (210.138.106.238)  92.738 ms
+ 7  183.79.224.146 (183.79.224.146)  92.474 ms
+ 8  183.79.250.123 (183.79.250.123)  91.891 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.340/55.340/55.340/0.000 ms
+datetime 2020/03/26 07:01:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.177 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.979 ms
+ 6  210.138.106.238 (210.138.106.238)  87.948 ms
+ 7  183.79.224.146 (183.79.224.146)  88.547 ms
+ 8  183.79.250.123 (183.79.250.123)  87.584 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 61.634/61.634/61.634/0.000 ms
+datetime 2020/03/26 07:01:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.783 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.879 ms
+ 6  210.138.106.238 (210.138.106.238)  90.747 ms
+ 7  183.79.224.146 (183.79.224.146)  90.701 ms
+ 8  183.79.250.123 (183.79.250.123)  90.648 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.769/54.769/54.769/0.000 ms
+datetime 2020/03/26 07:02:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  89.895 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  102.250 ms
+ 6  210.138.106.238 (210.138.106.238)  100.081 ms
+ 7  183.79.224.146 (183.79.224.146)  100.043 ms
+ 8  183.79.250.123 (183.79.250.123)  99.995 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.379/49.379/49.379/0.000 ms
+datetime 2020/03/26 07:02:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.703 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.813 ms
+ 6  210.138.106.238 (210.138.106.238)  85.302 ms
+ 7  183.79.224.146 (183.79.224.146)  84.718 ms
+ 8  183.79.250.123 (183.79.250.123)  84.396 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 60.195/60.195/60.195/0.000 ms
+datetime 2020/03/26 07:02:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.342 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.449 ms
+ 6  210.138.106.238 (210.138.106.238)  92.412 ms
+ 7  183.79.224.146 (183.79.224.146)  92.363 ms
+ 8  183.79.250.123 (183.79.250.123)  92.313 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 69.898/69.898/69.898/0.000 ms
+datetime 2020/03/26 07:02:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.319 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.840 ms
+ 6  210.138.106.238 (210.138.106.238)  97.590 ms
+ 7  183.79.224.146 (183.79.224.146)  87.286 ms
+ 8  183.79.250.123 (183.79.250.123)  86.699 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.775/53.775/53.775/0.000 ms
+datetime 2020/03/26 07:03:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.792 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.849 ms
+ 6  210.138.106.238 (210.138.106.238)  84.720 ms
+ 7  183.79.224.146 (183.79.224.146)  84.679 ms
+ 8  183.79.250.123 (183.79.250.123)  84.635 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.970/59.970/59.970/0.000 ms
+datetime 2020/03/26 07:03:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.887 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  93.799 ms
+ 6  210.138.106.238 (210.138.106.238)  95.925 ms
+ 7  183.79.224.146 (183.79.224.146)  95.874 ms
+ 8  183.79.250.123 (183.79.250.123)  95.819 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 67.254/67.254/67.254/0.000 ms
+datetime 2020/03/26 07:03:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.812 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.229 ms
+ 6  210.138.106.238 (210.138.106.238)  86.805 ms
+ 7  183.79.224.146 (183.79.224.146)  86.591 ms
+ 8  183.79.250.123 (183.79.250.123)  86.079 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 76.077/76.077/76.077/0.000 ms
+datetime 2020/03/26 07:03:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.681 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.054 ms
+ 6  210.138.106.238 (210.138.106.238)  87.005 ms
+ 7  183.79.224.146 (183.79.224.146)  88.550 ms
+ 8  183.79.250.123 (183.79.250.123)  88.499 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.379/58.379/58.379/0.000 ms
+datetime 2020/03/26 07:04:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.599 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.612 ms
+ 6  210.138.106.238 (210.138.106.238)  90.186 ms
+ 7  183.79.224.146 (183.79.224.146)  90.136 ms
+ 8  183.79.250.123 (183.79.250.123)  89.888 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.214/52.214/52.214/0.000 ms
+datetime 2020/03/26 07:04:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.152 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.946 ms
+ 6  210.138.106.238 (210.138.106.238)  89.567 ms
+ 7  183.79.224.146 (183.79.224.146)  89.483 ms
+ 8  183.79.250.123 (183.79.250.123)  88.586 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 70.340/70.340/70.340/0.000 ms
+datetime 2020/03/26 07:04:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.913 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.618 ms
+ 6  210.138.106.238 (210.138.106.238)  92.624 ms
+ 7  183.79.224.146 (183.79.224.146)  92.542 ms
+ 8  183.79.250.123 (183.79.250.123)  91.042 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 61.771/61.771/61.771/0.000 ms
+datetime 2020/03/26 07:04:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.360 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.307 ms
+ 6  210.138.106.238 (210.138.106.238)  89.942 ms
+ 7  183.79.224.146 (183.79.224.146)  89.893 ms
+ 8  183.79.250.123 (183.79.250.123)  89.050 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.023/50.023/50.023/0.000 ms
+datetime 2020/03/26 07:05:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.031 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.982 ms
+ 6  210.138.106.238 (210.138.106.238)  82.459 ms
+ 7  183.79.224.146 (183.79.224.146)  82.415 ms
+ 8  183.79.250.123 (183.79.250.123)  81.839 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 60.172/60.172/60.172/0.000 ms
+datetime 2020/03/26 07:05:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.750 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.497 ms
+ 6  210.138.106.238 (210.138.106.238)  101.452 ms
+ 7  183.79.224.146 (183.79.224.146)  87.965 ms
+ 8  183.79.250.123 (183.79.250.123)  87.240 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 114.844/114.844/114.844/0.000 ms
+datetime 2020/03/26 07:05:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.285 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.840 ms
+ 6  210.138.106.238 (210.138.106.238)  90.798 ms
+ 7  183.79.224.146 (183.79.224.146)  90.747 ms
+ 8  183.79.250.123 (183.79.250.123)  90.685 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 70.826/70.826/70.826/0.000 ms
+datetime 2020/03/26 07:05:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.670 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.729 ms
+ 6  210.138.106.238 (210.138.106.238)  86.292 ms
+ 7  183.79.224.146 (183.79.224.146)  86.246 ms
+ 8  183.79.250.123 (183.79.250.123)  85.580 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.534/44.534/44.534/0.000 ms
+datetime 2020/03/26 07:06:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.334 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.801 ms
+ 6  210.138.106.238 (210.138.106.238)  88.552 ms
+ 7  183.79.224.146 (183.79.224.146)  89.705 ms
+ 8  183.79.250.123 (183.79.250.123)  88.161 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.246/62.246/62.246/0.000 ms
+datetime 2020/03/26 07:06:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.329 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.303 ms
+ 6  210.138.106.238 (210.138.106.238)  87.256 ms
+ 7  183.79.224.146 (183.79.224.146)  89.130 ms
+ 8  183.79.250.123 (183.79.250.123)  87.151 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 61.151/61.151/61.151/0.000 ms
+datetime 2020/03/26 07:06:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.819 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.794 ms
+ 6  210.138.106.238 (210.138.106.238)  92.211 ms
+ 7  183.79.224.146 (183.79.224.146)  92.122 ms
+ 8  183.79.250.123 (183.79.250.123)  90.379 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.653/50.653/50.653/0.000 ms
+datetime 2020/03/26 07:06:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  83.468 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  95.858 ms
+ 6  210.138.106.238 (210.138.106.238)  95.825 ms
+ 7  183.79.224.146 (183.79.224.146)  95.779 ms
+ 8  183.79.250.123 (183.79.250.123)  95.725 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 60.769/60.769/60.769/0.000 ms
+datetime 2020/03/26 07:07:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.996 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.327 ms
+ 6  210.138.106.238 (210.138.106.238)  87.558 ms
+ 7  183.79.224.146 (183.79.224.146)  87.473 ms
+ 8  183.79.250.123 (183.79.250.123)  87.386 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.375/55.375/55.375/0.000 ms
+datetime 2020/03/26 07:07:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.726 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.754 ms
+ 6  210.138.106.238 (210.138.106.238)  90.120 ms
+ 7  183.79.224.146 (183.79.224.146)  90.075 ms
+ 8  183.79.250.123 (183.79.250.123)  89.612 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.010/63.010/63.010/0.000 ms
+datetime 2020/03/26 07:07:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.820 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.091 ms
+ 6  210.138.106.238 (210.138.106.238)  89.048 ms
+ 7  183.79.224.146 (183.79.224.146)  89.850 ms
+ 8  183.79.250.123 (183.79.250.123)  88.955 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.068/56.068/56.068/0.000 ms
+datetime 2020/03/26 07:07:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.804 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.925 ms
+ 6  210.138.106.238 (210.138.106.238)  87.265 ms
+ 7  183.79.224.146 (183.79.224.146)  87.918 ms
+ 8  183.79.250.123 (183.79.250.123)  87.166 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.459/45.459/45.459/0.000 ms
+datetime 2020/03/26 07:08:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.609 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.443 ms
+ 6  210.138.106.238 (210.138.106.238)  89.293 ms
+ 7  183.79.224.146 (183.79.224.146)  90.380 ms
+ 8  183.79.250.123 (183.79.250.123)  89.776 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 60.951/60.951/60.951/0.000 ms
+datetime 2020/03/26 07:08:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.000 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  93.522 ms
+ 6  210.138.106.238 (210.138.106.238)  94.918 ms
+ 7  183.79.224.146 (183.79.224.146)  94.873 ms
+ 8  183.79.250.123 (183.79.250.123)  94.821 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.033/56.033/56.033/0.000 ms
+datetime 2020/03/26 07:08:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.549 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.085 ms
+ 6  210.138.106.238 (210.138.106.238)  93.126 ms
+ 7  183.79.224.146 (183.79.224.146)  93.083 ms
+ 8  183.79.250.123 (183.79.250.123)  92.745 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 60.133/60.133/60.133/0.000 ms
+datetime 2020/03/26 07:08:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.725 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.469 ms
+ 6  210.138.106.238 (210.138.106.238)  89.161 ms
+ 7  183.79.224.146 (183.79.224.146)  89.599 ms
+ 8  183.79.250.123 (183.79.250.123)  88.317 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 69.464/69.464/69.464/0.000 ms
+datetime 2020/03/26 07:09:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.438 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.042 ms
+ 6  210.138.106.238 (210.138.106.238)  92.373 ms
+ 7  183.79.224.146 (183.79.224.146)  90.875 ms
+ 8  183.79.250.123 (183.79.250.123)  89.695 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.705/55.705/55.705/0.000 ms
+datetime 2020/03/26 07:09:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  168.780 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  177.666 ms
+ 6  210.138.106.238 (210.138.106.238)  177.599 ms
+ 7  183.79.224.146 (183.79.224.146)  177.488 ms
+ 8  183.79.250.123 (183.79.250.123)  177.382 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.741/63.741/63.741/0.000 ms
+datetime 2020/03/26 07:09:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.817 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.537 ms
+ 6  210.138.106.238 (210.138.106.238)  90.492 ms
+ 7  183.79.224.146 (183.79.224.146)  90.803 ms
+ 8  183.79.250.123 (183.79.250.123)  90.402 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.727/58.727/58.727/0.000 ms
+datetime 2020/03/26 07:09:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.376 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.228 ms
+ 6  210.138.106.238 (210.138.106.238)  91.802 ms
+ 7  183.79.224.146 (183.79.224.146)  92.485 ms
+ 8  183.79.250.123 (183.79.250.123)  91.703 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 69.422/69.422/69.422/0.000 ms
+datetime 2020/03/26 07:10:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.140 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.693 ms
+ 6  210.138.106.238 (210.138.106.238)  84.647 ms
+ 7  183.79.224.146 (183.79.224.146)  86.161 ms
+ 8  183.79.250.123 (183.79.250.123)  84.549 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.241/48.241/48.241/0.000 ms
+datetime 2020/03/26 07:10:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.748 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.726 ms
+ 6  210.138.106.238 (210.138.106.238)  90.006 ms
+ 7  183.79.224.146 (183.79.224.146)  90.626 ms
+ 8  183.79.250.123 (183.79.250.123)  89.837 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.234/59.234/59.234/0.000 ms
+datetime 2020/03/26 07:10:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  86.920 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.520 ms
+ 6  210.138.106.238 (210.138.106.238)  92.689 ms
+ 7  183.79.224.146 (183.79.224.146)  92.647 ms
+ 8  183.79.250.123 (183.79.250.123)  91.473 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.145/62.145/62.145/0.000 ms
+datetime 2020/03/26 07:10:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.501 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.177 ms
+ 6  210.138.106.238 (210.138.106.238)  88.868 ms
+ 7  183.79.224.146 (183.79.224.146)  89.035 ms
+ 8  183.79.250.123 (183.79.250.123)  88.765 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 66.227/66.227/66.227/0.000 ms
+datetime 2020/03/26 07:11:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.410 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.372 ms
+ 6  210.138.106.238 (210.138.106.238)  91.058 ms
+ 7  183.79.224.146 (183.79.224.146)  92.389 ms
+ 8  183.79.250.123 (183.79.250.123)  90.957 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.590/47.590/47.590/0.000 ms
+datetime 2020/03/26 07:11:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.452 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.589 ms
+ 6  210.138.106.238 (210.138.106.238)  91.553 ms
+ 7  183.79.224.146 (183.79.224.146)  91.509 ms
+ 8  183.79.250.123 (183.79.250.123)  91.454 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 60.906/60.906/60.906/0.000 ms
+datetime 2020/03/26 07:11:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.058 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.168 ms
+ 6  210.138.106.238 (210.138.106.238)  91.387 ms
+ 7  183.79.224.146 (183.79.224.146)  91.632 ms
+ 8  183.79.250.123 (183.79.250.123)  90.481 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.690/64.690/64.690/0.000 ms
+datetime 2020/03/26 07:11:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.602 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.201 ms
+ 6  210.138.106.238 (210.138.106.238)  92.737 ms
+ 7  183.79.224.146 (183.79.224.146)  92.657 ms
+ 8  183.79.250.123 (183.79.250.123)  90.962 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.360/58.360/58.360/0.000 ms
+datetime 2020/03/26 07:12:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  68.469 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  97.414 ms
+ 6  210.138.106.238 (210.138.106.238)  98.334 ms
+ 7  183.79.224.146 (183.79.224.146)  98.228 ms
+ 8  183.79.250.123 (183.79.250.123)  97.177 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.248/59.248/59.248/0.000 ms
+datetime 2020/03/26 07:12:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.907 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  99.344 ms
+ 6  210.138.106.238 (210.138.106.238)  99.304 ms
+ 7  183.79.224.146 (183.79.224.146)  99.247 ms
+ 8  183.79.250.123 (183.79.250.123)  99.190 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.383/49.383/49.383/0.000 ms
+datetime 2020/03/26 07:12:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.195 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.897 ms
+ 6  210.138.106.238 (210.138.106.238)  91.852 ms
+ 7  183.79.224.146 (183.79.224.146)  91.749 ms
+ 8  183.79.250.123 (183.79.250.123)  90.466 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.622/59.622/59.622/0.000 ms
+datetime 2020/03/26 07:12:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.407 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.336 ms
+ 6  210.138.106.238 (210.138.106.238)  90.844 ms
+ 7  183.79.224.146 (183.79.224.146)  91.518 ms
+ 8  183.79.250.123 (183.79.250.123)  89.947 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.288/48.288/48.288/0.000 ms
+datetime 2020/03/26 07:13:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.167 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.132 ms
+ 6  210.138.106.238 (210.138.106.238)  96.832 ms
+ 7  183.79.224.146 (183.79.224.146)  92.935 ms
+ 8  183.79.250.123 (183.79.250.123)  90.995 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.752/59.752/59.752/0.000 ms
+datetime 2020/03/26 07:13:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.311 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.838 ms
+ 6  210.138.106.238 (210.138.106.238)  88.798 ms
+ 7  183.79.224.146 (183.79.224.146)  88.753 ms
+ 8  183.79.250.123 (183.79.250.123)  88.700 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.865/57.865/57.865/0.000 ms
+datetime 2020/03/26 07:13:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.353 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.064 ms
+ 6  210.138.106.238 (210.138.106.238)  90.672 ms
+ 7  183.79.224.146 (183.79.224.146)  90.537 ms
+ 8  183.79.250.123 (183.79.250.123)  89.777 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.072/57.072/57.072/0.000 ms
+datetime 2020/03/26 07:13:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  83.567 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.820 ms
+ 6  210.138.106.238 (210.138.106.238)  92.859 ms
+ 7  183.79.224.146 (183.79.224.146)  92.810 ms
+ 8  183.79.250.123 (183.79.250.123)  92.766 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.543/63.543/63.543/0.000 ms
+datetime 2020/03/26 07:14:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.609 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.104 ms
+ 6  210.138.106.238 (210.138.106.238)  93.806 ms
+ 7  183.79.224.146 (183.79.224.146)  93.985 ms
+ 8  183.79.250.123 (183.79.250.123)  93.709 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.865/50.865/50.865/0.000 ms
+datetime 2020/03/26 07:14:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.369 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.651 ms
+ 6  210.138.106.238 (210.138.106.238)  82.033 ms
+ 7  183.79.224.146 (183.79.224.146)  81.988 ms
+ 8  183.79.250.123 (183.79.250.123)  81.504 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.184/58.184/58.184/0.000 ms
+datetime 2020/03/26 07:14:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.286 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.091 ms
+ 6  210.138.106.238 (210.138.106.238)  83.924 ms
+ 7  183.79.224.146 (183.79.224.146)  84.417 ms
+ 8  183.79.250.123 (183.79.250.123)  83.822 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.377/49.377/49.377/0.000 ms
+datetime 2020/03/26 07:14:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.976 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.354 ms
+ 6  210.138.106.238 (210.138.106.238)  92.115 ms
+ 7  183.79.224.146 (183.79.224.146)  92.072 ms
+ 8  183.79.250.123 (183.79.250.123)  92.013 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.207/57.207/57.207/0.000 ms
+datetime 2020/03/26 07:15:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.066 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.857 ms
+ 6  210.138.106.238 (210.138.106.238)  90.762 ms
+ 7  183.79.224.146 (183.79.224.146)  90.982 ms
+ 8  183.79.250.123 (183.79.250.123)  90.588 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.741/58.741/58.741/0.000 ms
+datetime 2020/03/26 07:15:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.527 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.458 ms
+ 6  210.138.106.238 (210.138.106.238)  90.415 ms
+ 7  183.79.224.146 (183.79.224.146)  92.329 ms
+ 8  183.79.250.123 (183.79.250.123)  90.325 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.372/62.372/62.372/0.000 ms
+datetime 2020/03/26 07:15:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  92.976 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  103.930 ms
+ 6  210.138.106.238 (210.138.106.238)  105.735 ms
+ 7  183.79.224.146 (183.79.224.146)  105.686 ms
+ 8  183.79.250.123 (183.79.250.123)  105.631 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.328/52.328/52.328/0.000 ms
+datetime 2020/03/26 07:15:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.058 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.001 ms
+ 6  210.138.106.238 (210.138.106.238)  94.300 ms
+ 7  183.79.224.146 (183.79.224.146)  94.251 ms
+ 8  183.79.250.123 (183.79.250.123)  90.847 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.207/58.207/58.207/0.000 ms
+datetime 2020/03/26 07:16:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.760 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.628 ms
+ 6  210.138.106.238 (210.138.106.238)  92.310 ms
+ 7  183.79.224.146 (183.79.224.146)  93.015 ms
+ 8  183.79.250.123 (183.79.250.123)  91.210 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.373/57.373/57.373/0.000 ms
+datetime 2020/03/26 07:16:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.474 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.044 ms
+ 6  210.138.106.238 (210.138.106.238)  84.003 ms
+ 7  183.79.224.146 (183.79.224.146)  84.370 ms
+ 8  183.79.250.123 (183.79.250.123)  83.902 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 65.933/65.933/65.933/0.000 ms
+datetime 2020/03/26 07:16:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.381 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.188 ms
+ 6  210.138.106.238 (210.138.106.238)  84.621 ms
+ 7  183.79.224.146 (183.79.224.146)  84.577 ms
+ 8  183.79.250.123 (183.79.250.123)  84.522 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.697/55.697/55.697/0.000 ms
+datetime 2020/03/26 07:16:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.668 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.666 ms
+ 6  210.138.106.238 (210.138.106.238)  92.043 ms
+ 7  183.79.224.146 (183.79.224.146)  92.940 ms
+ 8  183.79.250.123 (183.79.250.123)  91.522 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.050/58.050/58.050/0.000 ms
+datetime 2020/03/26 07:17:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.265 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.154 ms
+ 6  210.138.106.238 (210.138.106.238)  84.182 ms
+ 7  183.79.224.146 (183.79.224.146)  84.339 ms
+ 8  183.79.250.123 (183.79.250.123)  84.080 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.376/55.376/55.376/0.000 ms
+datetime 2020/03/26 07:17:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.199 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.475 ms
+ 6  210.138.106.238 (210.138.106.238)  83.159 ms
+ 7  183.79.224.146 (183.79.224.146)  84.383 ms
+ 8  183.79.250.123 (183.79.250.123)  84.329 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.134/48.134/48.134/0.000 ms
+datetime 2020/03/26 07:17:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.522 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  99.034 ms
+ 6  210.138.106.238 (210.138.106.238)  98.982 ms
+ 7  183.79.224.146 (183.79.224.146)  98.936 ms
+ 8  183.79.250.123 (183.79.250.123)  98.882 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.285/50.285/50.285/0.000 ms
+datetime 2020/03/26 07:18:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.570 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.262 ms
+ 6  210.138.106.238 (210.138.106.238)  86.333 ms
+ 7  183.79.224.146 (183.79.224.146)  85.498 ms
+ 8  183.79.250.123 (183.79.250.123)  85.428 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.511/57.511/57.511/0.000 ms
+datetime 2020/03/26 07:17:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.788 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.760 ms
+ 6  210.138.106.238 (210.138.106.238)  87.092 ms
+ 7  183.79.224.146 (183.79.224.146)  87.049 ms
+ 8  183.79.250.123 (183.79.250.123)  85.620 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.385/51.385/51.385/0.000 ms
+datetime 2020/03/26 07:18:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.861 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.760 ms
+ 6  210.138.106.238 (210.138.106.238)  84.717 ms
+ 7  183.79.224.146 (183.79.224.146)  86.711 ms
+ 8  183.79.250.123 (183.79.250.123)  86.660 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.542/46.542/46.542/0.000 ms
+datetime 2020/03/26 07:18:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.928 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.902 ms
+ 6  210.138.106.238 (210.138.106.238)  89.857 ms
+ 7  183.79.224.146 (183.79.224.146)  90.183 ms
+ 8  183.79.250.123 (183.79.250.123)  90.133 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.910/58.910/58.910/0.000 ms
+datetime 2020/03/26 07:18:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  87.831 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  106.401 ms
+ 6  210.138.106.238 (210.138.106.238)  106.366 ms
+ 7  183.79.224.146 (183.79.224.146)  106.318 ms
+ 8  183.79.250.123 (183.79.250.123)  106.255 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.362/55.362/55.362/0.000 ms
+datetime 2020/03/26 07:19:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.411 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.027 ms
+ 6  210.138.106.238 (210.138.106.238)  92.459 ms
+ 7  183.79.224.146 (183.79.224.146)  92.374 ms
+ 8  183.79.250.123 (183.79.250.123)  90.480 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.079/56.079/56.079/0.000 ms
+datetime 2020/03/26 07:19:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.178 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.166 ms
+ 6  210.138.106.238 (210.138.106.238)  82.124 ms
+ 7  183.79.224.146 (183.79.224.146)  83.286 ms
+ 8  183.79.250.123 (183.79.250.123)  82.960 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.421/63.421/63.421/0.000 ms
+datetime 2020/03/26 07:19:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.006 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.974 ms
+ 6  210.138.106.238 (210.138.106.238)  91.755 ms
+ 7  183.79.224.146 (183.79.224.146)  91.708 ms
+ 8  183.79.250.123 (183.79.250.123)  89.833 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.180/53.180/53.180/0.000 ms
+datetime 2020/03/26 07:19:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.668 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  96.486 ms
+ 6  210.138.106.238 (210.138.106.238)  88.475 ms
+ 7  183.79.224.146 (183.79.224.146)  92.648 ms
+ 8  183.79.250.123 (183.79.250.123)  91.075 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.469/45.469/45.469/0.000 ms
+datetime 2020/03/26 07:20:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.988 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.736 ms
+ 6  210.138.106.238 (210.138.106.238)  83.239 ms
+ 7  183.79.224.146 (183.79.224.146)  83.154 ms
+ 8  183.79.250.123 (183.79.250.123)  83.067 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.574/55.574/55.574/0.000 ms
+datetime 2020/03/26 07:20:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  89.245 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  99.465 ms
+ 6  210.138.106.238 (210.138.106.238)  99.392 ms
+ 7  183.79.224.146 (183.79.224.146)  99.309 ms
+ 8  183.79.250.123 (183.79.250.123)  99.250 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.193/55.193/55.193/0.000 ms
+datetime 2020/03/26 07:20:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.074 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  97.318 ms
+ 6  210.138.106.238 (210.138.106.238)  113.612 ms
+ 7  183.79.224.146 (183.79.224.146)  97.157 ms
+ 8  183.79.250.123 (183.79.250.123)  97.068 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.605/62.605/62.605/0.000 ms
+datetime 2020/03/26 07:20:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.827 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.147 ms
+ 6  210.138.106.238 (210.138.106.238)  85.697 ms
+ 7  183.79.224.146 (183.79.224.146)  85.650 ms
+ 8  183.79.250.123 (183.79.250.123)  85.600 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.421/57.421/57.421/0.000 ms
+datetime 2020/03/26 07:21:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.075 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.767 ms
+ 6  210.138.106.238 (210.138.106.238)  87.683 ms
+ 7  183.79.224.146 (183.79.224.146)  90.941 ms
+ 8  183.79.250.123 (183.79.250.123)  87.526 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 61.689/61.689/61.689/0.000 ms
+datetime 2020/03/26 07:21:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.121 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.153 ms
+ 6  210.138.106.238 (210.138.106.238)  90.540 ms
+ 7  183.79.224.146 (183.79.224.146)  90.725 ms
+ 8  183.79.250.123 (183.79.250.123)  90.015 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.299/55.299/55.299/0.000 ms
+datetime 2020/03/26 07:21:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  90.492 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  96.789 ms
+ 6  210.138.106.238 (210.138.106.238)  94.591 ms
+ 7  183.79.224.146 (183.79.224.146)  94.508 ms
+ 8  183.79.250.123 (183.79.250.123)  94.413 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.006/58.006/58.006/0.000 ms
+datetime 2020/03/26 07:21:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.240 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.675 ms
+ 6  210.138.106.238 (210.138.106.238)  83.951 ms
+ 7  183.79.224.146 (183.79.224.146)  84.682 ms
+ 8  183.79.250.123 (183.79.250.123)  83.361 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.414/59.414/59.414/0.000 ms
+datetime 2020/03/26 07:22:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.611 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  98.073 ms
+ 6  210.138.106.238 (210.138.106.238)  98.037 ms
+ 7  183.79.224.146 (183.79.224.146)  97.989 ms
+ 8  183.79.250.123 (183.79.250.123)  97.928 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.688/49.688/49.688/0.000 ms
+datetime 2020/03/26 07:22:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.373 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.542 ms
+ 6  210.138.106.238 (210.138.106.238)  90.502 ms
+ 7  183.79.224.146 (183.79.224.146)  90.395 ms
+ 8  183.79.250.123 (183.79.250.123)  90.302 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.587/57.587/57.587/0.000 ms
+datetime 2020/03/26 07:22:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.900 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.300 ms
+ 6  210.138.106.238 (210.138.106.238)  85.249 ms
+ 7  183.79.224.146 (183.79.224.146)  85.204 ms
+ 8  183.79.250.123 (183.79.250.123)  84.734 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.290/57.290/57.290/0.000 ms
+datetime 2020/03/26 07:22:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  86.030 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  105.512 ms
+ 6  210.138.106.238 (210.138.106.238)  107.198 ms
+ 7  183.79.224.146 (183.79.224.146)  107.149 ms
+ 8  183.79.250.123 (183.79.250.123)  105.363 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.046/57.046/57.046/0.000 ms
+datetime 2020/03/26 07:23:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  90.010 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  108.138 ms
+ 6  210.138.106.238 (210.138.106.238)  108.068 ms
+ 7  183.79.224.146 (183.79.224.146)  109.532 ms
+ 8  183.79.250.123 (183.79.250.123)  107.883 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.262/58.262/58.262/0.000 ms
+datetime 2020/03/26 07:23:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.370 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.242 ms
+ 6  210.138.106.238 (210.138.106.238)  83.366 ms
+ 7  183.79.224.146 (183.79.224.146)  83.295 ms
+ 8  183.79.250.123 (183.79.250.123)  82.010 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.393/51.393/51.393/0.000 ms
+datetime 2020/03/26 07:23:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.833 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.691 ms
+ 6  210.138.106.238 (210.138.106.238)  113.705 ms
+ 7  183.79.224.146 (183.79.224.146)  89.216 ms
+ 8  183.79.250.123 (183.79.250.123)  88.817 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.779/56.779/56.779/0.000 ms
+datetime 2020/03/26 07:23:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.944 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.079 ms
+ 6  210.138.106.238 (210.138.106.238)  84.826 ms
+ 7  183.79.224.146 (183.79.224.146)  84.780 ms
+ 8  183.79.250.123 (183.79.250.123)  84.726 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.997/47.997/47.997/0.000 ms
+datetime 2020/03/26 07:24:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.939 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  93.163 ms
+ 6  210.138.106.238 (210.138.106.238)  93.115 ms
+ 7  183.79.224.146 (183.79.224.146)  92.995 ms
+ 8  183.79.250.123 (183.79.250.123)  82.477 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.748/56.748/56.748/0.000 ms
+datetime 2020/03/26 07:24:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  91.465 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  101.677 ms
+ 6  210.138.106.238 (210.138.106.238)  103.750 ms
+ 7  183.79.224.146 (183.79.224.146)  101.599 ms
+ 8  183.79.250.123 (183.79.250.123)  101.542 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.418/44.418/44.418/0.000 ms
+datetime 2020/03/26 07:24:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  89.816 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  100.323 ms
+ 6  210.138.106.238 (210.138.106.238)  100.289 ms
+ 7  183.79.224.146 (183.79.224.146)  100.241 ms
+ 8  183.79.250.123 (183.79.250.123)  100.186 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.048/58.048/58.048/0.000 ms
+datetime 2020/03/26 07:24:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.924 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  80.786 ms
+ 6  210.138.106.238 (210.138.106.238)  82.730 ms
+ 7  183.79.224.146 (183.79.224.146)  83.192 ms
+ 8  183.79.250.123 (183.79.250.123)  82.590 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.594/49.594/49.594/0.000 ms
+datetime 2020/03/26 07:25:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  82.600 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.959 ms
+ 6  210.138.106.238 (210.138.106.238)  92.881 ms
+ 7  183.79.224.146 (183.79.224.146)  96.421 ms
+ 8  183.79.250.123 (183.79.250.123)  95.330 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.561/48.561/48.561/0.000 ms
+datetime 2020/03/26 07:25:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  91.549 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.396 ms
+ 6  210.138.106.238 (210.138.106.238)  91.353 ms
+ 7  183.79.224.146 (183.79.224.146)  91.308 ms
+ 8  183.79.250.123 (183.79.250.123)  91.249 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.400/59.400/59.400/0.000 ms
+datetime 2020/03/26 07:25:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.598 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.005 ms
+ 6  210.138.106.238 (210.138.106.238)  92.349 ms
+ 7  183.79.224.146 (183.79.224.146)  92.298 ms
+ 8  183.79.250.123 (183.79.250.123)  91.813 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.052/50.052/50.052/0.000 ms
+datetime 2020/03/26 07:25:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.564 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.608 ms
+ 6  210.138.106.238 (210.138.106.238)  91.313 ms
+ 7  183.79.224.146 (183.79.224.146)  92.070 ms
+ 8  183.79.250.123 (183.79.250.123)  91.924 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.824/56.824/56.824/0.000 ms
+datetime 2020/03/26 07:26:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  83.037 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.590 ms
+ 6  210.138.106.238 (210.138.106.238)  85.348 ms
+ 7  183.79.224.146 (183.79.224.146)  86.116 ms
+ 8  183.79.250.123 (183.79.250.123)  84.321 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.159/57.159/57.159/0.000 ms
+datetime 2020/03/26 07:26:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.612 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.409 ms
+ 6  210.138.106.238 (210.138.106.238)  82.364 ms
+ 7  183.79.224.146 (183.79.224.146)  85.686 ms
+ 8  183.79.250.123 (183.79.250.123)  85.243 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.718/49.718/49.718/0.000 ms
+datetime 2020/03/26 07:26:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  81.907 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.974 ms
+ 6  210.138.106.238 (210.138.106.238)  85.352 ms
+ 7  183.79.224.146 (183.79.224.146)  85.307 ms
+ 8  183.79.250.123 (183.79.250.123)  85.254 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.647/50.647/50.647/0.000 ms
+datetime 2020/03/26 07:26:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  94.622 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  101.957 ms
+ 6  210.138.106.238 (210.138.106.238)  101.924 ms
+ 7  183.79.224.146 (183.79.224.146)  101.819 ms
+ 8  183.79.250.123 (183.79.250.123)  101.727 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.064/47.064/47.064/0.000 ms
+datetime 2020/03/26 07:27:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  89.992 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.846 ms
+ 6  210.138.106.238 (210.138.106.238)  89.807 ms
+ 7  183.79.224.146 (183.79.224.146)  89.761 ms
+ 8  183.79.250.123 (183.79.250.123)  89.708 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.141/58.141/58.141/0.000 ms
+datetime 2020/03/26 07:27:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.103 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.437 ms
+ 6  210.138.106.238 (210.138.106.238)  83.398 ms
+ 7  183.79.224.146 (183.79.224.146)  83.357 ms
+ 8  183.79.250.123 (183.79.250.123)  83.296 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.440/58.440/58.440/0.000 ms
+datetime 2020/03/26 07:27:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.115 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.417 ms
+ 6  210.138.106.238 (210.138.106.238)  92.376 ms
+ 7  183.79.224.146 (183.79.224.146)  92.270 ms
+ 8  183.79.250.123 (183.79.250.123)  92.209 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.670/47.670/47.670/0.000 ms
+datetime 2020/03/26 07:27:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  81.937 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.312 ms
+ 6  210.138.106.238 (210.138.106.238)  92.269 ms
+ 7  183.79.224.146 (183.79.224.146)  92.213 ms
+ 8  183.79.250.123 (183.79.250.123)  92.161 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.360/58.360/58.360/0.000 ms
+datetime 2020/03/26 07:28:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  82.345 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.687 ms
+ 6  210.138.106.238 (210.138.106.238)  97.064 ms
+ 7  183.79.224.146 (183.79.224.146)  86.603 ms
+ 8  183.79.250.123 (183.79.250.123)  86.549 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 66.537/66.537/66.537/0.000 ms
+datetime 2020/03/26 07:28:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.032 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.861 ms
+ 6  210.138.106.238 (210.138.106.238)  82.740 ms
+ 7  183.79.224.146 (183.79.224.146)  85.295 ms
+ 8  183.79.250.123 (183.79.250.123)  84.769 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.754/50.754/50.754/0.000 ms
+datetime 2020/03/26 07:28:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.873 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.826 ms
+ 6  210.138.106.238 (210.138.106.238)  87.151 ms
+ 7  183.79.224.146 (183.79.224.146)  87.104 ms
+ 8  183.79.250.123 (183.79.250.123)  84.682 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.559/57.559/57.559/0.000 ms
+datetime 2020/03/26 07:28:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.748 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.547 ms
+ 6  210.138.106.238 (210.138.106.238)  92.506 ms
+ 7  183.79.224.146 (183.79.224.146)  92.468 ms
+ 8  183.79.250.123 (183.79.250.123)  92.411 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.697/54.697/54.697/0.000 ms
+datetime 2020/03/26 07:29:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.492 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.939 ms
+ 6  210.138.106.238 (210.138.106.238)  90.904 ms
+ 7  183.79.224.146 (183.79.224.146)  90.857 ms
+ 8  183.79.250.123 (183.79.250.123)  90.807 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.804/58.804/58.804/0.000 ms
+datetime 2020/03/26 07:29:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.005 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.013 ms
+ 6  210.138.106.238 (210.138.106.238)  82.374 ms
+ 7  183.79.224.146 (183.79.224.146)  82.285 ms
+ 8  183.79.250.123 (183.79.250.123)  81.777 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.559/63.559/63.559/0.000 ms
+datetime 2020/03/26 07:29:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  81.038 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.138 ms
+ 6  210.138.106.238 (210.138.106.238)  87.098 ms
+ 7  183.79.224.146 (183.79.224.146)  87.364 ms
+ 8  183.79.250.123 (183.79.250.123)  86.999 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.503/64.503/64.503/0.000 ms
+datetime 2020/03/26 07:29:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.823 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.673 ms
+ 6  210.138.106.238 (210.138.106.238)  94.929 ms
+ 7  183.79.224.146 (183.79.224.146)  94.221 ms
+ 8  183.79.250.123 (183.79.250.123)  94.170 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.193/57.193/57.193/0.000 ms
+datetime 2020/03/26 07:30:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  95.193 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  95.046 ms
+ 6  210.138.106.238 (210.138.106.238)  95.004 ms
+ 7  183.79.224.146 (183.79.224.146)  94.962 ms
+ 8  183.79.250.123 (183.79.250.123)  94.905 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 62.198/62.198/62.198/0.000 ms
+datetime 2020/03/26 07:30:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  87.842 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  96.393 ms
+ 6  210.138.106.238 (210.138.106.238)  96.355 ms
+ 7  183.79.224.146 (183.79.224.146)  96.310 ms
+ 8  183.79.250.123 (183.79.250.123)  96.256 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.412/57.412/57.412/0.000 ms
+datetime 2020/03/26 07:30:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.009 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.989 ms
+ 6  210.138.106.238 (210.138.106.238)  91.913 ms
+ 7  183.79.224.146 (183.79.224.146)  91.833 ms
+ 8  183.79.250.123 (183.79.250.123)  91.750 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.268/53.268/53.268/0.000 ms
+datetime 2020/03/26 07:30:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  91.762 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  98.592 ms
+ 6  210.138.106.238 (210.138.106.238)  98.546 ms
+ 7  183.79.224.146 (183.79.224.146)  98.496 ms
+ 8  183.79.250.123 (183.79.250.123)  107.760 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.591/58.591/58.591/0.000 ms
+datetime 2020/03/26 07:31:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.274 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  94.515 ms
+ 6  210.138.106.238 (210.138.106.238)  94.479 ms
+ 7  183.79.224.146 (183.79.224.146)  94.428 ms
+ 8  183.79.250.123 (183.79.250.123)  94.372 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.317/53.317/53.317/0.000 ms
+datetime 2020/03/26 07:31:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.608 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.252 ms
+ 6  210.138.106.238 (210.138.106.238)  98.446 ms
+ 7  183.79.224.146 (183.79.224.146)  83.747 ms
+ 8  183.79.250.123 (183.79.250.123)  83.697 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.299/48.299/48.299/0.000 ms
+datetime 2020/03/26 07:31:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.042 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.155 ms
+ 6  210.138.106.238 (210.138.106.238)  82.117 ms
+ 7  183.79.224.146 (183.79.224.146)  82.014 ms
+ 8  183.79.250.123 (183.79.250.123)  81.921 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.204/59.204/59.204/0.000 ms
+datetime 2020/03/26 07:31:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.303 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.917 ms
+ 6  210.138.106.238 (210.138.106.238)  85.782 ms
+ 7  183.79.224.146 (183.79.224.146)  85.699 ms
+ 8  183.79.250.123 (183.79.250.123)  85.613 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 51.278/51.278/51.278/0.000 ms
+datetime 2020/03/26 07:32:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.154 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.586 ms
+ 6  210.138.106.238 (210.138.106.238)  87.543 ms
+ 7  183.79.224.146 (183.79.224.146)  87.495 ms
+ 8  183.79.250.123 (183.79.250.123)  87.432 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.783/55.783/55.783/0.000 ms
+datetime 2020/03/26 07:32:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.714 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.121 ms
+ 6  210.138.106.238 (210.138.106.238)  87.442 ms
+ 7  183.79.224.146 (183.79.224.146)  88.275 ms
+ 8  183.79.250.123 (183.79.250.123)  87.275 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.663/57.663/57.663/0.000 ms
+datetime 2020/03/26 07:32:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.967 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.672 ms
+ 6  210.138.106.238 (210.138.106.238)  82.840 ms
+ 7  183.79.224.146 (183.79.224.146)  83.087 ms
+ 8  183.79.250.123 (183.79.250.123)  82.428 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.604/57.604/57.604/0.000 ms
+datetime 2020/03/26 07:32:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  83.660 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  97.321 ms
+ 6  210.138.106.238 (210.138.106.238)  94.434 ms
+ 7  183.79.224.146 (183.79.224.146)  97.221 ms
+ 8  183.79.250.123 (183.79.250.123)  96.216 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.115/58.115/58.115/0.000 ms
+datetime 2020/03/26 07:33:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.179 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.860 ms
+ 6  210.138.106.238 (210.138.106.238)  82.809 ms
+ 7  183.79.224.146 (183.79.224.146)  84.573 ms
+ 8  183.79.250.123 (183.79.250.123)  84.478 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.417/47.417/47.417/0.000 ms
+datetime 2020/03/26 07:33:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.978 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.669 ms
+ 6  210.138.106.238 (210.138.106.238)  85.699 ms
+ 7  183.79.224.146 (183.79.224.146)  85.619 ms
+ 8  183.79.250.123 (183.79.250.123)  84.098 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 68.374/68.374/68.374/0.000 ms
+datetime 2020/03/26 07:33:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.217 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.033 ms
+ 6  210.138.106.238 (210.138.106.238)  82.462 ms
+ 7  183.79.224.146 (183.79.224.146)  82.798 ms
+ 8  183.79.250.123 (183.79.250.123)  81.829 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.004/59.004/59.004/0.000 ms
+datetime 2020/03/26 07:33:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.108 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.140 ms
+ 6  210.138.106.238 (210.138.106.238)  88.499 ms
+ 7  183.79.224.146 (183.79.224.146)  88.721 ms
+ 8  183.79.250.123 (183.79.250.123)  88.401 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.670/58.670/58.670/0.000 ms
+datetime 2020/03/26 07:34:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  103.554 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  110.329 ms
+ 6  210.138.106.238 (210.138.106.238)  110.245 ms
+ 7  183.79.224.146 (183.79.224.146)  114.071 ms
+ 8  183.79.250.123 (183.79.250.123)  112.213 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.207/53.207/53.207/0.000 ms
+datetime 2020/03/26 07:34:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.157 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.601 ms
+ 6  210.138.106.238 (210.138.106.238)  82.517 ms
+ 7  183.79.224.146 (183.79.224.146)  84.959 ms
+ 8  183.79.250.123 (183.79.250.123)  84.543 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.233/58.233/58.233/0.000 ms
+datetime 2020/03/26 07:34:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  81.121 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.192 ms
+ 6  210.138.106.238 (210.138.106.238)  85.404 ms
+ 7  183.79.224.146 (183.79.224.146)  85.833 ms
+ 8  183.79.250.123 (183.79.250.123)  85.237 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 66.704/66.704/66.704/0.000 ms
+datetime 2020/03/26 07:34:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  94.136 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  104.864 ms
+ 6  210.138.106.238 (210.138.106.238)  104.828 ms
+ 7  183.79.224.146 (183.79.224.146)  106.126 ms
+ 8  183.79.250.123 (183.79.250.123)  104.719 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.026/57.026/57.026/0.000 ms
+datetime 2020/03/26 07:35:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  83.635 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.233 ms
+ 6  210.138.106.238 (210.138.106.238)  93.835 ms
+ 7  183.79.224.146 (183.79.224.146)  93.788 ms
+ 8  183.79.250.123 (183.79.250.123)  93.736 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.596/58.596/58.596/0.000 ms
+datetime 2020/03/26 07:35:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.497 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.595 ms
+ 6  210.138.106.238 (210.138.106.238)  91.995 ms
+ 7  183.79.224.146 (183.79.224.146)  92.382 ms
+ 8  183.79.250.123 (183.79.250.123)  90.119 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.594/57.594/57.594/0.000 ms
+datetime 2020/03/26 07:35:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.250 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.355 ms
+ 6  210.138.106.238 (210.138.106.238)  87.515 ms
+ 7  183.79.224.146 (183.79.224.146)  87.428 ms
+ 8  183.79.250.123 (183.79.250.123)  86.084 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.671/50.671/50.671/0.000 ms
+datetime 2020/03/26 07:35:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.799 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.082 ms
+ 6  210.138.106.238 (210.138.106.238)  94.917 ms
+ 7  183.79.224.146 (183.79.224.146)  87.842 ms
+ 8  183.79.250.123 (183.79.250.123)  86.956 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.659/56.659/56.659/0.000 ms
+datetime 2020/03/26 07:36:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.910 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.319 ms
+ 6  210.138.106.238 (210.138.106.238)  90.278 ms
+ 7  183.79.224.146 (183.79.224.146)  90.235 ms
+ 8  183.79.250.123 (183.79.250.123)  90.183 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.474/55.474/55.474/0.000 ms
+datetime 2020/03/26 07:36:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.540 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  94.583 ms
+ 6  210.138.106.238 (210.138.106.238)  95.788 ms
+ 7  183.79.224.146 (183.79.224.146)  95.707 ms
+ 8  183.79.250.123 (183.79.250.123)  94.954 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.449/54.449/54.449/0.000 ms
+datetime 2020/03/26 07:36:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.507 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.122 ms
+ 6  210.138.106.238 (210.138.106.238)  88.081 ms
+ 7  183.79.224.146 (183.79.224.146)  88.043 ms
+ 8  183.79.250.123 (183.79.250.123)  87.987 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.057/59.057/59.057/0.000 ms
+datetime 2020/03/26 07:36:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  105.340 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.714 ms
+ 6  210.138.106.238 (210.138.106.238)  88.680 ms
+ 7  183.79.224.146 (183.79.224.146)  88.637 ms
+ 8  183.79.250.123 (183.79.250.123)  88.582 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.495/57.495/57.495/0.000 ms
+datetime 2020/03/26 07:37:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.883 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  100.427 ms
+ 6  210.138.106.238 (210.138.106.238)  100.352 ms
+ 7  183.79.224.146 (183.79.224.146)  100.273 ms
+ 8  183.79.250.123 (183.79.250.123)  100.216 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.222/58.222/58.222/0.000 ms
+datetime 2020/03/26 07:37:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.600 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.869 ms
+ 6  210.138.106.238 (210.138.106.238)  87.827 ms
+ 7  183.79.224.146 (183.79.224.146)  87.783 ms
+ 8  183.79.250.123 (183.79.250.123)  87.723 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.481/59.481/59.481/0.000 ms
+datetime 2020/03/26 07:37:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  53.643 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  64.587 ms
+ 6  210.138.106.238 (210.138.106.238)  64.537 ms
+ 7  183.79.224.146 (183.79.224.146)  64.481 ms
+ 8  183.79.250.123 (183.79.250.123)  66.476 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.745/52.745/52.745/0.000 ms
+datetime 2020/03/26 07:37:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.996 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.864 ms
+ 6  210.138.106.238 (210.138.106.238)  89.819 ms
+ 7  183.79.224.146 (183.79.224.146)  94.310 ms
+ 8  183.79.250.123 (183.79.250.123)  91.277 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.004/56.004/56.004/0.000 ms
+datetime 2020/03/26 07:38:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.605 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.678 ms
+ 6  210.138.106.238 (210.138.106.238)  94.780 ms
+ 7  183.79.224.146 (183.79.224.146)  90.523 ms
+ 8  183.79.250.123 (183.79.250.123)  90.434 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.366/52.366/52.366/0.000 ms
+datetime 2020/03/26 07:38:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.486 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.401 ms
+ 6  210.138.106.238 (210.138.106.238)  92.750 ms
+ 7  183.79.224.146 (183.79.224.146)  92.704 ms
+ 8  183.79.250.123 (183.79.250.123)  90.260 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.966/56.966/56.966/0.000 ms
+datetime 2020/03/26 07:38:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.112 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  80.983 ms
+ 6  210.138.106.238 (210.138.106.238)  82.737 ms
+ 7  183.79.224.146 (183.79.224.146)  82.690 ms
+ 8  183.79.250.123 (183.79.250.123)  80.840 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.044/57.044/57.044/0.000 ms
+datetime 2020/03/26 07:38:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.926 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.512 ms
+ 6  210.138.106.238 (210.138.106.238)  92.468 ms
+ 7  183.79.224.146 (183.79.224.146)  92.426 ms
+ 8  183.79.250.123 (183.79.250.123)  92.368 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.048/57.048/57.048/0.000 ms
+datetime 2020/03/26 07:39:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  60.352 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  72.310 ms
+ 6  210.138.106.238 (210.138.106.238)  104.102 ms
+ 7  183.79.224.146 (183.79.224.146)  73.673 ms
+ 8  183.79.250.123 (183.79.250.123)  72.894 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.295/58.295/58.295/0.000 ms
+datetime 2020/03/26 07:39:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.908 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.828 ms
+ 6  210.138.106.238 (210.138.106.238)  82.701 ms
+ 7  183.79.224.146 (183.79.224.146)  82.654 ms
+ 8  183.79.250.123 (183.79.250.123)  82.601 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 70.109/70.109/70.109/0.000 ms
+datetime 2020/03/26 07:39:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.001 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.817 ms
+ 6  210.138.106.238 (210.138.106.238)  90.081 ms
+ 7  183.79.224.146 (183.79.224.146)  91.717 ms
+ 8  183.79.250.123 (183.79.250.123)  89.971 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.859/56.859/56.859/0.000 ms
+datetime 2020/03/26 07:39:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.457 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.365 ms
+ 6  210.138.106.238 (210.138.106.238)  93.773 ms
+ 7  183.79.224.146 (183.79.224.146)  93.726 ms
+ 8  183.79.250.123 (183.79.250.123)  92.216 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.243/57.243/57.243/0.000 ms
+datetime 2020/03/26 07:40:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  84.972 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.211 ms
+ 6  210.138.106.238 (210.138.106.238)  89.169 ms
+ 7  183.79.224.146 (183.79.224.146)  89.122 ms
+ 8  183.79.250.123 (183.79.250.123)  89.069 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.686/50.686/50.686/0.000 ms
+datetime 2020/03/26 07:40:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  68.979 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.644 ms
+ 6  210.138.106.238 (210.138.106.238)  90.599 ms
+ 7  183.79.224.146 (183.79.224.146)  90.554 ms
+ 8  183.79.250.123 (183.79.250.123)  90.504 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.447/56.447/56.447/0.000 ms
+datetime 2020/03/26 07:40:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.313 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  80.291 ms
+ 6  210.138.106.238 (210.138.106.238)  80.226 ms
+ 7  183.79.224.146 (183.79.224.146)  82.385 ms
+ 8  183.79.250.123 (183.79.250.123)  82.228 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.922/56.922/56.922/0.000 ms
+datetime 2020/03/26 07:40:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.252 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.415 ms
+ 6  210.138.106.238 (210.138.106.238)  93.869 ms
+ 7  183.79.224.146 (183.79.224.146)  92.331 ms
+ 8  183.79.250.123 (183.79.250.123)  92.282 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.978/56.978/56.978/0.000 ms
+datetime 2020/03/26 07:41:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.685 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  99.141 ms
+ 6  210.138.106.238 (210.138.106.238)  99.110 ms
+ 7  183.79.224.146 (183.79.224.146)  99.061 ms
+ 8  183.79.250.123 (183.79.250.123)  99.002 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.999/57.999/57.999/0.000 ms
+datetime 2020/03/26 07:41:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.453 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.370 ms
+ 6  210.138.106.238 (210.138.106.238)  84.963 ms
+ 7  183.79.224.146 (183.79.224.146)  84.917 ms
+ 8  183.79.250.123 (183.79.250.123)  84.225 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.406/58.406/58.406/0.000 ms
+datetime 2020/03/26 07:41:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.346 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  93.135 ms
+ 6  210.138.106.238 (210.138.106.238)  95.194 ms
+ 7  183.79.224.146 (183.79.224.146)  95.158 ms
+ 8  183.79.250.123 (183.79.250.123)  95.105 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.907/58.907/58.907/0.000 ms
+datetime 2020/03/26 07:41:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.859 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.837 ms
+ 6  210.138.106.238 (210.138.106.238)  88.519 ms
+ 7  183.79.224.146 (183.79.224.146)  88.632 ms
+ 8  183.79.250.123 (183.79.250.123)  87.697 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.956/57.956/57.956/0.000 ms
+datetime 2020/03/26 07:42:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.866 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.841 ms
+ 6  210.138.106.238 (210.138.106.238)  84.262 ms
+ 7  183.79.224.146 (183.79.224.146)  84.179 ms
+ 8  183.79.250.123 (183.79.250.123)  84.093 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.586/50.586/50.586/0.000 ms
+datetime 2020/03/26 07:42:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.194 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.377 ms
+ 6  210.138.106.238 (210.138.106.238)  91.326 ms
+ 7  183.79.224.146 (183.79.224.146)  91.279 ms
+ 8  183.79.250.123 (183.79.250.123)  91.224 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.307/63.307/63.307/0.000 ms
+datetime 2020/03/26 07:42:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.964 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  80.758 ms
+ 6  210.138.106.238 (210.138.106.238)  83.099 ms
+ 7  183.79.224.146 (183.79.224.146)  83.052 ms
+ 8  183.79.250.123 (183.79.250.123)  83.000 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.096/47.096/47.096/0.000 ms
+datetime 2020/03/26 07:42:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.178 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.004 ms
+ 6  210.138.106.238 (210.138.106.238)  83.436 ms
+ 7  183.79.224.146 (183.79.224.146)  84.746 ms
+ 8  183.79.250.123 (183.79.250.123)  83.273 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.550/56.550/56.550/0.000 ms
+datetime 2020/03/26 07:43:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.036 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.953 ms
+ 6  210.138.106.238 (210.138.106.238)  93.176 ms
+ 7  183.79.224.146 (183.79.224.146)  93.127 ms
+ 8  183.79.250.123 (183.79.250.123)  83.807 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.334/56.334/56.334/0.000 ms
+datetime 2020/03/26 07:43:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.782 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.066 ms
+ 6  210.138.106.238 (210.138.106.238)  84.023 ms
+ 7  183.79.224.146 (183.79.224.146)  83.978 ms
+ 8  183.79.250.123 (183.79.250.123)  83.923 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 61.012/61.012/61.012/0.000 ms
+datetime 2020/03/26 07:43:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.614 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.203 ms
+ 6  210.138.106.238 (210.138.106.238)  84.674 ms
+ 7  183.79.224.146 (183.79.224.146)  84.076 ms
+ 8  183.79.250.123 (183.79.250.123)  82.091 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 46.158/46.158/46.158/0.000 ms
+datetime 2020/03/26 07:43:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.735 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.639 ms
+ 6  210.138.106.238 (210.138.106.238)  84.417 ms
+ 7  183.79.224.146 (183.79.224.146)  85.115 ms
+ 8  183.79.250.123 (183.79.250.123)  83.200 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.791/57.791/57.791/0.000 ms
+datetime 2020/03/26 07:44:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.956 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.019 ms
+ 6  210.138.106.238 (210.138.106.238)  93.118 ms
+ 7  183.79.224.146 (183.79.224.146)  93.071 ms
+ 8  183.79.250.123 (183.79.250.123)  93.013 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.620/58.620/58.620/0.000 ms
+datetime 2020/03/26 07:44:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.481 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.316 ms
+ 6  210.138.106.238 (210.138.106.238)  102.227 ms
+ 7  183.79.224.146 (183.79.224.146)  92.559 ms
+ 8  183.79.250.123 (183.79.250.123)  92.506 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 65.507/65.507/65.507/0.000 ms
+datetime 2020/03/26 07:44:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.744 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  92.229 ms
+ 6  210.138.106.238 (210.138.106.238)  92.185 ms
+ 7  183.79.224.146 (183.79.224.146)  92.136 ms
+ 8  183.79.250.123 (183.79.250.123)  92.084 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.163/56.163/56.163/0.000 ms
+datetime 2020/03/26 07:44:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.445 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  100.998 ms
+ 6  210.138.106.238 (210.138.106.238)  100.927 ms
+ 7  183.79.224.146 (183.79.224.146)  100.878 ms
+ 8  183.79.250.123 (183.79.250.123)  100.762 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.191/57.191/57.191/0.000 ms
+datetime 2020/03/26 07:45:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.744 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.326 ms
+ 6  210.138.106.238 (210.138.106.238)  91.285 ms
+ 7  183.79.224.146 (183.79.224.146)  100.490 ms
+ 8  183.79.250.123 (183.79.250.123)  91.181 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.612/48.612/48.612/0.000 ms
+datetime 2020/03/26 07:45:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  81.547 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  93.553 ms
+ 6  210.138.106.238 (210.138.106.238)  96.049 ms
+ 7  183.79.224.146 (183.79.224.146)  96.002 ms
+ 8  183.79.250.123 (183.79.250.123)  95.665 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.235/58.235/58.235/0.000 ms
+datetime 2020/03/26 07:45:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.406 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.834 ms
+ 6  210.138.106.238 (210.138.106.238)  89.789 ms
+ 7  183.79.224.146 (183.79.224.146)  91.907 ms
+ 8  183.79.250.123 (183.79.250.123)  91.853 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 45.008/45.008/45.008/0.000 ms
+datetime 2020/03/26 07:45:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.613 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.546 ms
+ 6  210.138.106.238 (210.138.106.238)  89.501 ms
+ 7  183.79.224.146 (183.79.224.146)  91.129 ms
+ 8  183.79.250.123 (183.79.250.123)  93.513 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.849/56.849/56.849/0.000 ms
+datetime 2020/03/26 07:46:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.039 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.655 ms
+ 6  210.138.106.238 (210.138.106.238)  90.612 ms
+ 7  183.79.224.146 (183.79.224.146)  90.572 ms
+ 8  183.79.250.123 (183.79.250.123)  90.510 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 65.750/65.750/65.750/0.000 ms
+datetime 2020/03/26 07:46:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.042 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.122 ms
+ 6  210.138.106.238 (210.138.106.238)  95.055 ms
+ 7  183.79.224.146 (183.79.224.146)  96.525 ms
+ 8  183.79.250.123 (183.79.250.123)  94.950 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.962/58.962/58.962/0.000 ms
+datetime 2020/03/26 07:46:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.517 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.923 ms
+ 6  210.138.106.238 (210.138.106.238)  91.884 ms
+ 7  183.79.224.146 (183.79.224.146)  91.779 ms
+ 8  183.79.250.123 (183.79.250.123)  91.685 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.300/57.300/57.300/0.000 ms
+datetime 2020/03/26 07:47:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  93.395 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  96.725 ms
+ 6  210.138.106.238 (210.138.106.238)  98.934 ms
+ 7  183.79.224.146 (183.79.224.146)  99.628 ms
+ 8  183.79.250.123 (183.79.250.123)  99.575 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.693/56.693/56.693/0.000 ms
+datetime 2020/03/26 07:46:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  79.458 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  100.908 ms
+ 6  210.138.106.238 (210.138.106.238)  100.863 ms
+ 7  183.79.224.146 (183.79.224.146)  100.818 ms
+ 8  183.79.250.123 (183.79.250.123)  100.769 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.216/59.216/59.216/0.000 ms
+datetime 2020/03/26 07:47:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.683 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.429 ms
+ 6  210.138.106.238 (210.138.106.238)  94.990 ms
+ 7  183.79.224.146 (183.79.224.146)  94.942 ms
+ 8  183.79.250.123 (183.79.250.123)  94.880 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.826/52.826/52.826/0.000 ms
+datetime 2020/03/26 07:47:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.145 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  93.184 ms
+ 6  210.138.106.238 (210.138.106.238)  105.156 ms
+ 7  183.79.224.146 (183.79.224.146)  105.087 ms
+ 8  183.79.250.123 (183.79.250.123)  104.759 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.041/54.041/54.041/0.000 ms
+datetime 2020/03/26 07:47:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  36.176 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  56.511 ms
+ 6  210.138.106.238 (210.138.106.238)  56.472 ms
+ 7  183.79.224.146 (183.79.224.146)  56.426 ms
+ 8  183.79.250.123 (183.79.250.123)  56.374 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 47.867/47.867/47.867/0.000 ms
+datetime 2020/03/26 07:48:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.157 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  90.709 ms
+ 6  210.138.106.238 (210.138.106.238)  90.556 ms
+ 7  183.79.224.146 (183.79.224.146)  90.510 ms
+ 8  183.79.250.123 (183.79.250.123)  89.956 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.038/55.038/55.038/0.000 ms
+datetime 2020/03/26 07:48:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.109 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.902 ms
+ 6  210.138.106.238 (210.138.106.238)  92.539 ms
+ 7  183.79.224.146 (183.79.224.146)  92.196 ms
+ 8  183.79.250.123 (183.79.250.123)  92.145 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.698/53.698/53.698/0.000 ms
+datetime 2020/03/26 07:48:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  57.585 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  68.683 ms
+ 6  210.138.106.238 (210.138.106.238)  68.645 ms
+ 7  183.79.224.146 (183.79.224.146)  78.321 ms
+ 8  183.79.250.123 (183.79.250.123)  68.545 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 50.360/50.360/50.360/0.000 ms
+datetime 2020/03/26 07:48:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.941 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.818 ms
+ 6  210.138.106.238 (210.138.106.238)  89.771 ms
+ 7  183.79.224.146 (183.79.224.146)  92.479 ms
+ 8  183.79.250.123 (183.79.250.123)  91.491 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.916/56.916/56.916/0.000 ms
+datetime 2020/03/26 07:49:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.558 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.407 ms
+ 6  210.138.106.238 (210.138.106.238)  92.150 ms
+ 7  183.79.224.146 (183.79.224.146)  92.105 ms
+ 8  183.79.250.123 (183.79.250.123)  91.160 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.784/57.784/57.784/0.000 ms
+datetime 2020/03/26 07:49:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.620 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.582 ms
+ 6  210.138.106.238 (210.138.106.238)  94.865 ms
+ 7  183.79.224.146 (183.79.224.146)  94.816 ms
+ 8  183.79.250.123 (183.79.250.123)  94.764 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.766/56.766/56.766/0.000 ms
+datetime 2020/03/26 07:49:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.771 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  94.226 ms
+ 6  210.138.106.238 (210.138.106.238)  94.132 ms
+ 7  183.79.224.146 (183.79.224.146)  94.038 ms
+ 8  183.79.250.123 (183.79.250.123)  93.950 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.747/58.747/58.747/0.000 ms
+datetime 2020/03/26 07:49:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.225 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.531 ms
+ 6  210.138.106.238 (210.138.106.238)  84.536 ms
+ 7  183.79.224.146 (183.79.224.146)  84.736 ms
+ 8  183.79.250.123 (183.79.250.123)  83.048 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.189/59.189/59.189/0.000 ms
+datetime 2020/03/26 07:50:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  78.429 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.113 ms
+ 6  210.138.106.238 (210.138.106.238)  90.998 ms
+ 7  183.79.224.146 (183.79.224.146)  94.884 ms
+ 8  183.79.250.123 (183.79.250.123)  90.907 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.062/49.062/49.062/0.000 ms
+datetime 2020/03/26 07:50:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  77.483 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.480 ms
+ 6  210.138.106.238 (210.138.106.238)  96.442 ms
+ 7  183.79.224.146 (183.79.224.146)  89.958 ms
+ 8  183.79.250.123 (183.79.250.123)  89.331 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.495/57.495/57.495/0.000 ms
+datetime 2020/03/26 07:50:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.881 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.908 ms
+ 6  210.138.106.238 (210.138.106.238)  84.386 ms
+ 7  183.79.224.146 (183.79.224.146)  85.876 ms
+ 8  183.79.250.123 (183.79.250.123)  83.770 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 63.544/63.544/63.544/0.000 ms
+datetime 2020/03/26 07:50:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  92.778 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  95.885 ms
+ 6  210.138.106.238 (210.138.106.238)  95.842 ms
+ 7  183.79.224.146 (183.79.224.146)  95.799 ms
+ 8  183.79.250.123 (183.79.250.123)  95.733 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.978/55.978/55.978/0.000 ms
+datetime 2020/03/26 07:51:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  98.684 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  100.154 ms
+ 6  210.138.106.238 (210.138.106.238)  102.420 ms
+ 7  183.79.224.146 (183.79.224.146)  102.327 ms
+ 8  183.79.250.123 (183.79.250.123)  99.858 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.012/59.012/59.012/0.000 ms
+datetime 2020/03/26 07:51:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.037 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.087 ms
+ 6  210.138.106.238 (210.138.106.238)  83.040 ms
+ 7  183.79.224.146 (183.79.224.146)  92.801 ms
+ 8  183.79.250.123 (183.79.250.123)  92.710 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 66.541/66.541/66.541/0.000 ms
+datetime 2020/03/26 07:51:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.758 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.261 ms
+ 6  210.138.106.238 (210.138.106.238)  88.523 ms
+ 7  183.79.224.146 (183.79.224.146)  88.476 ms
+ 8  183.79.250.123 (183.79.250.123)  87.401 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.951/64.951/64.951/0.000 ms
+datetime 2020/03/26 07:51:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.846 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.635 ms
+ 6  210.138.106.238 (210.138.106.238)  85.588 ms
+ 7  183.79.224.146 (183.79.224.146)  89.288 ms
+ 8  183.79.250.123 (183.79.250.123)  87.377 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.623/59.623/59.623/0.000 ms
+datetime 2020/03/26 07:52:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.072 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  95.550 ms
+ 6  210.138.106.238 (210.138.106.238)  95.513 ms
+ 7  183.79.224.146 (183.79.224.146)  96.957 ms
+ 8  183.79.250.123 (183.79.250.123)  95.407 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.428/56.428/56.428/0.000 ms
+datetime 2020/03/26 07:52:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  92.394 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  94.944 ms
+ 6  210.138.106.238 (210.138.106.238)  95.365 ms
+ 7  183.79.224.146 (183.79.224.146)  95.320 ms
+ 8  183.79.250.123 (183.79.250.123)  95.268 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.878/56.878/56.878/0.000 ms
+datetime 2020/03/26 07:52:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.518 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.440 ms
+ 6  210.138.106.238 (210.138.106.238)  85.894 ms
+ 7  183.79.224.146 (183.79.224.146)  85.849 ms
+ 8  183.79.250.123 (183.79.250.123)  85.791 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 65.601/65.601/65.601/0.000 ms
+datetime 2020/03/26 07:52:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  80.811 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  100.011 ms
+ 6  210.138.106.238 (210.138.106.238)  97.747 ms
+ 7  183.79.224.146 (183.79.224.146)  97.701 ms
+ 8  183.79.250.123 (183.79.250.123)  97.645 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.288/57.288/57.288/0.000 ms
+datetime 2020/03/26 07:53:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  95.787 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  124.260 ms
+ 6  210.138.106.238 (210.138.106.238)  124.218 ms
+ 7  183.79.224.146 (183.79.224.146)  124.175 ms
+ 8  183.79.250.123 (183.79.250.123)  124.119 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.752/56.752/56.752/0.000 ms
+datetime 2020/03/26 07:53:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.530 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.502 ms
+ 6  210.138.106.238 (210.138.106.238)  85.455 ms
+ 7  183.79.224.146 (183.79.224.146)  87.367 ms
+ 8  183.79.250.123 (183.79.250.123)  85.832 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.571/48.571/48.571/0.000 ms
+datetime 2020/03/26 07:53:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.448 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.402 ms
+ 6  210.138.106.238 (210.138.106.238)  88.099 ms
+ 7  183.79.224.146 (183.79.224.146)  88.049 ms
+ 8  183.79.250.123 (183.79.250.123)  86.246 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 66.489/66.489/66.489/0.000 ms
+datetime 2020/03/26 07:53:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.885 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.450 ms
+ 6  210.138.106.238 (210.138.106.238)  85.365 ms
+ 7  183.79.224.146 (183.79.224.146)  89.429 ms
+ 8  183.79.250.123 (183.79.250.123)  87.895 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 61.794/61.794/61.794/0.000 ms
+datetime 2020/03/26 07:54:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  82.454 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  95.335 ms
+ 6  210.138.106.238 (210.138.106.238)  95.478 ms
+ 7  183.79.224.146 (183.79.224.146)  95.876 ms
+ 8  183.79.250.123 (183.79.250.123)  94.374 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.120/58.120/58.120/0.000 ms
+datetime 2020/03/26 07:54:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.193 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.244 ms
+ 6  210.138.106.238 (210.138.106.238)  85.128 ms
+ 7  183.79.224.146 (183.79.224.146)  85.080 ms
+ 8  183.79.250.123 (183.79.250.123)  85.019 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.654/57.654/57.654/0.000 ms
+datetime 2020/03/26 07:54:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.144 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  94.619 ms
+ 6  210.138.106.238 (210.138.106.238)  94.578 ms
+ 7  183.79.224.146 (183.79.224.146)  94.530 ms
+ 8  183.79.250.123 (183.79.250.123)  94.472 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.885/56.885/56.885/0.000 ms
+datetime 2020/03/26 07:54:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.089 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.323 ms
+ 6  210.138.106.238 (210.138.106.238)  83.286 ms
+ 7  183.79.224.146 (183.79.224.146)  83.243 ms
+ 8  183.79.250.123 (183.79.250.123)  83.189 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.809/57.809/57.809/0.000 ms
+datetime 2020/03/26 07:55:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.541 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.516 ms
+ 6  210.138.106.238 (210.138.106.238)  82.473 ms
+ 7  183.79.224.146 (183.79.224.146)  85.469 ms
+ 8  183.79.250.123 (183.79.250.123)  84.156 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.672/59.672/59.672/0.000 ms
+datetime 2020/03/26 07:55:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.131 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.818 ms
+ 6  210.138.106.238 (210.138.106.238)  85.774 ms
+ 7  183.79.224.146 (183.79.224.146)  86.293 ms
+ 8  183.79.250.123 (183.79.250.123)  85.678 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.102/52.102/52.102/0.000 ms
+datetime 2020/03/26 07:55:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  69.883 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  82.889 ms
+ 6  210.138.106.238 (210.138.106.238)  83.215 ms
+ 7  183.79.224.146 (183.79.224.146)  83.414 ms
+ 8  183.79.250.123 (183.79.250.123)  83.112 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.486/55.486/55.486/0.000 ms
+datetime 2020/03/26 07:55:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.754 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.800 ms
+ 6  210.138.106.238 (210.138.106.238)  90.120 ms
+ 7  183.79.224.146 (183.79.224.146)  90.662 ms
+ 8  183.79.250.123 (183.79.250.123)  89.658 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.023/49.023/49.023/0.000 ms
+datetime 2020/03/26 07:56:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.447 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.811 ms
+ 6  210.138.106.238 (210.138.106.238)  83.774 ms
+ 7  183.79.224.146 (183.79.224.146)  83.727 ms
+ 8  183.79.250.123 (183.79.250.123)  83.669 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.626/57.626/57.626/0.000 ms
+datetime 2020/03/26 07:56:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  74.571 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  85.501 ms
+ 6  210.138.106.238 (210.138.106.238)  95.718 ms
+ 7  183.79.224.146 (183.79.224.146)  95.670 ms
+ 8  183.79.250.123 (183.79.250.123)  95.607 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.112/57.112/57.112/0.000 ms
+datetime 2020/03/26 07:56:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  71.490 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.285 ms
+ 6  210.138.106.238 (210.138.106.238)  93.079 ms
+ 7  183.79.224.146 (183.79.224.146)  84.541 ms
+ 8  183.79.250.123 (183.79.250.123)  84.457 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 53.742/53.742/53.742/0.000 ms
+datetime 2020/03/26 07:56:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.795 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.615 ms
+ 6  210.138.106.238 (210.138.106.238)  91.431 ms
+ 7  183.79.224.146 (183.79.224.146)  87.072 ms
+ 8  183.79.250.123 (183.79.250.123)  86.730 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.368/49.368/49.368/0.000 ms
+datetime 2020/03/26 07:57:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.572 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  86.484 ms
+ 6  210.138.106.238 (210.138.106.238)  89.583 ms
+ 7  183.79.224.146 (183.79.224.146)  88.816 ms
+ 8  183.79.250.123 (183.79.250.123)  86.238 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 48.961/48.961/48.961/0.000 ms
+datetime 2020/03/26 07:57:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  75.211 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  87.076 ms
+ 6  210.138.106.238 (210.138.106.238)  90.694 ms
+ 7  183.79.224.146 (183.79.224.146)  88.495 ms
+ 8  183.79.250.123 (183.79.250.123)  88.445 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 59.418/59.418/59.418/0.000 ms
+datetime 2020/03/26 07:57:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.643 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  89.593 ms
+ 6  210.138.106.238 (210.138.106.238)  89.548 ms
+ 7  183.79.224.146 (183.79.224.146)  91.221 ms
+ 8  183.79.250.123 (183.79.250.123)  89.451 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.861/55.861/55.861/0.000 ms
+datetime 2020/03/26 07:57:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  72.275 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  84.723 ms
+ 6  210.138.106.238 (210.138.106.238)  86.492 ms
+ 7  183.79.224.146 (183.79.224.146)  86.609 ms
+ 8  183.79.250.123 (183.79.250.123)  84.582 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.399/57.399/57.399/0.000 ms
+datetime 2020/03/26 07:58:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.965 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  98.363 ms
+ 6  210.138.106.238 (210.138.106.238)  98.323 ms
+ 7  183.79.224.146 (183.79.224.146)  98.277 ms
+ 8  183.79.250.123 (183.79.250.123)  98.225 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.161/64.161/64.161/0.000 ms
+datetime 2020/03/26 07:58:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  97.986 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  107.743 ms
+ 6  210.138.106.238 (210.138.106.238)  139.850 ms
+ 7  183.79.224.146 (183.79.224.146)  112.215 ms
+ 8  183.79.250.123 (183.79.250.123)  110.143 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.452/57.452/57.452/0.000 ms
+datetime 2020/03/26 07:58:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.479 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  88.375 ms
+ 6  210.138.106.238 (210.138.106.238)  118.359 ms
+ 7  183.79.224.146 (183.79.224.146)  88.282 ms
+ 8  183.79.250.123 (183.79.250.123)  90.073 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.731/58.731/58.731/0.000 ms
+datetime 2020/03/26 07:58:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.569 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  98.096 ms
+ 6  210.138.106.238 (210.138.106.238)  98.053 ms
+ 7  183.79.224.146 (183.79.224.146)  98.003 ms
+ 8  183.79.250.123 (183.79.250.123)  97.936 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.464/58.464/58.464/0.000 ms
+datetime 2020/03/26 07:59:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  70.932 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  91.506 ms
+ 6  210.138.106.238 (210.138.106.238)  91.426 ms
+ 7  183.79.224.146 (183.79.224.146)  91.348 ms
+ 8  183.79.250.123 (183.79.250.123)  91.243 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 43.978/43.978/43.978/0.000 ms
+datetime 2020/03/26 07:59:16
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  171.783 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  178.333 ms
+ 6  210.138.106.238 (210.138.106.238)  178.293 ms
+ 7  183.79.224.146 (183.79.224.146)  178.251 ms
+ 8  183.79.250.123 (183.79.250.123)  178.193 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 64.407/64.407/64.407/0.000 ms
+datetime 2020/03/26 07:59:31
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  165.797 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  165.649 ms
+ 6  210.138.106.238 (210.138.106.238)  166.255 ms
+ 7  183.79.224.146 (183.79.224.146)  166.209 ms
+ 8  183.79.250.123 (183.79.250.123)  166.155 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.004/56.004/56.004/0.000 ms
+datetime 2020/03/26 07:59:46
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  76.010 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  81.915 ms
+ 6  210.138.106.238 (210.138.106.238)  82.179 ms
+ 7  183.79.224.146 (183.79.224.146)  82.716 ms
+ 8  183.79.250.123 (183.79.250.123)  81.678 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.692/57.692/57.692/0.000 ms
+datetime 2020/03/26 08:00:01
+traceroute to 183.79.250.123 (183.79.250.123), 30 hops max, 60 byte packets
+ 1  *
+ 2  tky008nasgw110.IIJ.Net (160.13.52.241)  73.083 ms
+ 3  *
+ 4  *
+ 5  osk004ip56.IIJ.Net (58.138.106.154)  83.869 ms
+ 6  210.138.106.238 (210.138.106.238)  85.730 ms
+ 7  183.79.224.146 (183.79.224.146)  87.434 ms
+ 8  183.79.250.123 (183.79.250.123)  85.631 ms
+
+PING 183.79.250.123 (183.79.250.123) 32(60) bytes of data.
+
+--- 183.79.250.123 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 58.541/58.541/58.541/0.000 ms

@@ -1,0 +1,838 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.14)  1 APR 2020 21:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2020-04-02.tex
+(./2020-04-02.tex
+pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
+(c:/texlive/2019/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
+\c@@paper=\count83
+(c:/texlive/2019/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2019/04/02 v1.8b Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip46
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(c:/texlive/2019/texmf-dist/tex/latex/here/here.sty)
+(c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks17
+\float@box=\box43
+\@float@everytoks=\toks18
+\@floatcapt=\box44
+) (./2020-04-02.aux
+
+LaTeX Warning: Label `cluster1' multiply defined.
+
+)
+\openout1 = `2020-04-02.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 26.
+File: ../figure/experiment.pdf Graphic file (type pdf)
+<../figure/experiment.pdf>
+ [1
+
+] [2]
+Overfull \hbox (15.11691pt too wide) in paragraph at lines 139--153
+[][][][] 
+ []
+
+
+Overfull \hbox (15.11691pt too wide) in paragraph at lines 157--171
+[][][][] 
+ []
+
+
+Overfull \hbox (15.11691pt too wide) in paragraph at lines 175--191
+[][][][] 
+ []
+
+
+Overfull \hbox (75.22774pt too wide) in paragraph at lines 196--212
+[][][][] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 215.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 215.
+
+LaTeX Warning: Reference `cluster2' on page 3 undefined on input line 215.
+
+File: norm-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<norm-eucl-ward-6-timezone.pdf>
+File: norm-eucl-ward-6-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-6-day.pdf>
+File: norm-eucl-ward-6-timezone-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-6-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 223--229
+ []  []  [] 
+ []
+
+File: norm-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<norm-eucl-ward-7-timezone.pdf>
+File: norm-eucl-ward-7-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-7-day.pdf>
+File: norm-eucl-ward-7-timezone-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-7-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 232--238
+ [][]  []  [] 
+ []
+
+File: norm-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<norm-eucl-ward-9-timezone.pdf>
+File: norm-eucl-ward-9-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-9-day.pdf>
+File: norm-eucl-ward-9-timezone-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-9-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 241--247
+ [][]  []  [] 
+ []
+
+File: norm-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<norm-eucl-ward-12-timezone.pdf>
+File: norm-eucl-ward-12-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-12-day.pdf>
+File: norm-eucl-ward-12-timezone-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-12-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 250--256
+ [][]  []  [] 
+ []
+
+File: norm-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<norm-eucl-ward-15-timezone.pdf>
+File: norm-eucl-ward-15-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-15-day.pdf>
+File: norm-eucl-ward-15-timezone-day.pdf Graphic file (type pdf)
+<norm-eucl-ward-15-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 259--265
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 269.
+
+File: diff-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<diff-eucl-ward-6-timezone.pdf>
+File: diff-eucl-ward-6-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-6-day.pdf>
+File: diff-eucl-ward-6-timezone-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-6-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 275--281
+ []  []  [] 
+ []
+
+File: diff-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<diff-eucl-ward-7-timezone.pdf>
+File: diff-eucl-ward-7-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-7-day.pdf>
+File: diff-eucl-ward-7-timezone-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-7-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 284--290
+ [][]  []  [] 
+ []
+
+File: diff-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<diff-eucl-ward-9-timezone.pdf>
+File: diff-eucl-ward-9-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-9-day.pdf>
+File: diff-eucl-ward-9-timezone-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-9-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 293--299
+ [][]  []  [] 
+ []
+
+File: diff-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<diff-eucl-ward-12-timezone.pdf>
+File: diff-eucl-ward-12-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-12-day.pdf>
+File: diff-eucl-ward-12-timezone-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-12-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 302--308
+ [][]  []  [] 
+ []
+
+File: diff-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<diff-eucl-ward-15-timezone.pdf>
+File: diff-eucl-ward-15-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-15-day.pdf>
+File: diff-eucl-ward-15-timezone-day.pdf Graphic file (type pdf)
+<diff-eucl-ward-15-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 311--317
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 320.
+
+File: norm_comp-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-6-timezone.pdf>
+File: norm_comp-eucl-ward-6-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-6-day.pdf>
+File: norm_comp-eucl-ward-6-timezone-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-6-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 326--332
+ []  []  [] 
+ []
+
+File: norm_comp-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-7-timezone.pdf>
+File: norm_comp-eucl-ward-7-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-7-day.pdf>
+File: norm_comp-eucl-ward-7-timezone-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-7-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 335--341
+ [][]  []  [] 
+ []
+
+File: norm_comp-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-9-timezone.pdf>
+File: norm_comp-eucl-ward-9-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-9-day.pdf>
+File: norm_comp-eucl-ward-9-timezone-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-9-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 344--350
+ [][]  []  [] 
+ []
+
+File: norm_comp-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-12-timezone.pdf>
+File: norm_comp-eucl-ward-12-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-12-day.pdf>
+File: norm_comp-eucl-ward-12-timezone-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-12-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 353--359
+ [][]  []  [] 
+ []
+
+File: norm_comp-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-15-timezone.pdf>
+File: norm_comp-eucl-ward-15-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-15-day.pdf>
+File: norm_comp-eucl-ward-15-timezone-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-15-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 362--368
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 371.
+
+File: diff_comp-eucl-ward-6-timezone.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-6-timezone.pdf>
+File: diff_comp-eucl-ward-6-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-6-day.pdf>
+File: diff_comp-eucl-ward-6-timezone-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-6-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 377--383
+ []  []  [] 
+ []
+
+File: diff_comp-eucl-ward-7-timezone.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-7-timezone.pdf>
+File: diff_comp-eucl-ward-7-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-7-day.pdf>
+File: diff_comp-eucl-ward-7-timezone-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-7-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 386--392
+ [][]  []  [] 
+ []
+
+File: diff_comp-eucl-ward-9-timezone.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-9-timezone.pdf>
+File: diff_comp-eucl-ward-9-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-9-day.pdf>
+File: diff_comp-eucl-ward-9-timezone-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-9-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 395--401
+ [][]  []  [] 
+ []
+
+File: diff_comp-eucl-ward-12-timezone.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-12-timezone.pdf>
+File: diff_comp-eucl-ward-12-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-12-day.pdf>
+File: diff_comp-eucl-ward-12-timezone-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-12-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 404--410
+ [][]  []  [] 
+ []
+
+File: diff_comp-eucl-ward-15-timezone.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-15-timezone.pdf>
+File: diff_comp-eucl-ward-15-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-15-day.pdf>
+File: diff_comp-eucl-ward-15-timezone-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-15-timezone-day.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 413--419
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 422.
+
+File: norm-eucl-ward-6-timezone-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-6-timezone-sinet.pdf>
+File: norm-eucl-ward-6-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-6-day-sinet.pdf>
+File: norm-eucl-ward-6-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-6-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 429--435
+ []  []  [] 
+ []
+
+File: norm-eucl-ward-7-timezone-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-7-timezone-sinet.pdf>
+File: norm-eucl-ward-7-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-7-day-sinet.pdf>
+File: norm-eucl-ward-7-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-7-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 438--444
+ [][]  []  [] 
+ []
+
+File: norm-eucl-ward-9-timezone-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-9-timezone-sinet.pdf>
+File: norm-eucl-ward-9-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-9-day-sinet.pdf>
+File: norm-eucl-ward-9-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-9-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 447--453
+ [][]  []  [] 
+ []
+
+File: norm-eucl-ward-12-timezone-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-12-timezone-sinet.pdf>
+File: norm-eucl-ward-12-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-12-day-sinet.pdf>
+File: norm-eucl-ward-12-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-12-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 456--462
+ [][]  []  [] 
+ []
+
+File: norm-eucl-ward-15-timezone-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-15-timezone-sinet.pdf>
+File: norm-eucl-ward-15-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-15-day-sinet.pdf>
+File: norm-eucl-ward-15-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm-eucl-ward-15-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 465--471
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 475.
+
+File: diff-eucl-ward-6-timezone-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-6-timezone-sinet.pdf>
+File: diff-eucl-ward-6-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-6-day-sinet.pdf>
+File: diff-eucl-ward-6-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-6-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 481--487
+ []  []  [] 
+ []
+
+File: diff-eucl-ward-7-timezone-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-7-timezone-sinet.pdf>
+File: diff-eucl-ward-7-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-7-day-sinet.pdf>
+File: diff-eucl-ward-7-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-7-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 490--496
+ [][]  []  [] 
+ []
+
+File: diff-eucl-ward-9-timezone-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-9-timezone-sinet.pdf>
+File: diff-eucl-ward-9-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-9-day-sinet.pdf>
+File: diff-eucl-ward-9-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-9-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 499--505
+ [][]  []  [] 
+ []
+
+File: diff-eucl-ward-12-timezone-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-12-timezone-sinet.pdf>
+File: diff-eucl-ward-12-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-12-day-sinet.pdf>
+File: diff-eucl-ward-12-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-12-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 508--514
+ [][]  []  [] 
+ []
+
+File: diff-eucl-ward-15-timezone-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-15-timezone-sinet.pdf>
+File: diff-eucl-ward-15-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-15-day-sinet.pdf>
+File: diff-eucl-ward-15-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff-eucl-ward-15-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 517--523
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 526.
+
+File: norm_comp-eucl-ward-6-timezone-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-6-timezone-sinet.pdf>
+File: norm_comp-eucl-ward-6-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-6-day-sinet.pdf>
+File: norm_comp-eucl-ward-6-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-6-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 532--538
+ []  []  [] 
+ []
+
+File: norm_comp-eucl-ward-7-timezone-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-7-timezone-sinet.pdf>
+File: norm_comp-eucl-ward-7-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-7-day-sinet.pdf>
+File: norm_comp-eucl-ward-7-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-7-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 541--547
+ [][]  []  [] 
+ []
+
+File: norm_comp-eucl-ward-9-timezone-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-9-timezone-sinet.pdf>
+File: norm_comp-eucl-ward-9-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-9-day-sinet.pdf>
+File: norm_comp-eucl-ward-9-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-9-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 550--556
+ [][]  []  [] 
+ []
+
+File: norm_comp-eucl-ward-12-timezone-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-12-timezone-sinet.pdf>
+File: norm_comp-eucl-ward-12-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-12-day-sinet.pdf>
+File: norm_comp-eucl-ward-12-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-12-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 559--565
+ [][]  []  [] 
+ []
+
+File: norm_comp-eucl-ward-15-timezone-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-15-timezone-sinet.pdf>
+File: norm_comp-eucl-ward-15-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-15-day-sinet.pdf>
+File: norm_comp-eucl-ward-15-timezone-day-sinet.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-15-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 568--574
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 577.
+
+File: diff_comp-eucl-ward-6-timezone-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-6-timezone-sinet.pdf>
+File: diff_comp-eucl-ward-6-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-6-day-sinet.pdf>
+File: diff_comp-eucl-ward-6-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-6-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 583--589
+ []  []  [] 
+ []
+
+File: diff_comp-eucl-ward-7-timezone-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-7-timezone-sinet.pdf>
+File: diff_comp-eucl-ward-7-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-7-day-sinet.pdf>
+File: diff_comp-eucl-ward-7-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-7-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 592--598
+ [][]  []  [] 
+ []
+
+File: diff_comp-eucl-ward-9-timezone-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-9-timezone-sinet.pdf>
+File: diff_comp-eucl-ward-9-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-9-day-sinet.pdf>
+File: diff_comp-eucl-ward-9-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-9-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 601--607
+ [][]  []  [] 
+ []
+
+File: diff_comp-eucl-ward-12-timezone-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-12-timezone-sinet.pdf>
+File: diff_comp-eucl-ward-12-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-12-day-sinet.pdf>
+File: diff_comp-eucl-ward-12-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-12-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 610--616
+ [][]  []  [] 
+ []
+
+File: diff_comp-eucl-ward-15-timezone-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-15-timezone-sinet.pdf>
+File: diff_comp-eucl-ward-15-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-15-day-sinet.pdf>
+File: diff_comp-eucl-ward-15-timezone-day-sinet.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-15-timezone-day-sinet.pdf>
+
+Overfull \hbox (37.68716pt too wide) in paragraph at lines 619--625
+ [][]  []  [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.08481pt on input line 629.
+
+[3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 637.
+
+ (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 637.
+ [4]
+File: norm-eucl-ward-sse.pdf Graphic file (type pdf)
+<norm-eucl-ward-sse.pdf>
+File: norm-eucl-ward-compscat.pdf Graphic file (type pdf)
+<norm-eucl-ward-compscat.pdf>
+File: norm-manh-ward-sse.pdf Graphic file (type pdf)
+<norm-manh-ward-sse.pdf>
+File: norm-manh-ward-compscat.pdf Graphic file (type pdf)
+<norm-manh-ward-compscat.pdf>
+File: norm-canb-ward-sse.pdf Graphic file (type pdf)
+<norm-canb-ward-sse.pdf>
+File: norm-canb-ward-compscat.pdf Graphic file (type pdf)
+<norm-canb-ward-compscat.pdf>
+File: norm-eucl-sing-sse.pdf Graphic file (type pdf)
+<norm-eucl-sing-sse.pdf>
+File: norm-eucl-sing-compscat.pdf Graphic file (type pdf)
+<norm-eucl-sing-compscat.pdf>
+File: norm-manh-sing-sse.pdf Graphic file (type pdf)
+<norm-manh-sing-sse.pdf>
+File: norm-manh-sing-compscat.pdf Graphic file (type pdf)
+<norm-manh-sing-compscat.pdf>
+
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 700.
+
+File: norm-canb-sing-sse.pdf Graphic file (type pdf)
+<norm-canb-sing-sse.pdf>
+File: norm-canb-sing-compscat.pdf Graphic file (type pdf)
+<norm-canb-sing-compscat.pdf>
+File: norm-eucl-cent-sse.pdf Graphic file (type pdf)
+<norm-eucl-cent-sse.pdf>
+File: norm-eucl-cent-compscat.pdf Graphic file (type pdf)
+<norm-eucl-cent-compscat.pdf>
+File: norm-manh-cent-sse.pdf Graphic file (type pdf)
+<norm-manh-cent-sse.pdf>
+File: norm-manh-cent-compscat.pdf Graphic file (type pdf)
+<norm-manh-cent-compscat.pdf>
+File: norm-canb-cent-sse.pdf Graphic file (type pdf)
+<norm-canb-cent-sse.pdf>
+File: norm-canb-cent-compscat.pdf Graphic file (type pdf)
+<norm-canb-cent-compscat.pdf>
+File: norm-eucl-kmean-sse.pdf Graphic file (type pdf)
+<norm-eucl-kmean-sse.pdf>
+File: norm-eucl-kmean-compscat.pdf Graphic file (type pdf)
+<norm-eucl-kmean-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 735.
+
+File: diff-eucl-ward-sse.pdf Graphic file (type pdf)
+<diff-eucl-ward-sse.pdf>
+File: diff-eucl-ward-compscat.pdf Graphic file (type pdf)
+<diff-eucl-ward-compscat.pdf>
+File: diff-manh-ward-sse.pdf Graphic file (type pdf)
+<diff-manh-ward-sse.pdf>
+File: diff-manh-ward-compscat.pdf Graphic file (type pdf)
+<diff-manh-ward-compscat.pdf>
+File: diff-canb-ward-sse.pdf Graphic file (type pdf)
+<diff-canb-ward-sse.pdf>
+File: diff-canb-ward-compscat.pdf Graphic file (type pdf)
+<diff-canb-ward-compscat.pdf>
+File: diff-eucl-sing-sse.pdf Graphic file (type pdf)
+<diff-eucl-sing-sse.pdf>
+File: diff-eucl-sing-compscat.pdf Graphic file (type pdf)
+<diff-eucl-sing-compscat.pdf>
+File: diff-manh-sing-sse.pdf Graphic file (type pdf)
+<diff-manh-sing-sse.pdf>
+File: diff-manh-sing-compscat.pdf Graphic file (type pdf)
+<diff-manh-sing-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 771.
+
+File: diff-canb-sing-sse.pdf Graphic file (type pdf)
+<diff-canb-sing-sse.pdf>
+File: diff-canb-sing-compscat.pdf Graphic file (type pdf)
+<diff-canb-sing-compscat.pdf>
+File: diff-eucl-cent-sse.pdf Graphic file (type pdf)
+<diff-eucl-cent-sse.pdf>
+File: diff-eucl-cent-compscat.pdf Graphic file (type pdf)
+<diff-eucl-cent-compscat.pdf>
+File: diff-manh-cent-sse.pdf Graphic file (type pdf)
+<diff-manh-cent-sse.pdf>
+File: diff-manh-cent-compscat.pdf Graphic file (type pdf)
+<diff-manh-cent-compscat.pdf>
+File: diff-canb-cent-sse.pdf Graphic file (type pdf)
+<diff-canb-cent-sse.pdf>
+File: diff-canb-cent-compscat.pdf Graphic file (type pdf)
+<diff-canb-cent-compscat.pdf>
+File: diff-eucl-kmean-sse.pdf Graphic file (type pdf)
+<diff-eucl-kmean-sse.pdf>
+File: diff-eucl-kmean-compscat.pdf Graphic file (type pdf)
+<diff-eucl-kmean-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 806.
+
+File: norm_comp-eucl-ward-sse.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-sse.pdf>
+File: norm_comp-eucl-ward-compscat.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-compscat.pdf>
+File: norm_comp-manh-ward-sse.pdf Graphic file (type pdf)
+<norm_comp-manh-ward-sse.pdf>
+File: norm_comp-manh-ward-compscat.pdf Graphic file (type pdf)
+<norm_comp-manh-ward-compscat.pdf>
+File: norm_comp-canb-ward-sse.pdf Graphic file (type pdf)
+<norm_comp-canb-ward-sse.pdf>
+File: norm_comp-canb-ward-compscat.pdf Graphic file (type pdf)
+<norm_comp-canb-ward-compscat.pdf>
+File: norm_comp-eucl-sing-sse.pdf Graphic file (type pdf)
+<norm_comp-eucl-sing-sse.pdf>
+File: norm_comp-eucl-sing-compscat.pdf Graphic file (type pdf)
+<norm_comp-eucl-sing-compscat.pdf>
+File: norm_comp-manh-sing-sse.pdf Graphic file (type pdf)
+<norm_comp-manh-sing-sse.pdf>
+File: norm_comp-manh-sing-compscat.pdf Graphic file (type pdf)
+<norm_comp-manh-sing-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 842.
+
+File: norm_comp-canb-sing-sse.pdf Graphic file (type pdf)
+<norm_comp-canb-sing-sse.pdf>
+File: norm_comp-canb-sing-compscat.pdf Graphic file (type pdf)
+<norm_comp-canb-sing-compscat.pdf>
+File: norm_comp-eucl-cent-sse.pdf Graphic file (type pdf)
+<norm_comp-eucl-cent-sse.pdf>
+File: norm_comp-eucl-cent-compscat.pdf Graphic file (type pdf)
+<norm_comp-eucl-cent-compscat.pdf>
+File: norm_comp-manh-cent-sse.pdf Graphic file (type pdf)
+<norm_comp-manh-cent-sse.pdf>
+File: norm_comp-manh-cent-compscat.pdf Graphic file (type pdf)
+<norm_comp-manh-cent-compscat.pdf>
+File: norm_comp-canb-cent-sse.pdf Graphic file (type pdf)
+<norm_comp-canb-cent-sse.pdf>
+File: norm_comp-canb-cent-compscat.pdf Graphic file (type pdf)
+<norm_comp-canb-cent-compscat.pdf>
+File: norm_comp-eucl-kmean-sse.pdf Graphic file (type pdf)
+<norm_comp-eucl-kmean-sse.pdf>
+File: norm_comp-eucl-kmean-compscat.pdf Graphic file (type pdf)
+<norm_comp-eucl-kmean-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 877.
+
+File: diff_comp-eucl-ward-sse.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-sse.pdf>
+File: diff_comp-eucl-ward-compscat.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-compscat.pdf>
+File: diff_comp-manh-ward-sse.pdf Graphic file (type pdf)
+<diff_comp-manh-ward-sse.pdf>
+File: diff_comp-manh-ward-compscat.pdf Graphic file (type pdf)
+<diff_comp-manh-ward-compscat.pdf>
+File: diff_comp-canb-ward-sse.pdf Graphic file (type pdf)
+<diff_comp-canb-ward-sse.pdf>
+File: diff_comp-canb-ward-compscat.pdf Graphic file (type pdf)
+<diff_comp-canb-ward-compscat.pdf>
+File: diff_comp-eucl-sing-sse.pdf Graphic file (type pdf)
+<diff_comp-eucl-sing-sse.pdf>
+File: diff_comp-eucl-sing-compscat.pdf Graphic file (type pdf)
+<diff_comp-eucl-sing-compscat.pdf>
+File: diff_comp-manh-sing-sse.pdf Graphic file (type pdf)
+<diff_comp-manh-sing-sse.pdf>
+File: diff_comp-manh-sing-compscat.pdf Graphic file (type pdf)
+<diff_comp-manh-sing-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 913.
+
+File: diff_comp-canb-sing-sse.pdf Graphic file (type pdf)
+<diff_comp-canb-sing-sse.pdf>
+File: diff_comp-canb-sing-compscat.pdf Graphic file (type pdf)
+<diff_comp-canb-sing-compscat.pdf>
+File: diff_comp-eucl-cent-sse.pdf Graphic file (type pdf)
+<diff_comp-eucl-cent-sse.pdf>
+File: diff_comp-eucl-cent-compscat.pdf Graphic file (type pdf)
+<diff_comp-eucl-cent-compscat.pdf>
+File: diff_comp-manh-cent-sse.pdf Graphic file (type pdf)
+<diff_comp-manh-cent-sse.pdf>
+File: diff_comp-manh-cent-compscat.pdf Graphic file (type pdf)
+<diff_comp-manh-cent-compscat.pdf>
+File: diff_comp-canb-cent-sse.pdf Graphic file (type pdf)
+<diff_comp-canb-cent-sse.pdf>
+File: diff_comp-canb-cent-compscat.pdf Graphic file (type pdf)
+<diff_comp-canb-cent-compscat.pdf>
+File: diff_comp-eucl-kmean-sse.pdf Graphic file (type pdf)
+<diff_comp-eucl-kmean-sse.pdf>
+File: diff_comp-eucl-kmean-compscat.pdf Graphic file (type pdf)
+<diff_comp-eucl-kmean-compscat.pdf>
+
+LaTeX Warning: Float too large for page by 21.08481pt on input line 948.
+
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[21] (./2020-04-02.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2027 strings out of 493216
+ 47364 string characters out of 6147083
+ 161081 words of memory out of 5000000
+ 5630 multiletter control sequences out of 15000+600000
+ 14558 words of font info for 58 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,10n,27p,304b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2020-04-02.dvi (21 pages, 69680 bytes).

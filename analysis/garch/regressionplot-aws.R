@@ -1,0 +1,111 @@
+regression <- function(id){
+  for (filename in files){
+    df <- read.csv(file = filename, header = TRUE, sep=',')
+    
+    if(id == 'norm'){
+      garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = df$ping, include.mean = TRUE, trace = FALSE)
+      y <- df$ping
+      predict.y <- garch_result@fitted
+      predict.y.upper <- predict.y + 1.96*garch_result@sigma.t
+      predict.y.lower <- predict.y - 1.96*garch_result@sigma.t
+      pdf(paste(str_sub(filename,-20,-14),'-plot.pdf',sep=''))
+    }
+    else if(id == 'diff'){
+      garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = diff(df$ping), include.mean = TRUE, trace = FALSE)
+      y <- df$ping
+      predict.y <- c(y[1],y[1:length(y)-1]+garch_result@fitted)
+      predict.y.upper <- predict.y + c(0,1.96*garch_result@sigma.t)
+      predict.y.lower <- predict.y - c(0,1.96*garch_result@sigma.t)
+      pdf(paste(str_sub(filename,-20,-14),'-plot-diff.pdf',sep=''))
+    }
+    
+    ymax <- 500
+    plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    for (i in 1:ymax%/%50){
+      par(new = TRUE)
+      plot(c(0,length(y)+1),c(i*50,i*50), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    }
+    for (i in 1:4){
+      par(new = TRUE)
+      plot(c(i*50,i*50),c(0,ymax), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    }
+    par(mar=c(3, 3, 1, 1))
+    dev.off()
+  }
+}
+
+exsampleRegPlot <- function(id){
+  filename <- files[id]
+  df <- read.csv(file = filename, header = TRUE, sep=',')
+  
+  garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = df$ping, include.mean = TRUE, trace = FALSE)
+  y <- df$ping
+  predict.y <- garch_result@fitted
+  predict.y.upper <- predict.y + 1.96*garch_result@sigma.t
+  predict.y.lower <- predict.y - 1.96*garch_result@sigma.t
+  pdf(paste(str_sub(filename,-20,-14),'-plot.pdf',sep=''), family = 'Japan1GothicBBB', width = 7, height = 4.5)
+  par(mar=c(4,5,2,9))
+  ymax <- 200
+  plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',cex = 1.2, cex.lab = 1.5, cex.axis = 1.5,xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  for (i in 1:ymax%/%50){
+    par(new = TRUE)
+    plot(c(0,length(y)+1),c(i*50,i*50), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  }
+  for (i in 1:4){
+    par(new = TRUE)
+    plot(c(i*50,i*50),c(0,ymax), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  }
+  par(xpd=T)
+  legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('実測値','回帰線','信頼区間 \n(95%)'),
+         lty = 1, col = c('blue','red','darkorange') ,cex = 1.4, bty = 'n')
+  dev.off()
+  
+  garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = diff(df$ping), include.mean = TRUE, trace = FALSE)
+  y <- diff(df$ping)
+  predict.y <- garch_result@fitted
+  predict.y.upper <- predict.y + 1.96*garch_result@sigma.t
+  predict.y.lower <- predict.y - 1.96*garch_result@sigma.t
+  pdf(paste(str_sub(filename,-20,-14),'-plot-diff.pdf',sep=''), family = 'Japan1GothicBBB', width = 7, height = 4.5)
+  par(mar=c(4,5,2,9))
+  ymax <- 150
+  ymin <- -150
+  plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',cex = 1.2, cex.lab = 1.5, cex.axis = 1.5, xlim = c(0,length(y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  for (i in 1:(ymax-ymin)%/%50-1){
+    par(new = TRUE)
+    plot(c(0,length(y)+1),c(ymin+i*50,ymin+i*50), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  }
+  for (i in 1:4){
+    par(new = TRUE)
+    plot(c(i*50,i*50),c(ymin,ymax), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  }
+  par(xpd=T)
+  legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('変動値','回帰線','信頼区間 \n(95%)'),
+         lty = 1, col = c('blue','red','darkorange'), cex = 1.4, bty = 'n')
+  dev.off()
+}
+
+#regression(files,'norm')
+#regression(files,'diff')
+
+#exsampleRegPlot(8)
+
+
+

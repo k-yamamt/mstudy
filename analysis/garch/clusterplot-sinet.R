@@ -1,49 +1,3 @@
-library(stringr)
-library(fGarch)
-library(cluster)
-library(factoextra)
-library(RColorBrewer)
-library(NbClust)
-
-sinetfiles <- list.files('C:/master/mstudy/data/SINET/temp/', full.names = TRUE)
-
-sinetparams <- function(id){
-  D <- matrix(nrow = 0,ncol = 10)
-  colnames(D) <- c('c','a1','a2','b1','b2','omega','alpha1','alpha2','beta1','beta2')
-  date <- NULL
-  
-  for (filename in sinetfiles){
-    df <- read.csv(file = filename, header = TRUE, sep=',')
-    
-    if(id == 'norm'){
-      tryCatch(
-        {
-          garch_param <- garchFit(formula = ~arma(2,2)+garch(2,2), data = df$ping, trace = FALSE)@fit$coef
-          date <- c(date,str_sub(filename, start = -15, end = -9))
-          D <- rbind(D,c(garch_param[1],garch_param[2],garch_param[3],garch_param[4],garch_param[5],garch_param[6],garch_param[7],garch_param[8],garch_param[9],garch_param[10]))
-        }
-        ,error = function(e){
-          cat(filename)
-        }
-      )
-    }else if(id == 'diff'){
-      tryCatch(
-        {
-          garch_param <- garchFit(formula = ~arma(2,2)+garch(2,2), data = diff(df$ping), trace = FALSE)@fit$coef
-          date <- c(date,str_sub(filename, start = -15, end = -9))
-          D <- rbind(D,c(garch_param[1],garch_param[2],garch_param[3],garch_param[4],garch_param[5],garch_param[6],garch_param[7],garch_param[8],garch_param[9],garch_param[10]))
-        }
-        ,error = function(e){
-          cat(filename)
-        }
-      )
-    }
-  }
-  
-  rownames(D) <- date
-  D
-}
-
 sinetclustering <- function(dataID,dist.method,clustering.method,k,type){
   if(dataID == 'norm'){
     D <- Sinet_Dnorm
@@ -246,31 +200,9 @@ sinetclustering <- function(dataID,dist.method,clustering.method,k,type){
       segments(bar[i*5+1],-0.04,bar[i*5+5],-0.04)
       segments(bar[i*5+5],-0.04,bar[i*5+5]+barHalfWidth,0)
       text(day[i+1], x = bar[i*5+3], y = -0.06)
-      text('時間帯は左から順に 3:00-4:00,7:00-8:00,12:00-13:00,17:00-18:00,20:00-21:00',x = bar[1] - barHalfWidth*10, y = -0.15, pos = 4)
+      text('譎る俣蟶ｯ縺ｯ蟾ｦ縺九ｉ鬆?縺ｫ 3:00-4:00,7:00-8:00,12:00-13:00,17:00-18:00,20:00-21:00',x = bar[1] - barHalfWidth*10, y = -0.15, pos = 4)
     }
     
     dev.off()
-  }
-}
-
-Sinet_Dnorm <- sinetparams('norm')
-Sinet_Ddiff <- sinetparams('diff')
-Sinet_Dnorm_comp <- princomp(scale(Sinet_Dnorm))$scores[,0:3]
-Sinet_Ddiff_comp <- princomp(scale(Sinet_Ddiff))$scores[,0:4]
-
-summary(princomp(scale(Sinet_Dnorm)))
-princomp(scale(Sinet_Dnorm))$loadings
-summary(princomp(scale(Sinet_Ddiff)))
-princomp(scale(Sinet_Ddiff))$loadings
-
-data <- c('norm','diff','norm_comp','diff_comp')
-k <- c(6,7,9,12,15)
-trend <- c('timezone','day','timezone-day')
-
-for(a in data){
-  for(d in k){
-    for (e in trend){
-      sinetclustering(a,'euclidean','ward.D2',d,e)
-    }
   }
 }

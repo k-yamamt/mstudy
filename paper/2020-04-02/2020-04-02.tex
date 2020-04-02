@@ -19,7 +19,7 @@
 ・原稿執筆を行っております\\
 ・SINETのウェブサーバを対象とした結果と比較を行いました\\
 ・最適クラスタ数を求めました\\
-・異なるクラスタリング手法において形成されるクラスタ間の類似度を調べました\\
+・異なるクラスタリング手法において形成されるクラスタ間の類似度を調べています\\
 \end{tabular}
 \end{table}
 
@@ -216,6 +216,11 @@ $\beta_2$&0.122&-0.114&0.771&-0.116\\
 このそれぞれは，該当するクラスタリングによって分類された計測データを，計測した時間帯もしくは曜日ごとに色分けした積み上げ棒グラフ，および計測した曜日と時間帯が同じ計測データを属するクラスタごとに色分けした積み上げ棒グラフである．
 前者の縦軸は各クラスタ内の個数に対する割合であり，上部に各クラスタに属する計測データの個数を示しており，後者の縦軸は曜日と時間帯が同じデータが属するクラスタの割合であり，上部に各曜日と時間帯のデータ数を示している．
 
+SINET を対象とした計測データに対する図 6 のクラスタリングにおいて時間帯ごとの図を見ると，オレンジ色や赤色の時間帯が一クラスタ内で占める割合が高くなっているものがあるように見える．
+しかし，AWS を対象とした計測データに対して同様に実測値を用いてクラスタリングを行った結果の図 2 ではそのような印象は受けない．
+ここでは，同様のデータの前処理を行い同一のクラスタリングを行っても，計測対象によって形成されるクラスタに時間ごとの共通の傾向は顕著にみられないようだ．
+次に曜日ごとでの図を見比べてみたが，SINET か AWS サーバに関わらず，形成されるクラスタに際立った傾向は見られず，どのクラスタにも大体まんべんなく全曜日が含まれている印象だ．
+最後に時間と曜日ごとにまとめた図に関しては，各時間帯と曜日ごとのデータ数が約 3 程度と少ないが，その中で総数が 4 のものだけに注目してみても，時間と曜日が同じ四つのデータがすべて同じクラスタに属するものはなかった．ただ，三つや二つが同じクラスタに属しているものは見受けられたので，まったく何も傾向がないわけではないように思える．
 \begin{figure}[tb]
 \begin{center}
 \subfigure[クラスタ数 6 : 時間帯]{
@@ -470,7 +475,6 @@ $\beta_2$&0.122&-0.114&0.771&-0.116\\
 \includegraphics[height=3.5cm,width=5cm]{norm-eucl-ward-15-timezone-day-sinet.pdf}
 }\\
 \caption{SINET のウェブサーバを対象とした計測の実測値によるクラスタリング}
-\label{cluster1}
 \end{center}
 \end{figure}
 
@@ -624,7 +628,7 @@ $\beta_2$&0.122&-0.114&0.771&-0.116\\
 \includegraphics[height=3.5cm,width=5cm]{diff_comp-eucl-ward-15-timezone-day-sinet.pdf}
 }\\
 \caption{SINET のウェブサーバを対象とした計測の変動値の主成分によるクラスタリング}
-\label{cluster-2}
+\label{cluster2}
 \end{center}
 \end{figure}
 
@@ -660,7 +664,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \label{bestk}
 \end{equation}
 
-以下の図は,各データセットと各クラスタリングにおいて，横軸をクラスタ数，縦軸を SSE でとったものを青線の折れ線グラフで示し，赤色の破線の箇所が最適クラスタ数の位置を示している．
+以下の図 \ref{sse1} から図 \ref{sse2} は,各データセットと各クラスタリングにおいて，横軸をクラスタ数，縦軸を SSE でとったものを青線の折れ線グラフで示し，赤色の破線の箇所が最適クラスタ数の位置を示している．
 また，その右図にはクラスタ数を最適クラスタ数としたときのクラスタリングにおける主成分散布図である．
 
 \begin{figure}[tb]
@@ -695,7 +699,8 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{norm-manh-sing-compscat.pdf}
 }\\
-\caption{実測値によるクラスタリング}
+\caption{実測値によるクラスタリング(1)}
+\label{sse1}
 \end{center}
 \end{figure}
 \begin{figure}[tb]
@@ -730,7 +735,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{norm-eucl-kmean-compscat.pdf}
 }\\
-\caption{実測値によるクラスタリング}
+\caption{実測値によるクラスタリング(2)}
 \end{center}
 \end{figure}
 
@@ -766,7 +771,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{diff-manh-sing-compscat.pdf}
 }\\
-\caption{変動値によるクラスタリング}
+\caption{変動値によるクラスタリング(1)}
 \end{center}
 \end{figure}
 \begin{figure}[tb]
@@ -801,7 +806,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{diff-eucl-kmean-compscat.pdf}
 }\\
-\caption{変動値によるクラスタリング}
+\caption{変動値によるクラスタリング(2)}
 \end{center}
 \end{figure}
 
@@ -837,7 +842,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{norm_comp-manh-sing-compscat.pdf}
 }\\
-\caption{実測値の主成分によるクラスタリング}
+\caption{実測値の主成分によるクラスタリング(1)}
 \end{center}
 \end{figure}
 \begin{figure}[tb]
@@ -872,7 +877,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{norm_comp-eucl-kmean-compscat.pdf}
 }\\
-\caption{実測値の主成分によるクラスタリング}
+\caption{実測値の主成分によるクラスタリング(2)}
 \end{center}
 \end{figure}
 
@@ -908,7 +913,7 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{diff_comp-manh-sing-compscat.pdf}
 }\\
-\caption{変動値の主成分によるクラスタリング}
+\caption{変動値の主成分によるクラスタリング(1)}
 \end{center}
 \end{figure}
 \begin{figure}[tb]
@@ -943,12 +948,15 @@ SSE_k = \sum_i dist(\vector{w_i},\vector{w_G}(\vector{w_i}))^2
 \subfigure[主成分散布図]{
 \includegraphics[height=3.5cm,width=6.5cm]{diff_comp-eucl-kmean-compscat.pdf}
 }\\
-\caption{変動値の主成分によるクラスタリング}
+\caption{変動値の主成分によるクラスタリング(2)}
+\label{sse2}
 \end{center}
 \end{figure}
 
-\section{クラスタリング手法のクラスタの類似度}
 
+\section{クラスタリング手法のクラスタの類似度}
+作業途中です．
+あるクラスタリングにおいて同じクラスタに属していた要素のペアが他のクラスタリングにおいてどれだけ同じクラスタに属しているか，また，属していなかったかの割合は計算し終えており，あとはプロットするだけとなっています．
 \section{スケジュール}
 \begin{table}[H]
 \begin{tabular}{|c|c|}

@@ -105,7 +105,7 @@ exsampleRegPlot <- function(id){
 #regression(files,'norm')
 #regression(files,'diff')
 
-#exsampleRegPlot(8)
+exsampleRegPlot(45)
 
 
 

@@ -181,8 +181,17 @@ PseudoFwithMin <- function(dataID){
   dev.off()
 }
 
+CompPlot <- function(dataID,k){
+  D <- getData(dataID)
+  
+  cluster <- hcut(D, k = k, hc_func = 'hclust', hc_method = 'ward.D2', hc_metric = 'euclidean')
+  fviz_cluster(cluster, main = '', labelsize = 0)+ theme_minimal()
+}
+
 for ( data in list('norm', 'diff', 'norm_comp', 'diff_comp')){
   PseudoF(data)
   PseudoFwithMean(data)
   PseudoFwithMin(data)
 }
+
+CompPlot('diff_comp',15)

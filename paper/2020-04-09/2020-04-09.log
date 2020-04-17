@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.14)  7 APR 2020 18:53
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  12 APR 2020 03:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,69 +111,167 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 9.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 9.
-File: norm-PseudoF.pdf Graphic file (type pdf)
-<norm-PseudoF.pdf>
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
+ [1
+
+] [2]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 60.
 File: norm-PseudoF.pdf Graphic file (type pdf)
 <norm-PseudoF.pdf>
 File: norm-PseudoFwithMean.pdf Graphic file (type pdf)
 <norm-PseudoFwithMean.pdf>
-File: norm-PseudoFwithMean.pdf Graphic file (type pdf)
-<norm-PseudoFwithMean.pdf>
 File: norm-PseudoFwithMin.pdf Graphic file (type pdf)
 <norm-PseudoFwithMin.pdf>
-File: norm-PseudoFwithMin.pdf Graphic file (type pdf)
-<norm-PseudoFwithMin.pdf>
-File: diff-PseudoF.pdf Graphic file (type pdf)
-<diff-PseudoF.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 69--76
+ []  []  [] 
+ []
+
+File: norm-compscatter-2.pdf Graphic file (type pdf)
+<norm-compscatter-2.pdf>
+File: norm-compscatter-15.pdf Graphic file (type pdf)
+<norm-compscatter-15.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 102--106
+ []  [] 
+ []
+
+[3]
+File: 0315_07-plot.pdf Graphic file (type pdf)
+<0315_07-plot.pdf>
+File: 0322_07-plot.pdf Graphic file (type pdf)
+<0322_07-plot.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 130--134
+ []  [] 
+ []
+
+[4]
 File: diff-PseudoF.pdf Graphic file (type pdf)
 <diff-PseudoF.pdf>
 File: diff-PseudoFwithMean.pdf Graphic file (type pdf)
 <diff-PseudoFwithMean.pdf>
-File: diff-PseudoFwithMean.pdf Graphic file (type pdf)
-<diff-PseudoFwithMean.pdf>
 File: diff-PseudoFwithMin.pdf Graphic file (type pdf)
 <diff-PseudoFwithMin.pdf>
-File: diff-PseudoFwithMin.pdf Graphic file (type pdf)
-<diff-PseudoFwithMin.pdf>
-File: norm_comp-PseudoF.pdf Graphic file (type pdf)
-<norm_comp-PseudoF.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 175--182
+ []  []  [] 
+ []
+
+File: diff-compscatter-5.pdf Graphic file (type pdf)
+<diff-compscatter-5.pdf>
+File: diff-compscatter-15.pdf Graphic file (type pdf)
+<diff-compscatter-15.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 208--212
+ []  [] 
+ []
+
+[5]
 File: norm_comp-PseudoF.pdf Graphic file (type pdf)
 <norm_comp-PseudoF.pdf>
 File: norm_comp-PseudoFwithMean.pdf Graphic file (type pdf)
 <norm_comp-PseudoFwithMean.pdf>
-File: norm_comp-PseudoFwithMean.pdf Graphic file (type pdf)
-<norm_comp-PseudoFwithMean.pdf>
 File: norm_comp-PseudoFwithMin.pdf Graphic file (type pdf)
 <norm_comp-PseudoFwithMin.pdf>
-File: norm_comp-PseudoFwithMin.pdf Graphic file (type pdf)
-<norm_comp-PseudoFwithMin.pdf>
-File: diff_comp-PseudoF.pdf Graphic file (type pdf)
-<diff_comp-PseudoF.pdf>
+
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 230--237
+ []  []  [] 
+ []
+
+File: norm_comp-compscatter-3.pdf Graphic file (type pdf)
+<norm_comp-compscatter-3.pdf>
+File: norm_comp-compscatter-8.pdf Graphic file (type pdf)
+<norm_comp-compscatter-8.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 263--266
+ []  [] 
+ []
+
+File: norm_comp-compscatter-14.pdf Graphic file (type pdf)
+<norm_comp-compscatter-14.pdf>
+File: norm_comp-compscatter-15.pdf Graphic file (type pdf)
+<norm_comp-compscatter-15.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 269--272
+ [][]  [] 
+ []
+
+[6] [7]
 File: diff_comp-PseudoF.pdf Graphic file (type pdf)
 <diff_comp-PseudoF.pdf>
 File: diff_comp-PseudoFwithMean.pdf Graphic file (type pdf)
 <diff_comp-PseudoFwithMean.pdf>
-File: diff_comp-PseudoFwithMean.pdf Graphic file (type pdf)
-<diff_comp-PseudoFwithMean.pdf>
-File: diff_comp-PseudoFwithMin.pdf Graphic file (type pdf)
-<diff_comp-PseudoFwithMin.pdf>
 File: diff_comp-PseudoFwithMin.pdf Graphic file (type pdf)
 <diff_comp-PseudoFwithMin.pdf>
 
-[1
+Overfull \hbox (24.71112pt too wide) in paragraph at lines 292--299
+ []  []  [] 
+ []
 
-] [2] [3] [4] (./2020-04-09.aux) ) 
+File: diff_comp-compscatter-3.pdf Graphic file (type pdf)
+<diff_comp-compscatter-3.pdf>
+File: diff_comp-compscatter-4.pdf Graphic file (type pdf)
+<diff_comp-compscatter-4.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 325--328
+ []  [] 
+ []
+
+File: diff_comp-compscatter-15.pdf Graphic file (type pdf)
+<diff_comp-compscatter-15.pdf>
+[8]
+File: norm_comp-eucl-ward-8-timezone.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-8-timezone.pdf>
+File: norm_comp-eucl-ward-8-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-8-day.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 355--358
+ []  [] 
+ []
+
+File: norm_comp-eucl-ward-8-timezone-day.pdf Graphic file (type pdf)
+<norm_comp-eucl-ward-8-timezone-day.pdf>
+[9] [10]
+File: diff_comp-eucl-ward-4-timezone.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-4-timezone.pdf>
+File: diff_comp-eucl-ward-4-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-4-day.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 387--390
+ []  [] 
+ []
+
+File: diff_comp-eucl-ward-4-timezone-day.pdf Graphic file (type pdf)
+<diff_comp-eucl-ward-4-timezone-day.pdf>
+[11] [12] (./2020-04-09.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1189 strings out of 493216
- 15222 string characters out of 6147083
- 81770 words of memory out of 5000000
- 5196 multiletter control sequences out of 15000+600000
- 9804 words of font info for 40 fonts, out of 8000000 for 9000
+ 1339 strings out of 493230
+ 19040 string characters out of 6147555
+ 83567 words of memory out of 5000000
+ 5278 multiletter control sequences out of 15000+600000
+ 14865 words of font info for 59 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,4n,27p,207b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,27p,456b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2020-04-09.dvi (4 pages, 5156 bytes).
+Output written on 2020-04-09.dvi (12 pages, 33556 bytes).

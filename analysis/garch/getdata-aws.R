@@ -52,3 +52,5 @@ Ddiff_comp <- princomp(scale(Ddiff))$scores[,0:3]
 #princomp(scale(Dnorm))$loadings
 #summary(princomp(scale(Ddiff)))
 #princomp(scale(Ddiff))$loadings
+
+

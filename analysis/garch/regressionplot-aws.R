@@ -50,7 +50,7 @@ exsampleRegPlot <- function(id){
   predict.y.upper <- predict.y + 1.96*garch_result@sigma.t
   predict.y.lower <- predict.y - 1.96*garch_result@sigma.t
   pdf(paste(str_sub(filename,-20,-14),'-plot.pdf',sep=''), family = 'Japan1GothicBBB', width = 7, height = 4.5)
-  par(mar=c(4,5,2,9))
+  par(mar=c(4,5,2,2))
   ymax <- 200
   plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
   par(new = TRUE)
@@ -67,9 +67,9 @@ exsampleRegPlot <- function(id){
     par(new = TRUE)
     plot(c(i*50,i*50),c(0,ymax), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
   }
-  par(xpd=T)
-  legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('実測値','回帰線','信頼区間 \n(95%)'),
-         lty = 1, col = c('blue','red','darkorange') ,cex = 1.4, bty = 'n')
+  #par(xpd=T)
+  #legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('実測値','回帰線','信頼区間 \n(95%)'),
+  #       lty = 1, col = c('blue','red','darkorange') ,cex = 1.4, bty = 'n')
   dev.off()
   
   garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = diff(df$ping), include.mean = TRUE, trace = FALSE)
@@ -78,7 +78,7 @@ exsampleRegPlot <- function(id){
   predict.y.upper <- predict.y + 1.96*garch_result@sigma.t
   predict.y.lower <- predict.y - 1.96*garch_result@sigma.t
   pdf(paste(str_sub(filename,-20,-14),'-plot-diff.pdf',sep=''), family = 'Japan1GothicBBB', width = 7, height = 4.5)
-  par(mar=c(4,5,2,9))
+  par(mar=c(4,5,2,2))
   ymax <- 150
   ymin <- -150
   plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
@@ -96,16 +96,42 @@ exsampleRegPlot <- function(id){
     par(new = TRUE)
     plot(c(i*50,i*50),c(ymin,ymax), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
   }
-  par(xpd=T)
-  legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('変動値','回帰線','信頼区間 \n(95%)'),
-         lty = 1, col = c('blue','red','darkorange'), cex = 1.4, bty = 'n')
+  #par(xpd=T)
+  #legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('変動値','回帰線','信頼区間 \n(95%)'),
+  #       lty = 1, col = c('blue','red','darkorange'), cex = 1.4, bty = 'n')
   dev.off()
 }
 
+histgram <- function(){
+  df1 <- read.csv(file = files[45], header = TRUE, sep=',')
+  garch_result1 <- garchFit(formula = ~arma(2,2)+garch(1,1), data = diff(df1$ping), include.mean = TRUE, trace = FALSE)
+  y1 <- garch_result1@fitted
+
+  pdf('diff-hist-0309_07.pdf',width = 7, height = 5)
+  par(mar=c(5,5,1,5))
+  
+  truehist(diff(df1$ping), xlim = c(-150, 140), h = 1, col="#0000FF7F", border = "#0000FF7F",
+           axes = FALSE, xlab = "", ylab = "")
+  axis(side = 1)
+  axis(side = 2, col.axis = "#0000FF7F")
+  mtext("probability of x", side = 2, line = 3, col = 'blue')
+  mtext("Delay [ms]", side = 1, line = 3)
+  
+  par(new = TRUE)
+  
+  truehist(y1, xlim = c(-150, 150), h = 1, col = "#FF00007F", border = "#FF00007F",
+           axes = FALSE, xlab = "", ylab = "")
+  axis(side = 4, col.axis = "#FF00007F")
+  mtext("probability of y", side = 4, line = 3, col = 'red')  
+  dev.off()
+}
+histgram()
 #regression(files,'norm')
 #regression(files,'diff')
 
-exsampleRegPlot(45)
+#exsampleRegPlot(45)
 
 
 
+garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = df$ping, include.mean = TRUE, trace = FALSE)
+plot(garch_result)

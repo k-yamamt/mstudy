@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  17 APR 2020 19:34
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  21 APR 2020 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,8 +426,8 @@ File: 0309_07-plot.pdf Graphic file (type pdf)
 File: norm-legend.png Graphic file (type bmp)
 <norm-legend.png>
 
-Overfull \hbox (20.54262pt too wide) in paragraph at lines 144--154
- |  []  []  [] 
+Overfull \hbox (26.01009pt too wide) in paragraph at lines 146--155
+ []  []  [] 
  []
 
 File: 0302_07-plot-diff.pdf Graphic file (type pdf)
@@ -437,19 +437,19 @@ File: 0309_07-plot-diff.pdf Graphic file (type pdf)
 File: diff-legend.png Graphic file (type bmp)
 <diff-legend.png>
 
-Overfull \hbox (58.48738pt too wide) in paragraph at lines 201--208
+Overfull \hbox (26.01009pt too wide) in paragraph at lines 202--211
  []  []  [] 
  []
 
 [3]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 251.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 254.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 251.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 254.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 251.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 254.
 
-Overfull \hbox (11.54665pt too wide) in paragraph at lines 269--278
+Overfull \hbox (11.54665pt too wide) in paragraph at lines 272--281
  [][][] 
  []
 
@@ -458,7 +458,7 @@ File: norm_comp-PseudoFwithMin.pdf Graphic file (type pdf)
 File: diff_comp-PseudoFwithMin.pdf Graphic file (type pdf)
 <diff_comp-PseudoFwithMin.pdf>
 
-Overfull \hbox (39.36453pt too wide) in paragraph at lines 327--331
+Overfull \hbox (15.1106pt too wide) in paragraph at lines 330--334
  []  [] 
  []
 
@@ -468,8 +468,8 @@ File: num-norm_comp-eucl-ward-8-timezone.pdf Graphic file (type pdf)
 File: num-norm_comp-eucl-ward-8-day.pdf Graphic file (type pdf)
 <num-norm_comp-eucl-ward-8-day.pdf>
 
-Overfull \hbox (1.41977pt too wide) in paragraph at lines 360--366
- |  []  [] 
+Overfull \hbox (15.41524pt too wide) in paragraph at lines 365--369
+ []  [] 
  []
 
 File: norm_comp-eucl-ward-8-timezone.pdf Graphic file (type pdf)
@@ -477,18 +477,23 @@ File: norm_comp-eucl-ward-8-timezone.pdf Graphic file (type pdf)
 File: norm_comp-eucl-ward-8-day.pdf Graphic file (type pdf)
 <norm_comp-eucl-ward-8-day.pdf>
 
-Overfull \hbox (1.41977pt too wide) in paragraph at lines 367--373
- []|  []  [] 
+Overfull \hbox (15.41524pt too wide) in paragraph at lines 372--376
+ [][]  [] 
  []
 
 File: norm_comp-eucl-ward-8-timezone-day.pdf Graphic file (type pdf)
 <norm_comp-eucl-ward-8-timezone-day.pdf>
+
+Overfull \hbox (5.6616pt too wide) in paragraph at lines 379--380
+ [][] 
+ []
+
 File: num-diff_comp-eucl-ward-4-timezone.pdf Graphic file (type pdf)
 <num-diff_comp-eucl-ward-4-timezone.pdf>
 File: num-diff_comp-eucl-ward-4-day.pdf Graphic file (type pdf)
 <num-diff_comp-eucl-ward-4-day.pdf>
 
-Overfull \hbox (39.36453pt too wide) in paragraph at lines 387--390
+Overfull \hbox (15.41524pt too wide) in paragraph at lines 389--393
  []  [] 
  []
 
@@ -497,12 +502,17 @@ File: diff_comp-eucl-ward-4-timezone.pdf Graphic file (type pdf)
 File: diff_comp-eucl-ward-4-day.pdf Graphic file (type pdf)
 <diff_comp-eucl-ward-4-day.pdf>
 
-Overfull \hbox (39.36453pt too wide) in paragraph at lines 394--397
+Overfull \hbox (15.41524pt too wide) in paragraph at lines 396--400
  [][]  [] 
  []
 
 File: diff_comp-eucl-ward-4-timezone-day.pdf Graphic file (type pdf)
 <diff_comp-eucl-ward-4-timezone-day.pdf>
+
+Overfull \hbox (5.6616pt too wide) in paragraph at lines 403--404
+ [][] 
+ []
+
 File: traffic.pdf Graphic file (type pdf)
 <traffic.pdf>
 [5] (./report.bbl
@@ -520,4 +530,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  25i,10n,35p,620b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (6 pages, 57792 bytes).
+Output written on report.dvi (6 pages, 57720 bytes).

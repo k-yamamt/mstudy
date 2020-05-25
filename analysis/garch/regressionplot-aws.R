@@ -20,13 +20,13 @@ regression <- function(id){
     }
     
     ymax <- 500
-    plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    plot(predict.y.upper, type='l', col='green', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
     par(new = TRUE)
-    plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
-    par(new = TRUE)
-    plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    plot(predict.y.lower, type='l', col='green', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
     par(new = TRUE)
     plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+    par(new = TRUE)
+    plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
     for (i in 1:ymax%/%50){
       par(new = TRUE)
       plot(c(0,length(y)+1),c(i*50,i*50), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
@@ -52,13 +52,13 @@ exsampleRegPlot <- function(id){
   pdf(paste(str_sub(filename,-20,-14),'-plot.pdf',sep=''), family = 'Japan1GothicBBB', width = 7, height = 4.5)
   par(mar=c(4,5,2,2))
   ymax <- 200
-  plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  plot(predict.y.upper, type='l', col='green', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
   par(new = TRUE)
-  plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
-  par(new = TRUE)
-  plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  plot(predict.y.lower, type='l', col='green', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
   par(new = TRUE)
   plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',cex = 1.2, cex.lab = 1.5, cex.axis = 1.5,xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(predict.y, type='l', col='red', lwd = 2, ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
   for (i in 1:ymax%/%50){
     par(new = TRUE)
     plot(c(0,length(y)+1),c(i*50,i*50), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
@@ -81,13 +81,13 @@ exsampleRegPlot <- function(id){
   par(mar=c(4,5,2,2))
   ymax <- 150
   ymin <- -150
-  plot(predict.y.upper, type='l', col='darkorange', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  plot(predict.y.upper, type='l', col='green', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
   par(new = TRUE)
-  plot(predict.y.lower, type='l', col='darkorange', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
-  par(new = TRUE)
-  plot(predict.y, type='l', col='red', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  plot(predict.y.lower, type='l', col='green', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
   par(new = TRUE)
   plot(y, type='l', col='blue', xlab = 't', ylab = 'Delay[ms]',cex = 1.2, cex.lab = 1.5, cex.axis = 1.5, xlim = c(0,length(y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
+  par(new = TRUE)
+  plot(predict.y, type='l', col='red', lwd = 2, ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
   for (i in 1:(ymax-ymin)%/%50-1){
     par(new = TRUE)
     plot(c(0,length(y)+1),c(ymin+i*50,ymin+i*50), type='l', lty=3, ann = FALSE, axes = FALSE, xlim = c(0,length(y)+1),ylim = c(ymin,ymax), xaxs = "i", yaxs = "i")
@@ -129,9 +129,38 @@ histgram()
 #regression(files,'norm')
 #regression(files,'diff')
 
-#exsampleRegPlot(45)
+exsampleRegPlot(12)
 
+normSSE <- 0
+normLLH <- 0
+diffSSE <- 0
+diffLLH <- 0
+for (filename in files){
+  if (filename != "C:/master/mstudy/data/AWS/log-20200325_030001-ping.csv" && filename != "C:/master/mstudy/data/AWS/log-20200327_030001-ping.csv"){
+    df <- read.csv(file = filename, header = TRUE, sep=',')
+    garch_result <-garchFit(formula = ~arma(2,2)+garch(1,1), data = df$ping, trace = FALSE)
+    normSSE <- normSSE + sum(garch_result@residuals**2)/length(garch_result@data)
+    normLLH <- normLLH - garch_result@fit$llh
 
+    garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = diff(df$ping), trace = FALSE)
+    diffSSE <- diffSSE + sum(garch_result@residuals**2)/length(garch_result@data)
+    diffLLH <- diffLLH - garch_result@fit$llh
+  }
+}
+cat(normSSE/length(files)-2)
+cat(normLLH/length(files)-2)
+cat(diffSSE/length(files)-2)
+cat(diffLLH/length(files)-2)
+pdf('a2.pdf', width = 7, height = 4.5)
+par(mar=c(3,3,1,1))
+plot(density(Dnorm[,'a2']),xlim=c(-4,4),ylim=c(0,2),ann = FALSE, col = 'blue',lwd = 2)
+dev.off()
+pdf('scale_a2.pdf', width = 7, height = 4.5)
+par(mar=c(3,3,1,1))
+plot(density(scale(Dnorm[,'a2'])),xlim=c(-4,4),ylim=c(0,2),ann = FALSE, col = 'blue', lwd = 2)
+dev.off()
 
-garch_result <- garchFit(formula = ~arma(2,2)+garch(1,1), data = df$ping, include.mean = TRUE, trace = FALSE)
-plot(garch_result)
+for(i in 120:122){
+  exsampleRegPlot(i)
+}
+exsampleRegPlot(11)

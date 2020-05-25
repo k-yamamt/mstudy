@@ -17,7 +17,7 @@ getData <- function(dataID){
   }
 }
 
-GetMedoid <- function(C){
+getMedoid <- function(C){
   n <- nrow(C)
   
   if(is.null(n)){
@@ -177,7 +177,7 @@ PseudoFwithMin <- function(dataID){
   }
   
   pdf(file = paste(dataID, '-PseudoFwithMin.pdf', sep = ''), width = 7, height = 5)
-  plot(2:15, CH, type = 'o', col = 'blue', xlab = 'Num of cluster', ylab = 'PseudoF with Min')
+  plot(2:15, CH, type = 'o', col = 'blue', xlab = 'number of clusters', ylab = 'PseudoF with Min')
   dev.off()
 }
 

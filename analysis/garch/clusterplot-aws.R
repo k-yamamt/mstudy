@@ -30,13 +30,16 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     }
     
     pdf(paste('num-',filename,sep = ''), height = 5, width =7)
-    par(mar=c(4,4,4,7.5))
+    par(mar=c(4,4,1,7.5))
+    par(mgp=c(2, 0.5, 0.5))
+    par(xaxs = "i")
+    par(yaxs = "i")
     bar <- barplot(
       data,
       names.arg = 1:k,
       col = c('purple','green','red','darkorange','blue'),
       xlab = 'cluster index',
-      ylab = 'Num',
+      ylab = 'number',
     )
     par(xpd=T)
     legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('20:00-21:00','17:00-18:00','12:00-13:00','7:00-8:00','3:00-4:00'),
@@ -50,7 +53,10 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     }
     
     pdf(filename, height = 5, width =7)
-    par(mar=c(4,4,4,7.5))
+    par(mar=c(4,4,1.5,7.5))
+    par(mgp=c(2, 0.5, 0.5))
+    par(xaxs = "i")
+    par(yaxs = "i")
     bar <- barplot(
       data,
       names.arg = 1:k,
@@ -64,8 +70,7 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     for (i in 1:length(num)){
       text(num[i],x = bar[i], y = 1.05)
     }
-    text('sum', x = (bar[1]+bar[length(bar)])/2, y = 1.13)
-    
+
     dev.off()
     
   }
@@ -106,13 +111,16 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     }
     
     pdf(paste('num-',filename,sep = ''),height = 5, width = 7)
-    par(mar=c(4,4,4,7.5))
+    par(mar=c(4,4,1,7.5))
+    par(mgp=c(2, 0.5, 0.5))
+    par(xaxs = "i")
+    par(yaxs = "i")
     bar <- barplot(
       data,
       names.arg = 1:k,
       col = c('gray','firebrick3','darkturquoise','green','goldenrod3','blue','red'),
       xlab = 'cluster index',
-      ylab = 'Num'
+      ylab = 'number'
     )
     par(xpd=T)
     legend(par()$usr[2] + 0.1, par()$usr[4], legend = c('Sun','Sat','Fri','Thu','Wed','Tue','Mon'),
@@ -126,7 +134,10 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     }
     
     pdf(filename,height = 5, width = 7)
-    par(mar=c(4,4,4,7.5))
+    par(mar=c(4,4,1.5,7.5))
+    par(mgp=c(2, 0.5, 0.5))
+    par(xaxs = "i")
+    par(yaxs = "i")
     bar <- barplot(
       data,
       names.arg = 1:k,
@@ -140,7 +151,6 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     for (i in 1:length(num)){
       text(num[i],x = bar[i], y = 1.05)
     }
-    text('sum', x = (bar[1]+bar[length(bar)])/2, y = 1.13)
     
     dev.off()
   }
@@ -192,7 +202,7 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     }
     
     pdf(filename, height = 5, width =10, family = 'Japan1GothicBBB')
-    par(mar=c(4,4,4,7))
+    par(mar=c(4,4,2,6))
     color <- colorRampPalette(brewer.pal(11,"Spectral"))(k)
     bar <- barplot(
       data,
@@ -211,7 +221,6 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
         text(num[i],x = bar[i], y = 1.05)
       }
     }
-    text('sum', x = (bar[1]+bar[length(bar)])/2, y = 1.13)
     barHalfWidth = (bar[2] - bar[1])/2
     day <- c('Mon','Tue','Wed','Thu','Fri','Sat','Sun')
     for(i in 0:6){
@@ -232,5 +241,5 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
 #k  c(6,7,9,12,15)
 trend  <- c('timezone','day','timezone-day')
 for(t in trend){
-  clustering('diff_comp','euclidean','ward.D2',4,'timezone')
+  clustering('diff_comp','euclidean','ward.D2',4,t)
 }

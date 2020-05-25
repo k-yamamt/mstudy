@@ -62,7 +62,7 @@ Long Term Evolution，response delay，time series analysis，anomaly detection
 一方で，長期間の運用のなかで機器に具備された IoT デバイスの故障，工場内ネットワークの通信の途絶，クラウドサーバへの通信の遅延などの障害は避けられない．
 このような障害が発生した場合には工場内の機器の稼働状況を把握することが困難となり，工場の稼働停止や業務の遅れなどが引き起こされ大きな損失をもたらす可能性がある．
 
-障害発生時には迅速な復旧作業が求められるが，障害はその原因や内容，規模よってさまざまである．
+障害発生時には迅速な復旧作業が求められるが，障害の原因や内容，規模はさまざまである．
 しかしながら，現状ではシステムから得られる情報を用いてこれらの障害を適切かつ迅速に区別することが困難であるため，障害発生時には運用管理担当者が直接現場に行き障害の原因や内容，規模を確認する必要があり，多大な運用管理コストが発生している．
 そのため，モニタリングシステムによる運用管理コストの低減のためには，直接また間接的に取得できる情報にもとづいて，障害発生を迅速に検知また予測するとともに，障害の原因を特定し，加えてその対処法を示すことが求められている．
 
@@ -95,7 +95,7 @@ IIJ モバイル社は他の通信事業者から通信回線を借り受け，�
 \begin{figure}[tb]
 \centering
 \includegraphics[width=7.5cm]{experiment.pdf}
-\caption{モニタリングシステムと実験環境の対応図}
+\caption{モニタリングシステムと実験環境の対応}
 \label{exp}
 \end{figure}
 
@@ -141,15 +141,16 @@ $x_t$ $(1\leq t\leq N，N=240)$ は1時間の計測区間のそれぞれにお�
 
 \begin{figure}[tb]
 \begin{center}
-\hspace*{-1.4cm}
 \subfigure[3/2（月）7:00-8:00]{
-\includegraphics[height = 0.48\hsize,width=0.48\hsize]{0302_07-plot.pdf}
+\includegraphics[height = 0.4\hsize,width=0.45\hsize]{0302_07-plot.pdf}
 }~
 \subfigure[3/9（月）7:00-8:00]{
-\includegraphics[height = 0.48\hsize,width=0.48\hsize]{0309_07-plot.pdf}
+\hspace*{-0.5cm}
+\includegraphics[height = 0.4\hsize,width=0.45\hsize]{0309_07-plot.pdf}
 }~
 \subfigure{
-\includegraphics[height = 0.28\hsize,width=0.18\hsize]{norm-legend.png}
+\hspace*{-0.5cm}
+\includegraphics[height = 0.2\hsize,width=0.2\hsize]{norm-legend.png}
 }
 \caption{応答遅延の実測値の回帰結果}
 \label{norm-reg}
@@ -197,13 +198,15 @@ $\beta_1$&0.99999999&0.94672654\\
 \begin{figure}[tb]
 \begin{center}
 \subfigure[3/2（月）7:00-8:00]{
-\includegraphics[height = 0.48\hsize,width=0.48\hsize]{0302_07-plot-diff.pdf}
+\includegraphics[height = 0.4\hsize,width=0.45\hsize]{0302_07-plot-diff.pdf}
 }~
 \subfigure[3/9（月）7:00-8:00]{
-\includegraphics[height = 0.48\hsize,width=0.48\hsize]{0309_07-plot-diff.pdf}
+\hspace*{-0.5cm}
+\includegraphics[height = 0.4\hsize,width=0.45\hsize]{0309_07-plot-diff.pdf}
 }~
 \subfigure{
-\includegraphics[height = 0.28\hsize,width=0.18\hsize]{diff-legend.png}
+\hspace*{-0.5cm}
+\includegraphics[height = 0.2\hsize,width=0.2\hsize]{diff-legend.png}
 }
 \caption{応答遅延の変動値の回帰結果}
 \label{diff-reg}
@@ -240,7 +243,7 @@ $\beta_1$&0.25766368&0.94593359\\
 一方，同じ区間データにおける変動値にもとづく回帰結果とパラメータをそれぞれ図 \ref{diff-reg}，表 \ref{diff-param} に示す．
 図より，推定値は変動値の時間変化におおよそ追従しており，これらの回帰結果における推定値と変動値の平均二乗誤差はそれぞれ 223.2082，149.9259，ノイズ項を加味した対数尤度はそれぞれ -985.3953，-937.789 であったことからも，実測値の場合と比べてよく回帰できていると言える．
 またスパイク状の突発的な応答遅延の増加は直前の応答遅延と無関係に発生するため，瞬時的には推定値との差が大きくなるが，その直後の応答遅延の減少は推定できている．
-一方表 \ref{diff-param} に示されるとおり，実測値の場合に比べて顕著ではないもののモデルパラメータに違いが見られた．
+一方，表 \ref{diff-param} に示されるとおり，実測値の場合に比べて顕著ではないもののモデルパラメータに違いが見られた．
 特に $\omega$ には 20 倍の違いがあり，これは 3 月 2 日の方が変動値の変化のばらつきが大きいことを示している．
 したがって，3 月 2 日の応答遅延変動は変動値の大きく，変動値が異なる振る舞いを示していることがわかる．
 
@@ -323,10 +326,10 @@ $\beta_1$&&-0.629&\\
 \vspace*{-0.8cm}
 \begin{center}
 \subfigure[実測値パラメータの主成分]{
-\includegraphics[height=0.43\hsize,width=0.55\hsize]{norm_comp-PseudoFwithMin.pdf}
+\includegraphics[height=0.43\hsize,width=0.5\hsize]{norm_comp-PseudoFwithMin.pdf}
 }~
 \subfigure[変動値パラメータの主成分]{
-\includegraphics[height=0.43\hsize,width=0.55\hsize]{diff_comp-PseudoFwithMin.pdf}
+\includegraphics[height=0.43\hsize,width=0.5\hsize]{diff_comp-PseudoFwithMin.pdf}
 }
 \caption{クラスタ数と Pseudo F with Min の関係}
 \label{PseudoFwithMinPlot}
@@ -346,7 +349,7 @@ Pseudo F はクラスタ間分散のクラスタ内分散に対する比とし�
 \label{PseudoFwithMin}
 \end{equation}
 ここで，$k$ はクラスタ数，$C_1，\ldots，C_k$ はクラスタ集合を表し，要素数 $n_i=|C_i|$ である．
-また，$\vector{m_i}$ はクラスタ $i$ の代表点であるメドイド\cite{mouratidis2005medoid}，$\vector{m}$ は全要素に対するメドイドである．
+また，$\vector{m_i}$ はクラスタ $i$ の代表点であるメドイドである\cite{mouratidis2005medoid}．
 $dist(\vector{x},\vector{y})$ は要素 $\vector{x}$ と $\vector{y}$ のユークリッド距離である．
 実測値パラメータおよび変動値パラメータの主成分についてクラスタ数を変化させて Pseudo F with Min を求めた結果を図 \ref{PseudoFwithMinPlot} に示す．図より，実測値パラメータの場合にはクラスタ数 8 で，変動値パラメータの場合にはクラスタ数 4 でそれぞれ Pseudo F with Min が最大になることがわかる．
 
@@ -357,23 +360,22 @@ $dist(\vector{x},\vector{y})$ は要素 $\vector{x}$ と $\vector{y}$ のユー�
 
 \begin{figure}[tb]
 \begin{center}
-\hspace*{-1.4cm}
 \subfigure[時間帯での分類（区間データ数）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{num-norm_comp-eucl-ward-8-timezone.pdf}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{num-norm_comp-eucl-ward-8-timezone.pdf}
 }~
 \subfigure[曜日での分類（区間データ数）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{num-norm_comp-eucl-ward-8-day.pdf}
+\hspace*{-0.6cm}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{num-norm_comp-eucl-ward-8-day.pdf}
 }\\
-\hspace*{-1.4cm}
 \subfigure[時間帯での分類（割合）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{norm_comp-eucl-ward-8-timezone.pdf}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{norm_comp-eucl-ward-8-timezone.pdf}
 }~
 \subfigure[曜日での分類（割合）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{norm_comp-eucl-ward-8-day.pdf}
+\hspace*{-0.6cm}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{norm_comp-eucl-ward-8-day.pdf}
 }\\
-\hspace*{-1.4cm}
 \subfigure[時間帯と曜日での分類（割合）]{
-\includegraphics[height=0.42\hsize,width=0.85\hsize]{norm_comp-eucl-ward-8-timezone-day.pdf}
+\includegraphics[height=0.42\hsize,width=\hsize]{norm_comp-eucl-ward-8-timezone-day.pdf}
 }
 \caption{実測値パラメータの主成分のクラスタリング結果}
 \label{norm}
@@ -383,21 +385,21 @@ $dist(\vector{x},\vector{y})$ は要素 $\vector{x}$ と $\vector{y}$ のユー�
 \begin{figure}[tb]
 \begin{center}
 \subfigure[時間帯での分類（区間データ数）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{num-diff_comp-eucl-ward-4-timezone.pdf}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{num-diff_comp-eucl-ward-4-timezone.pdf}
 }~
 \subfigure[曜日での分類（区間データ数）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{num-diff_comp-eucl-ward-4-day.pdf}
+\hspace*{-0.6cm}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{num-diff_comp-eucl-ward-4-day.pdf}
 }\\
-\vspace*{-0.2cm}
 \subfigure[時間帯での分類（割合）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{diff_comp-eucl-ward-4-timezone.pdf}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{diff_comp-eucl-ward-4-timezone.pdf}
 }~
 \subfigure[曜日での分類（割合）]{
-\includegraphics[height=0.42\hsize,width=0.55\hsize]{diff_comp-eucl-ward-4-day.pdf}
+\hspace*{-0.6cm}
+\includegraphics[height=0.42\hsize,width=0.53\hsize]{diff_comp-eucl-ward-4-day.pdf}
 }\\
-\vspace*{-0.2cm}
 \subfigure[時間帯と曜日での分類（割合）]{
-\includegraphics[height=0.42\hsize,width=0.85\hsize]{diff_comp-eucl-ward-4-timezone-day.pdf}
+\includegraphics[height=0.42\hsize,width=\hsize]{diff_comp-eucl-ward-4-timezone-day.pdf}
 }
 \caption{変動値パラメータの主成分のクラスタリング結果}
 \label{diff}
@@ -406,7 +408,7 @@ $dist(\vector{x},\vector{y})$ は要素 $\vector{x}$ と $\vector{y}$ のユー�
 
 図 \ref{norm}(a)，(c) より，いずれのクラスタにおいてもすべての時間帯の区間データが一様に含まれているということはなく，属する区間データには時間帯による偏りがあることがわかる．
 特に，図 \ref{norm}(e) より全ての曜日において 20 時台の区間データのうち少なくとも一つはクラスタ 1 に属していることがわかる．
-20 時台は 21 時台のピークに向けて移動通信トラヒックが増加する時間帯であり\cite{soumutrafficstatics}，また，ネット利用の行為者率が最大になる時間帯である\cite{soumuwhitepaper}（図 \ref{traffic}）．
+20 時台は 21 時台のピークに向けて移動通信トラヒックが増加する時間帯であり（図 \ref{traffic}）\cite{soumutrafficstatics}，また，ネット利用の行為者率が最大になる時間帯である\cite{soumuwhitepaper}．
 また，クラスタ 3 には同様に移動通信トラヒックが多い 12 時台の区間データが多く含まれている．
 また，クラスタ 1 とクラスタ 3 には一日を通じてトラヒック量の多い土曜日と日曜日の区間データが多く含まれている．
 また，平日のうち他の曜日と比べてトラヒックが多い月曜日の昼間の区間データはクラスタ 1 とクラスタ 3 に多く含まれている．
@@ -421,7 +423,7 @@ $dist(\vector{x},\vector{y})$ は要素 $\vector{x}$ と $\vector{y}$ のユー�
 \begin{figure}[tb]
 \centering
 \includegraphics[height=0.55\hsize,width = \hsize]{traffic.pdf}
-\caption{曜日ごとの時間帯と平均通信トラヒック量の関係}
+\caption{曜日ごとの時間帯と平均移動通信トラヒック量の関係}
 \label{traffic}
 \end{figure}
 

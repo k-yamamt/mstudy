@@ -19,7 +19,7 @@ regression <- function(id){
       pdf(paste(str_sub(filename,-20,-14),'-plot-diff.pdf',sep=''))
     }
     
-    ymax <- 500
+    ymax <- 200
     plot(predict.y.upper, type='l', col='green', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
     par(new = TRUE)
     plot(predict.y.lower, type='l', col='green', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")

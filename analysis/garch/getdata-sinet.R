@@ -35,8 +35,10 @@ sinetparams <- function(id){
   D
 }
 
-#Sinet_Dnorm <- sinetparams('norm')
-#Sinet_Ddiff <- sinetparams('diff')
+sinetfiles <- list.files('C:/master/mstudy/data/SINET/csv/15s/', full.names = TRUE)
+
+Sinet_Dnorm <- sinetparams('norm')
+Sinet_Ddiff <- sinetparams('diff')
 #Sinet_Dnorm_comp <- princomp(scale(Sinet_Dnorm))$scores[,0:3]
 #Sinet_Ddiff_comp <- princomp(scale(Sinet_Ddiff))$scores[,0:4]
 

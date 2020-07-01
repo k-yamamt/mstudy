@@ -51,7 +51,7 @@ exsampleRegPlot <- function(id){
   predict.y.lower <- predict.y - 1.96*garch_result@sigma.t
   pdf(paste(str_sub(filename,-20,-14),'-plot.pdf',sep=''), family = 'Japan1GothicBBB', width = 7, height = 4.5)
   par(mar=c(4,5,2,2))
-  ymax <- 200
+  ymax <- 400
   plot(predict.y.upper, type='l', col='green', ann = FALSE, axes = FALSE,xlim = c(0,length(predict.y.upper)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
   par(new = TRUE)
   plot(predict.y.lower, type='l', col='green', ann = FALSE, axes = FALSE, xlim = c(0,length(predict.y.lower)+1),ylim = c(0,ymax), xaxs = "i", yaxs = "i")
@@ -163,4 +163,4 @@ dev.off()
 for(i in 120:122){
   exsampleRegPlot(i)
 }
-exsampleRegPlot(11)
+exsampleRegPlot(40)

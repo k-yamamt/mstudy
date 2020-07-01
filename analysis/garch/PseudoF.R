@@ -11,6 +11,12 @@ getData <- function(dataID){
   else if(dataID == 'diff_comp'){
     Ddiff_comp
   }
+  else if(dataID == 'norm_scale'){
+    Dnorm_scale
+  }
+  else if(dataID == 'diff_scale'){
+    Ddiff_scale
+  }
   else{
     cat('Error getData')
     exit()
@@ -188,9 +194,9 @@ CompPlot <- function(dataID,k){
   fviz_cluster(cluster, main = '', labelsize = 0)+ theme_minimal()
 }
 
-for ( data in list('norm', 'diff', 'norm_comp', 'diff_comp')){
-  PseudoF(data)
-  PseudoFwithMean(data)
+for ( data in list('norm_scale','diff_scale')){
+  #PseudoF(data)
+  #PseudoFwithMean(data)
   PseudoFwithMin(data)
 }
 

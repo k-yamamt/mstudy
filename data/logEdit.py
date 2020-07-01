@@ -53,30 +53,17 @@ for file in files:
             if not data:
                 continue
             else:
-                if data[0] == 'datetime':
-                    addlog.append(data[1] + ' ' + data[2])
-                elif data[0].isdigit() and data[1] != 'packets':
-                    number = int(data[0])
-                    if data[1] == '*':
-                        addlog.append(data[1])
-                        addlog.append(np.nan)
-                    else:
-                        addlog.append(data[1]+data[2])
-                        addlog.append(data[3])
+                if data[0][1:5] == '2020':
+                    addlog.append(line)
                 elif data[0] == 'rtt':
-                    while(number < 30):
-                        addlog.append('')
-                        addlog.append(np.nan)
-                        number += 1
-                    addlog.append(data[3].split('/')[0])
+                    addlog.append(data[4].split('/')[0])
                     log = log.append(pd.DataFrame(addlog, index=log.columns).T)
                     addlog = []
  
     log = log.sort_values('datetime')
     log = log.reset_index(drop=True)
-    log.to_csv('./' + sys.argv[1] + '/' + file[:-4] + '.csv',index = False)
 
-    with open ('./' + sys.argv[1] + '/' + file[:-4] + '-ping.csv','w') as fw:
+    with open (outputfile,'w') as fw:
         fw.write('datetime,ping\n')
         for i in range(len(log)):
             fw.write(log['datetime'][i] + ',' + log['ping'][i] + '\n')

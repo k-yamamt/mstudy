@@ -25,6 +25,7 @@ def schedule(arg1,arg2):
 
 def main():
 	signal.signal(signal.SIGALRM,schedule)
+	signal.alarm(1)
 	signal.setitimer(signal.ITIMER_REAL, 15, 15)
 
 	while(count < limit):

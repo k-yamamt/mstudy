@@ -11,6 +11,12 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
   else if(dataID == 'diff_comp'){
     D <- Ddiff_comp
   }
+  else if(dataID == 'norm_scale'){
+    D <- Dnorm_scale
+  }
+  else if(dataID == 'diff_scale'){
+    D <- Ddiff_scale
+  }
   
   if (clustering.method == 'kmeans'){
     cluster <- kmeans(D, k)$cluster
@@ -233,6 +239,7 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
     
     dev.off()
   }
+  cluster
 }
 
 #data ('norm','diff','norm_comp','diff_comp')
@@ -240,6 +247,14 @@ clustering <- function(dataID,dist.method,clustering.method,k,type){
 #method  c('kmeans','single','centroid','ward.D2','complete','average','mcquitty')
 #k  c(6,7,9,12,15)
 trend  <- c('timezone','day','timezone-day')
-for(t in trend){
-  clustering('diff_comp','euclidean','ward.D2',4,t)
+nc <- clustering('norm_comp','euclidean','ward.D2',8,'timezone-day')
+x <- 0
+for (i in 1:121){
+  if(n[i]==nc[i]){
+    x<- x+1
+  }
 }
+for(t in trend){
+  clustering('diff_scale','euclidean','ward.D2',3,t)
+}
+

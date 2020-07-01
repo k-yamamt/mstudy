@@ -48,6 +48,8 @@ Ddiff <- params('diff')
 Dnorm_comp <- princomp(scale(Dnorm))$scores[,0:3]
 Ddiff_comp <- princomp(scale(Ddiff))$scores[,0:3]
 
+Dnorm_scale <- scale(Dnorm)
+Ddiff_scale <- scale(Ddiff)
 #summary(princomp(scale(Dnorm)))
 #princomp(scale(Dnorm))$loadings
 #summary(princomp(scale(Ddiff)))

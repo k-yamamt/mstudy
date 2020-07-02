@@ -5,9 +5,9 @@ import numpy as np
 import shutil
 import sys
 
-directory = 'C:/master/mstudy/data/sequence/AWS/'
-inputfile = directory + 'ex3.txt'
-outputfile = directory + 'sequence3.csv'
+directory = 'C:/master/mstudy/data/sequence/'
+inputfile = directory + 'ex.txt'
+outputfile = directory + 'sequence.csv'
 
 with open(inputfile,'r') as fr:
     log = pd.DataFrame(

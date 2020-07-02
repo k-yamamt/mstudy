@@ -1,10 +1,10 @@
 df <- read.csv(file = 'C:/master/mstudy/data/sequence/sequence.csv', header = TRUE, sep=',')
 
-for(z in 0:23){
-  pdf(paste(z*5, '-', (z+1)*5, '.pdf', sep = ''),width = 7, height = 5)
+for(z in 0:60){
+  pdf(paste('C:/master/mstudy/analysis/sequence/', z, '-', z+1, '.pdf', sep = ''),width = 7, height = 5)
   
-  xmin <- z*200 + 1
-  xmax <- (z+1)*200
+  xmin <- z*120 + 1
+  xmax <- (z+1)*120
   ymax <- 300
   
   y <- c()

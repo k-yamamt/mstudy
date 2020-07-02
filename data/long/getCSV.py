@@ -5,8 +5,8 @@ import numpy as np
 import shutil
 import sys
 
-month = 6
-day = 30
+month = 7
+day = 1
 
 directory = 'C:/master/mstudy/data/long/data/'
 

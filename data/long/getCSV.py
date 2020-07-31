@@ -6,7 +6,7 @@ import shutil
 import sys
 
 month = 7
-day = 1
+day = 16
 
 directory = 'C:/master/mstudy/data/long/data/'
 
@@ -48,7 +48,7 @@ for inputfile in inputfiles:
 start = datetime.datetime(2020, month, day, 0, 0, 0, 0)
 end = datetime.datetime(2020, month, day, 23, 59, 59, 99)
 
-outputfile = 'C:/master/mstudy/data/long/csv/' + str(month) + '-' + str(day) + '.csv'
+outputfile = 'C:/master/mstudy/data/long/csv/' + str(month) + '-' + str(day) + '.txt'
 
 with open(outputfile, 'w') as fw:
     fw.write('datetime,ping\n')

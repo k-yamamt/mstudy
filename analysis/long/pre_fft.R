@@ -45,12 +45,67 @@ for (i in 2:length(z)){
   w[i] <- 0.8*w[i-1] + 0.2*z[i]
 }
 
-out <- file(paste('C:/master/mstudy/data/long/fft/low_',date,'.txt',sep = ''), "w")
-for (i in w) {
-  writeLines(paste(i), out, sep="\n")
-}
-close(out)
+#out <- file(paste('C:/master/mstudy/data/long/fft/low_',date,'.txt',sep = ''), "w")
+#for (i in w) {
+#  writeLines(paste(i), out, sep="\n")
+#}
+#close(out)
 
-#plot(x,y, type='l', ylim = c(0,120), col = 'blue')
-#par(new = TRUE)
-#plot(x,w, type='l', ylim = c(0,120), col = 'red')
+pdf(paste('C:/master/mstudy/analysis/long/low_',date,'.pdf',sep=''),
+    width = 7,
+    height = 5
+)
+
+par(mar=c(3, 3, 1, 1.5))
+par(mgp=c(2, 0.7, 0))
+
+xlim <- c(as.POSIXct(paste('2020-',date,' 00:00:00',sep=''),format="%Y-%m-%d %H:%M:%S"),
+          as.POSIXct(paste('2020-',date,' 23:59:59',sep=''),format="%Y-%m-%d %H:%M:%S")
+)
+
+plot(x,y,
+     type='l',
+     col='blue',
+     xaxt="n",
+     yaxt="n",
+     xlim = xlim,
+     ylim = c(0,240),
+     xlab = 'time',
+     ylab = 'Delay [ms]',
+     xaxs = "i",
+     yaxs = "i"
+)
+
+xvalues <- c(as.POSIXct(paste('2020-',date,"00:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+             as.POSIXct(paste('2020-',date,"04:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+             as.POSIXct(paste('2020-',date,"08:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+             as.POSIXct(paste('2020-',date,"12:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+             as.POSIXct(paste('2020-',date,"16:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+             as.POSIXct(paste('2020-',date,"20:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+             as.POSIXct(paste('2020-',date,'23:59:59',sep=''),format="%Y-%m-%d %H:%M:%S")
+)
+xstrings <- c('0:00','','','12:00','16:00','','23:59')
+par(new=TRUE)
+axis(side=1, at=xvalues, labels=xstrings)
+
+yvalues <- 0:(240/30)*30
+ystrings <- c('0','','60','','120','','180','','240')
+par(new=TRUE)
+axis(side=2, at=yvalues, labels=ystrings)
+
+par(new=TRUE)
+
+plot(x[3:5729],w,
+     type='l',
+     col='red',
+     xaxt="n",
+     yaxt="n",
+     xlim = xlim,
+     ylim = c(0,240),
+     xlab = '',
+     ylab = '',
+     xaxs = "i",
+     yaxs = "i"
+)
+
+dev.off()

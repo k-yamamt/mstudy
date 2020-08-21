@@ -5,9 +5,9 @@ import numpy as np
 import shutil
 import sys
 
-directory = 'C:/master/mstudy/data/10ms/'
-inputfile = directory + 'log-2020-07-08_17_30_31.txt'
-outputfile = directory + '10ms.txt'
+directory = "C:/master/mstudy/data/sequence/comp/"
+inputfile = directory + 'exam2.txt'
+outputfile = directory + 'comp2.txt'
 
 with open(inputfile,'r') as fr:
     log = pd.DataFrame(
@@ -22,7 +22,7 @@ with open(inputfile,'r') as fr:
         data = line.split()
         if not data:
             ''
-        elif data[1][0:4] == '2020':
+        elif data[0][0:4] == '2020':
             addlog.append(line)
             count = 5
         elif data[0] == 'rtt':

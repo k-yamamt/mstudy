@@ -1,0 +1,44 @@
+203.180.138.11
+203.180.138.14
+203.180.138.60
+203.180.252.25
+203.180.252.42
+203.180.252.43
+203.180.253.94
+203.180.253.10
+210.149.20.34
+210.149.21.14
+210.149.21.18
+
+15:44:22 raspberrypi pppd[10636]: LCP terminated by peer
+15:44:22 raspberrypi pppd[10636]: Connect time 1440.1 minutes.
+15:44:23 raspberrypi pppd[10636]: Modem hangup
+15:44:23 raspberrypi pppd[10636]: Connection terminated.
+15:44:24 raspberrypi pppd[10636]: Exit.
+15:44:24 raspberrypi candy-pi-lite: [INFO] start_pppd.sh terminated: Exit Code => 16
+15:44:29 raspberrypi candy-pi-lite: [INFO] Saved APN => sd.iijmobile.jp
+15:44:30 raspberrypi candy-pi-lite: [INFO] Operator => NTT DOCOMO NTT DOCOMO
+15:44:31 raspberrypi candy-pi-lite: [INFO] Starting PPP: /dev/QWS.EC21.MODEM
+15:44:34 raspberrypi pppd[12275]: CHAP authentication succeeded
+15:44:34 raspberrypi pppd[12275]: local  IP address 100.101.231.54
+15:44:34 raspberrypi pppd[12275]: remote IP address 10.64.64.64
+15:44:34 raspberrypi candy-pi-lite: [INFO] PPP goes online
+15:44:34 raspberrypi candy-pi-lite: [INFO] CANDY Pi Lite Board is initialized successfully!
+
+
+13:16:02 raspberrypi candy-pi-lite: [INFO] Inactivating CANDY Pi Lite Board...
+13:16:02 raspberrypi pppd[6467]: Connect time 2.8 minutes.
+13:16:02 raspberrypi pppd[6467]: Connection terminated.
+13:16:02 raspberrypi pppd[6467]: Serial link disconnected.
+13:16:03 raspberrypi pppd[6467]: Exit.
+13:16:03 raspberrypi candy-pi-lite: [INFO] start_pppd.sh terminated: Exit Code => 5
+13:16:04 raspberrypi candy-pi-lite: [INFO] CANDY Pi Lite Board is inactivated successfully!
+13:16:04 raspberrypi candy-pi-lite: [INFO] Initializing CANDY Pi Lite Board...
+13:16:21 raspberrypi candy-pi-lite: [INFO] Saved APN => sd.iijmobile.jp
+13:16:42 raspberrypi candy-pi-lite: [INFO] Operator => NTT DOCOMO NTT DOCOMO
+13:16:47 raspberrypi pppd[9373]: CHAP authentication succeeded
+13:16:47 raspberrypi pppd[9373]: Could not determine remote IP address: defaulting to 10.64.64.64
+13:16:47 raspberrypi pppd[9373]: local  IP address 100.97.193.107
+13:16:47 raspberrypi pppd[9373]: remote IP address 10.64.64.64
+13:16:48 raspberrypi candy-pi-lite: [INFO] PPP goes online
+13:16:48 raspberrypi candy-pi-lite: [INFO] CANDY Pi Lite Board is initialized successfully!

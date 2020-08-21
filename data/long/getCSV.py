@@ -6,7 +6,7 @@ import shutil
 import sys
 
 month = 7
-day = 16
+day = 22
 
 directory = 'C:/master/mstudy/data/long/data/'
 

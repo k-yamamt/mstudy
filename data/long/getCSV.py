@@ -5,12 +5,14 @@ import numpy as np
 import shutil
 import sys
 
-month = 7
-day = 22
+month = 8
+day = 26
 
-directory = 'C:/master/mstudy/data/long/data/'
-
+directory = 'C:/master/mstudy/data/FTP/lowSIMcomp/'
 inputfiles = [directory + i for i in os.listdir(directory)]
+
+#inputfiles = ['C:/master/mstudy/data/FTP/10msFTP/exam1.txt']
+outputfile = 'C:/master/mstudy/data/FTP/lowSIMcomp/log-' + str(month) + str(day) + '.txt'
 
 log = pd.DataFrame(
     [],
@@ -27,8 +29,8 @@ for inputfile in inputfiles:
             data = line.split()
             if not data:
                 ''
-            elif data[0] == 'datetime':
-                addlog.append(data[1] + ' ' + data[2])
+            elif data[0][0:4] == '2020':
+                addlog.append(data[0] + ' ' + data[1])
                 count = 5
             elif count == 0 and data[0] == 'rtt':
                 try:
@@ -47,8 +49,6 @@ for inputfile in inputfiles:
 
 start = datetime.datetime(2020, month, day, 0, 0, 0, 0)
 end = datetime.datetime(2020, month, day, 23, 59, 59, 99)
-
-outputfile = 'C:/master/mstudy/data/long/csv/' + str(month) + '-' + str(day) + '.txt'
 
 with open(outputfile, 'w') as fw:
     fw.write('datetime,ping\n')

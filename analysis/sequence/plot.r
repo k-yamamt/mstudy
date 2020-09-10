@@ -1,10 +1,12 @@
-df <- read.csv(file = 'C:/master/mstudy/data/sequence/sequence.csv', header = TRUE, sep=',')
+df <- read.csv(file = 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1.txt', header = TRUE, sep=',')
 
-for(z in 0:60){
-  pdf(paste('C:/master/mstudy/analysis/sequence/', z, '-', z+1, '.pdf', sep = ''),width = 7, height = 5)
-  
-  xmin <- z*120 + 1
-  xmax <- (z+1)*120
+#for(z in 0:60){
+  #pdf(paste('C:/master/mstudy/analysis/sequence/', z, '-', z+1, '.pdf', sep = ''),width = 7, height = 5)
+  pdf('C:/master/mstudy/analysis/FTP/15sFTP/exam2.pdf',width = 7, height = 5)
+  #xmin <- z*120 + 1
+  #xmax <- (z+1)*120
+  xmin <- 1
+  xmax <- 200
   ymax <- 300
   
   y <- c()
@@ -59,4 +61,4 @@ for(z in 0:60){
   axis(side=2, at=yvalues, labels=ystrings)
 
   dev.off()
-}
+#}

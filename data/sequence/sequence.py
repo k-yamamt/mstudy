@@ -5,9 +5,10 @@ import numpy as np
 import shutil
 import sys
 
-directory = "C:/master/mstudy/data/sequence/comp/"
-inputfile = directory + 'exam2.txt'
-outputfile = directory + 'comp2.txt'
+#directory = "C:/master/mstudy/data/sequence/comp/"
+
+inputfile = 'C:/master/mstudy/data/FTP/15sFTP/exam2-comp.txt'
+outputfile = 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1-before.txt'
 
 with open(inputfile,'r') as fr:
     log = pd.DataFrame(

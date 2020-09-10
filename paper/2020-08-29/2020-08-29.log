@@ -1,0 +1,467 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  28 AUG 2020 08:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2020-08-29.tex
+(./2020-08-29.tex
+pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
+(c:/texlive/2019/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
+\c@@paper=\count83
+(c:/texlive/2019/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2019/04/02 v1.8b Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen123
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen124
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen132
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen133
+\subfiglabelskip=\skip49
+\c@subfigure=\count105
+\c@lofdepth=\count106
+\c@subtable=\count107
+\c@lotdepth=\count108
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+)
+(./2020-08-29.aux)
+\openout1 = `2020-08-29.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+ (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+File: C:/master/mstudy/analysis/long/plot-6-23.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/long/plot-6-23.pdf>
+File: C:/master/mstudy/analysis/long/plot-6-24.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/long/plot-6-24.pdf>
+File: C:/master/mstudy/analysis/long/plot-6-25.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/long/plot-6-25.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 53--56
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/long/plot-6-26.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/long/plot-6-26.pdf>
+File: C:/master/mstudy/analysis/long/plot-6-27.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/long/plot-6-27.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 59--63
+ [][]  [] 
+ []
+
+[1
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: C:/master/mstudy/analysis/0829/lowpass05.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass05.pdf>
+File: C:/master/mstudy/analysis/0829/lowpass06.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass06.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 85--88
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/lowpass07.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass07.pdf>
+File: C:/master/mstudy/analysis/0829/lowpass08.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass08.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 91--94
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/lowpass09.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass09.pdf>
+File: C:/master/mstudy/analysis/0829/lowpass10.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass10.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 97--100
+ [][]  [] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 112.
+[2]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 115.
+File: C:/master/mstudy/analysis/0829/fft_6-23.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/fft_6-23.pdf>
+ [3]
+File: C:/master/mstudy/analysis/0829/resultalg1.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/resultalg1.pdf>
+ [4]
+File: C:/master/mstudy/analysis/0829/result_integral_width5_alpha095.pdf Graphi
+c file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width5_alpha095.pdf>
+File: C:/master/mstudy/analysis/0829/result_integral_width10_alpha095.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width10_alpha095.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 204--207
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_integral_width15_alpha095.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width15_alpha095.pdf>
+File: C:/master/mstudy/analysis/0829/result_integral_width20_alpha095.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width20_alpha095.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 210--213
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_integral_width5_alpha097.pdf Graphi
+c file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width5_alpha097.pdf>
+File: C:/master/mstudy/analysis/0829/result_integral_width10_alpha097.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width10_alpha097.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 222--225
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_integral_width15_alpha097.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width15_alpha097.pdf>
+File: C:/master/mstudy/analysis/0829/result_integral_width20_alpha097.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width20_alpha097.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 228--231
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_integral_width5_alpha099.pdf Graphi
+c file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width5_alpha099.pdf>
+File: C:/master/mstudy/analysis/0829/result_integral_width10_alpha099.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width10_alpha099.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 239--242
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_integral_width15_alpha099.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width15_alpha099.pdf>
+File: C:/master/mstudy/analysis/0829/result_integral_width20_alpha099.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/0829/result_integral_width20_alpha099.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 245--248
+ [][]  [] 
+ []
+
+[5]
+File: C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf>
+File: C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 283--286
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf>
+File: C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width5_alpha2.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 289--292
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_average_width5_alpha4.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width5_alpha4.pdf>
+File: C:/master/mstudy/analysis/0829/result_average_width10_alpha4.pdf Graphic 
+file (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width10_alpha4.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 301--304
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_average_width15_alpha4.pdf Graphic 
+file (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width15_alpha4.pdf>
+File: C:/master/mstudy/analysis/0829/result_average_width20_alpha4.pdf Graphic 
+file (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width20_alpha4.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 307--310
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_average_width5_alpha6.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width5_alpha6.pdf>
+File: C:/master/mstudy/analysis/0829/result_average_width10_alpha6.pdf Graphic 
+file (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width10_alpha6.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 318--321
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_average_width15_alpha6.pdf Graphic 
+file (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width15_alpha6.pdf>
+File: C:/master/mstudy/analysis/0829/result_average_width20_alpha6.pdf Graphic 
+file (type pdf)
+<C:/master/mstudy/analysis/0829/result_average_width20_alpha6.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 324--327
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_median_width5_alpha2.pdf Graphic fi
+le (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width5_alpha2.pdf>
+File: C:/master/mstudy/analysis/0829/result_median_width10_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width10_alpha2.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 336--339
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_median_width15_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width15_alpha2.pdf>
+File: C:/master/mstudy/analysis/0829/result_median_width20_alpha2.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width20_alpha2.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 342--345
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_median_width5_alpha4.pdf Graphic fi
+le (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width5_alpha4.pdf>
+File: C:/master/mstudy/analysis/0829/result_median_width10_alpha4.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width10_alpha4.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 354--357
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_median_width15_alpha4.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width15_alpha4.pdf>
+File: C:/master/mstudy/analysis/0829/result_median_width20_alpha4.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width20_alpha4.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 360--363
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_median_width5_alpha6.pdf Graphic fi
+le (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width5_alpha6.pdf>
+File: C:/master/mstudy/analysis/0829/result_median_width10_alpha6.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width10_alpha6.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 371--374
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_median_width15_alpha6.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width15_alpha6.pdf>
+File: C:/master/mstudy/analysis/0829/result_median_width20_alpha6.pdf Graphic f
+ile (type pdf)
+<C:/master/mstudy/analysis/0829/result_median_width20_alpha6.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 377--380
+ [][]  [] 
+ []
+
+File: C:/master/mstudy/analysis/0829/result_decline_width15.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/analysis/0829/result_decline_width15.pdf>
+File: C:/master/mstudy/analysis/0829/result_decline_width20.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/analysis/0829/result_decline_width20.pdf>
+File: C:/master/mstudy/analysis/0829/result_decline_width25.pdf Graphic file (t
+ype pdf)
+<C:/master/mstudy/analysis/0829/result_decline_width25.pdf>
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+(./2020-08-29.aux) ) 
+Here is how much of TeX's memory you used:
+ 1912 strings out of 493230
+ 28566 string characters out of 6147555
+ 103986 words of memory out of 5000000
+ 5850 multiletter control sequences out of 15000+600000
+ 15491 words of font info for 63 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 27i,14n,27p,411b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2020-08-29.dvi (20 pages, 36464 bytes).

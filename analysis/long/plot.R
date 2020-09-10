@@ -1,14 +1,16 @@
 library('stringr')
-library('signal')
 
 ymax <- 240
-dir <- 'C:/master/mstudy/data/long/csv'
+#dir <- 'C:/master/mstudy/data/long/csv'
 
-for (filename in list.files(dir)){
+#for (filename in list.files(dir)){
 
-  df <- read.csv(file = paste(dir, '/', filename, sep = ''), header = TRUE, sep=',')
+filename <- 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1-other.txt'
+
+  #df <- read.csv(file = paste(dir, '/', filename, sep = ''), header = TRUE, sep=',')
+  df <- read.csv(file = filename, header = TRUE, sep=',')
   
-  pdf(paste('C:/master/mstudy/analysis/long/', 'plot-', str_sub(filename,1,-5), '.pdf',sep=''),
+  pdf(paste('C:/master/mstudy/analysis/FTP/15sFTP/exam2-other.pdf',sep=''),
       width = 7,
       height = 5
       )
@@ -18,9 +20,10 @@ for (filename in list.files(dir)){
   
   x <- as.POSIXct(df$datetime)
   y<- df$ping
-  date <- str_sub(x[1],1,11)
-  xlim <- c(as.POSIXct(paste(date,"00:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-            as.POSIXct(paste(date,'23:59:59',sep=''),format="%Y-%m-%d %H:%M:%S")
+  #date <- str_sub(x[1],1,11)
+  date <- "2020-07-17 "
+  xlim <- c(as.POSIXct(paste(date,"16:10:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+            as.POSIXct(paste(date,'17:09:59',sep=''),format="%Y-%m-%d %H:%M:%S")
   )
   
   plot(x,y,
@@ -83,4 +86,4 @@ for (filename in list.files(dir)){
   }
 
   dev.off()
-}
+#}

@@ -8,7 +8,7 @@ df <- read.csv(file = 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1.txt', header 
   xmin <- 1
   xmax <- 200
   ymax <- 300
-  
+
   y <- c()
   
   xsplit <- c()

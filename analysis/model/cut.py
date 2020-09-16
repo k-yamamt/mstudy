@@ -126,7 +126,7 @@ def Bplot(B,filename):
 
 def Aallplot(A_all):
     ax1 = plt.subplot()
-    ax1.hist(A_all, range=(0, 1), bins=50)
+    ax1.hist(A_all, range=(0, 0.8), bins=80)
     ax1.set_xlabel('inclination')
     ax1.set_ylabel('Number of inclination')
     savepdf('C:/master/mstudy/analysis/model/A_hist_all.pdf')
@@ -181,11 +181,18 @@ def main():
                 for line in fc:
                     C.append(float(line))
 
-    Aallplot(A_all)
-    Ballplot(B_all)
-    corr(A_all,B_all)
-    autoCorr(A_all,'C:/master/mstudy/analysis/model/autoCorr-A.pdf')
-    autoCorr(B_all,'C:/master/mstudy/analysis/model/autoCorr-B.pdf')
+    #Aallplot(A_all)
+    #Ballplot(B_all)
+    #corr(A_all,B_all)
+    #autoCorr(A_all,'C:/master/mstudy/analysis/model/autoCorr-A.pdf')
+    #autoCorr(B_all,'C:/master/mstudy/analysis/model/autoCorr-B.pdf')
+    print np.average(A_all)
+    print '\n'
+    print np.var(A_all)
+    print '\n'
+    print np.average(B_all)
+    print '\n'
+    print np.var(B_all)
 
 if __name__ == '__main__':
     main()

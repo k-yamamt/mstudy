@@ -1,0 +1,386 @@
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.sjis) (TeX Live 2019/W32TeX) (preloaded format=platex 2019.6.28)  11 SEP 2020 08:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2020-09-11.tex
+(./2020-09-11.tex
+pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
+(c:/texlive/2019/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
+\c@@paper=\count83
+(c:/texlive/2019/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2019/04/02 v1.8b Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen123
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen124
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen132
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen133
+\subfiglabelskip=\skip49
+\c@subfigure=\count105
+\c@lofdepth=\count106
+\c@subtable=\count107
+\c@lotdepth=\count108
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+)
+(./2020-09-11.aux)
+\openout1 = `2020-09-11.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+ (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+File: C:/master/mstudy/analysis/long/plot-6-23.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/long/plot-6-23.pdf>
+
+[1
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: C:/master/mstudy/analysis/0829/lowpass08.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/lowpass08.pdf>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 65.
+File: C:/master/mstudy/analysis/0829/fft_6-23.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/fft_6-23.pdf>
+ [2]
+File: C:/master/mstudy/analysis/0829/resultalg1.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/0829/resultalg1.pdf>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 131.
+ [3]
+File: C:/master/mstudy/analysis/model/B_hist_all.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/model/B_hist_all.pdf>
+ [4]
+File: C:/master/mstudy/analysis/model/autoCorr-B.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/model/autoCorr-B.pdf>
+File: C:/master/mstudy/analysis/model/A_hist_all.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/model/A_hist_all.pdf>
+File: C:/master/mstudy/analysis/model/autoCorr-A.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/model/autoCorr-A.pdf>
+ [5]
+File: C:/master/mstudy/analysis/model/corr.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/model/corr.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0820.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0820.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0820.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0820.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0821.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0821.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0821.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0821.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0822.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0822.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0822.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0822.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0823.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0823.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0823.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0823.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0824.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0824.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0824.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0824.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0825.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0825.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0825.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0825.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIM/plot-0826.pdf Graphic file (type pdf
+)
+<C:/master/mstudy/analysis/FTP/lowSIM/plot-0826.pdf>
+File: C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0826.pdf Graphic file (type
+ pdf)
+<C:/master/mstudy/analysis/FTP/lowSIMcomp/plot-0826.pdf>
+
+[6] [7]
+File: C:/master/mstudy/analysis/FTP/15sFTP/exam2-before.pdf Graphic file (type 
+pdf)
+<C:/master/mstudy/analysis/FTP/15sFTP/exam2-before.pdf>
+File: C:/master/mstudy/analysis/FTP/15sFTP/exam2.pdf Graphic file (type pdf)
+<C:/master/mstudy/analysis/FTP/15sFTP/exam2.pdf>
+
+Overfull \hbox (17.77774pt too wide) in paragraph at lines 343--346
+ []  [] 
+ []
+
+File: C:/master/mstudy/analysis/FTP/15sFTP/exam2-other.pdf Graphic file (type p
+df)
+<C:/master/mstudy/analysis/FTP/15sFTP/exam2-other.pdf>
+[8]
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-1st.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-2nd.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-3rd.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-4th.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-before-4th.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-1st.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-2nd.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-3rd.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-4th.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-4th.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-1st.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-2nd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-3rd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-4th.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-after-4th.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-1st.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-2nd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-3rd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-4th.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day1/exam1-day1-other-4th.pdf>
+ [9]
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-1st.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-2nd.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-3rd.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-4th.pdf Grap
+hic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-before-4th.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-1st.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-2nd.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-3rd.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-4th.pdf Graphic fil
+e (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-4th.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-1st.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-2nd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-3rd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-4th.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-after-4th.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-1st.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-1st.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-2nd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-2nd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-3rd.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-3rd.pdf>
+File: C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-4th.pdf Graph
+ic file (type pdf)
+<C:/master/mstudy/analysis/FTP/10msFTP/day2/exam1-day2-other-4th.pdf>
+ [10] [11] [12] [13] [14] [15] [16] [17] (./2020-09-11.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1931 strings out of 493230
+ 29819 string characters out of 6147555
+ 101766 words of memory out of 5000000
+ 5862 multiletter control sequences out of 15000+600000
+ 12416 words of font info for 51 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 27i,14n,27p,411b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2020-09-11.dvi (17 pages, 42380 bytes).

@@ -5,12 +5,12 @@ ymax <- 240
 
 #for (filename in list.files(dir)){
 
-filename <- 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1-other.txt'
+filename <- 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1-before.txt'
 
   #df <- read.csv(file = paste(dir, '/', filename, sep = ''), header = TRUE, sep=',')
   df <- read.csv(file = filename, header = TRUE, sep=',')
   
-  pdf(paste('C:/master/mstudy/analysis/FTP/15sFTP/exam2-other.pdf',sep=''),
+  pdf(paste('C:/master/mstudy/analysis/FTP/15sFTP/exam2-before.pdf',sep=''),
       width = 7,
       height = 5
       )
@@ -21,9 +21,9 @@ filename <- 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1-other.txt'
   x <- as.POSIXct(df$datetime)
   y<- df$ping
   #date <- str_sub(x[1],1,11)
-  date <- "2020-07-17 "
-  xlim <- c(as.POSIXct(paste(date,"16:10:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-            as.POSIXct(paste(date,'17:09:59',sep=''),format="%Y-%m-%d %H:%M:%S")
+  date <- "2020-08-28 "
+  xlim <- c(as.POSIXct(paste(date,"15:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+            as.POSIXct(paste(date,'15:59:59',sep=''),format="%Y-%m-%d %H:%M:%S")
   )
   
   plot(x,y,
@@ -56,15 +56,19 @@ filename <- 'C:/master/mstudy/data/FTP/15sFTP/exam2-day1-other.txt'
     }
   }
   
-  xvalues <- c(as.POSIXct(paste(date,"00:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-               as.POSIXct(paste(date,"04:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-               as.POSIXct(paste(date,"08:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-               as.POSIXct(paste(date,"12:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-               as.POSIXct(paste(date,"16:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-               as.POSIXct(paste(date,"20:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
-               as.POSIXct(paste(date,'23:59:59',sep=''),format="%Y-%m-%d %H:%M:%S")
+  #xvalues <- c(as.POSIXct(paste(date,"00:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+  #             as.POSIXct(paste(date,"04:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+  #             as.POSIXct(paste(date,"08:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+  #             as.POSIXct(paste(date,"12:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+  #             as.POSIXct(paste(date,"16:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+  #             as.POSIXct(paste(date,"20:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+  #             as.POSIXct(paste(date,'23:59:59',sep=''),format="%Y-%m-%d %H:%M:%S")
+  #)
+  xvalues <- c(as.POSIXct(paste(date,"15:00:00",sep=''),format="%Y-%m-%d %H:%M:%S"),
+               as.POSIXct(paste(date,"15:59:00",sep=''),format="%Y-%m-%d %H:%M:%S")
   )
-  xstrings <- c('0:00','','','12:00','','','23:59')
+  #xstrings <- c('0:00','','','12:00','','','23:59')
+  xstrings <- c('15:00','15:59')
   par(new=TRUE)
   axis(side=1, at=xvalues, labels=xstrings)
   
